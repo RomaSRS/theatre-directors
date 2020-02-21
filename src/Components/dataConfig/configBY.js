@@ -480,13 +480,8 @@ export default {
   directorsLink: 'Рэжысёры',
   developersLink: 'Распрацоўшчыкі',
   homePageLink: 'Галоўная',
-<<<<<<< HEAD:src/Components/dataConfig/configBY.js
-  worklogLink: 'Worklog',
-  styleguideLink: 'Styleguide',
-=======
   worklogLink: 'Часопіс падзей',
   styleguideLink: 'Гід па стылі',
->>>>>>> 5cab4ed3750391e9e731642ed74220ae0016d455:src/dataConfig/configBY.js
   searchLabel: 'Імя або месца нараджэння',
   directorsOfTheDayButton: 'Больш падрабязна',
   timelineTitle: 'Часовыя падзеі',
@@ -500,8 +495,4 @@ export default {
   firstQuote,
   secondQuote,
   directorOfTheDay,
-<<<<<<< HEAD:src/Components/dataConfig/configBY.js
 }
-=======
-}
->>>>>>> 5cab4ed3750391e9e731642ed74220ae0016d455:src/dataConfig/configBY.js

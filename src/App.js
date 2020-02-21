@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import AuthorNavigation from "./Components/autorList/authornavigation";
-import configEN from "./dataConfig/configEN";
-import configBY from "./dataConfig/configBY";
-import configRU from "./dataConfig/configRU";
+import configEN from "./Components/dataConfig/configEN";
+import configBY from "./Components/dataConfig/configBY";
+import configRU from "./Components/dataConfig/configRU";
 import SelectLang from "./Components/select/select"
 
 import {
