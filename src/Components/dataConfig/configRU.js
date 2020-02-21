@@ -480,8 +480,13 @@ export default {
   directorsLink: 'Режиссёры',
   developersLink: 'Разработчики',
   homePageLink: 'Главная',
+<<<<<<< HEAD:src/Components/dataConfig/configRU.js
   worklogLink: 'Часопіс падзей',
   styleguideLink: 'Гід па стылі',
+=======
+  worklogLink: 'Рабочий журнал',
+  styleguideLink: 'Гид по стилю',
+>>>>>>> 5cab4ed3750391e9e731642ed74220ae0016d455:src/dataConfig/configRU.js
   searchLabel: 'Имя или место рождения',
   directorsOfTheDayButton: 'Подробнее',
   timelineTitle: 'Временные события',
@@ -495,4 +500,8 @@ export default {
   firstQuote,
   secondQuote,
   directorOfTheDay,
+<<<<<<< HEAD:src/Components/dataConfig/configRU.js
 }
+=======
+}
+>>>>>>> 5cab4ed3750391e9e731642ed74220ae0016d455:src/dataConfig/configRU.js
