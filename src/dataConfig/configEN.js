@@ -460,6 +460,17 @@ const directors = [
 ];
 
 const mainText = 'The profession of theater director in the form in which we are accustomed to seeing her, developed in the second half of the XIX century. But the concept of directing appeared much earlier - in 1742. The director of the theater defines the general idea, which will be revealed during the performance. This creative worker combines the efforts of everyone else - decorators and actors, composers and make-up artists. It is he who must unite all the theater workers, make them imbued with meaning, put their soul into the production. For this, the director needs to be a good psychologist, while being able to control himself. Theater director - a difficult profession. To become one, one must possess assertiveness, seriousness, literacy, intelligence and originality. This person interprets the plays - of course, according to his vision, so that they sound in a new way, interest the audience.';
+const addText = 'Since the mid-18th century, serf theaters began to spread in Belarus - the Radziwills, Sapieha, Oginsky and other magnates competed with each other, including in the field of art. Therefore, they did not spare money on the training of serf artists and invited the most qualified European choreographers: Austrians, French, Italians, Czechs. Closer to the 19th century, ballet from an “accidental” dance gradually turns into high art, with harmonious choreographic compositions and special music. At this time, the Belarusian ballet schools of Postavy, Slonim, Shklov, Vitebsk became famous. The professionalism of Belarusians was repeatedly noted by theatrical critics of that time, saying that other performances in their splendor exceeded even the Moscow ballet. The Belarusian theater school developed in parallel with the European theater. Belorussian school and serf theaters, folk battles were known. The beginning of the Belarusian professional theater can be considered the staging of the play "Selyanka" on the libretto by V. Dunin-Martinkevich and music by S. Manyushko. It happened almost 155 years ago - February 9, 1852. Today in Belarus there are 29 professional state theaters. Among them, the most dramatic (19). There are also 7 puppet theaters in the republic (in each region and capital) and 3 musical theaters. In this variety of theaters, many directors have devoted themselves to work in these institutions. And in this project, we want to talk about the most famous theater directors in Belarus.';
+
+const firstQuote = {
+  author: 'Jarko Petan',
+  text: "In the theater, the director is God, but the actors, alas, are atheists.",
+}
+
+const secondQuote = {
+  author: 'George Bernard Shaw',
+  text: "Director's work is incompatible with acting: the actor will fail if he will critically look at his partners.",
+}
 
 const directorOfTheDay = 'Director of the day';
 
@@ -480,5 +491,8 @@ export default {
     description: 'Theater directors of Belarus: biography and their work.',
   },
   mainText,
+  addText,
+  firstQuote,
+  secondQuote,
   directorOfTheDay,
 }
