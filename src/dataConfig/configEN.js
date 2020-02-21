@@ -1,16 +1,67 @@
+const developers = [
+  {
+    id: 'D0',
+    name: 'Ekaterina Rudenko',
+    github: 'https://github.com/Rekaterina',
+    telegram: 'https://t.me/rekaterina',
+    image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/rudenko.jpg',
+    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+  },
+  {
+    id: 'D1',
+    name: 'Vladimir Serko',
+    github: 'https://github.com/Vir45',
+    telegram: 'https://t.me/Vova_Serko',
+    image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/serko.jpg',
+    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+  },
+  {
+    id: 'D2',
+    name: 'Katsiaryna Yakubouskaya',
+    github: 'https://github.com/Katsiaryna31',
+    telegram: 'https://t.me/KatsiarynaYa',
+    image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yakubovskaya.jpg',
+    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+  },
+  {
+    id: 'D3',
+    name: 'Anton Yasko',
+    github: 'https://github.com/antonyasko',
+    telegram: 'https://t.me/anton_yasko',
+    image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yasko.jpg',
+    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+  },
+  {
+    id: 'D4',
+    name: 'Kirill Leogky',
+    github: 'https://github.com/kirillleogky',
+    telegram: 'https://t.me/KirillLeogky',
+    image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/leogky.jpg',
+    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+  },
+  {
+    id: 'D5',
+    name: 'Roman Goncharov',
+    github: 'https://github.com/RomaSRS',
+    telegram: 'https://t.me/RomanSRS',
+    image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
+    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+  },
+];
+
 const directors = [
   {
     id: '0',
     url: 'mirovich',
     name: 'Evstigney Mirovich',
-    bornDate: '10/08/1878',
     born: '10 August 1878',
     deceased: '16 February 1952',
     description: 'Belarusian playwright and theater director',
     image: 'https://upload.wikimedia.org/wikipedia/commons/0/0a/Mirovich_03.jpg',
     placeOfBirth: 'St. Petersburg',
     placeOfDeath: 'Minsk',
-    bio: [
+    shortBiography : 'Evstigney Mirovich (real surname - Dunaev; July 29 [August 10] 1878, St. Petersburg - February 16, 1952, Minsk) - Russian and Belarusian Soviet actor, director, playwright, teacher, professor (1945). People\'s Artist of the BSSR (1940). One of the founders of the Belarusian theater of Art by Yanka Kupala. He participated in the creation of the Belarusian Theater and Art Institute (now the Belarusian State Academy of Arts).',
+    timeline: [
       {date: '1900', text: 'He began to work in St. Petersburg theaters as an actor, then as a director.'},
       {date: '1906', text: 'He became a full member of the St. Petersburg Union of Drama and Music Writers.'},
       {date: '1919', text: 'Started working in theaters of Belarus'},
@@ -63,14 +114,14 @@ const directors = [
     id: '1',
     url: 'galubok',
     name: 'Vladislav Golubok',
-    bornDate: '15/05/1882',
     born: '15 May 1882',
     deceased: '28 September 1937',
     description: 'Belarusian playwright, prose writer, director, actor, artist.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Vladislav_Golubok.jpg',
     placeOfBirth: 'St. Lesnaya, Novogrudok district, Minsk province',
     placeOfDeath: 'Minsk',
-    bio: [
+    shortBiography : 'Golubok Vladislav Iosifovich (also known as Golub, Golubev; May 3 [15], 1882 - September 28, 1937) - Belarusian Soviet actor, director, writer, artist, decorator, first People\'s Artist of the BSSR (1928), one of the founders of the Belarusian national Theater, artistic director and director of the Belarusian State Theater.',
+    timeline: [
       {date: '1896', text: 'First visited the theater.'},
       {date: '1906', text: 'On the pages of «Nasha Niva" appeared his first poems and stories.'},
       {date: '1913', text: 'The first book «Stories» was published in Petersburg.'},
@@ -125,14 +176,14 @@ const directors = [
     id: '2',
     url: 'bujnicki',
     name: 'Ignat Buinitsky',
-    bornDate: '22/08/1861',
     born: '22 August 1861',
     deceased: '22 September 1917',
     description: 'Belarusian actor, director, theater figure, creator of the national professional theater, participant in literary life.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Ihnat_Bujnicki.jpg',
     placeOfBirth: 'Polivachi, Gluboksky district, Vitebsk region',
     placeOfDeath: 'Polochany, Molodechno district, Minsk region',
-    bio: [
+    shortBiography : 'Ignat (Ignatius) Buinitsky (August 10 (22), 1861, the estate of Polivachi of the Prozorok volost, now Glubokoe district of the Vitebsk region - September 9 (22), 1917) - Belarusian actor, director, theater figure, founder of the first professional national Belarusian theater.\nThe Buynitsky Theater showed performances in towns and villages of Belarus, toured in Vilnius, Minsk, Polotsk, St. Petersburg, Warsaw and other cities. His activities laid the foundations of the Belarusian professional theater art. Ignat Buinitsky directed most of the performances himself. In 1917, he was one of the initiators of the creation of the "First Partnership of the Belarusian Drama and Comedy" in Minsk.',
+    timeline: [
       {date: '1907', text: 'founded a theater in Palivachi, where his relatives first participated.'},
       {date: '1910', text: 'On February 12, in Vilna, the Buynichsky Theater, at a special invitation from the editorial board of "Nasha Niva", took part in a performance that went down in history under the title “The First Belarusian Party in Vilna.'},
       {date: '1910—1913', text: 'the theater toured Belarus (Minsk, Slutsk, Polotsk, Disna, Sventsyany, Pastavy, Nesvizh, Lyakhovichi), performed twice in St. Petersburg (1911, 1912), as well as in Warsaw (1913).'},
@@ -179,14 +230,14 @@ const directors = [
     id: '3',
     url: 'pinigin',
     name: 'Nikolai Pinigin',
-    bornDate: '6/08/1957',
     born: '6 August 1957',
     deceased: 'our days',
     description: 'Belarusian director, Honored Artist of the Republic of Belarus.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Pinigin.JPG',
     placeOfBirth: 'Izum, Kharkov region, USSR',
     placeOfDeath: ' ',
-    bio: [
+    shortBiography : 'Nikolai Pinigin (6 August 1957, Izum, Kharkov region, Ukraine) - Russian theater director, artistic director of the National Academic theater by Yanka Kupala, honored Artist in Republic of Belarus.',
+    timeline: [
       {date: '1979', text: 'Graduated from the directing department of the Belarusian Theater and Art Institute.'},
       {date: '1980—1982', text: 'worked at the Russian Drama Theater. M. Gorky (Minsk).'},
       {date: '1985', text: 'Director of the National Academic Theater by Yanka Kupala.'},
@@ -239,14 +290,14 @@ const directors = [
     id: '4',
     url: 'aleksandrouskaja',
     name: 'Larisa Alexandrovskaya',
-    bornDate: '15/02/1904',
     born: '15 February 1904',
     deceased: '23 May 1980',
     description: 'Belarusian opera singer (soprano), theater director, director and public figure.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/0/0c/%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg',
     placeOfBirth: 'Minsk',
     placeOfDe6ath: 'Minsk',
-    bio: [
+    shortBiography : 'Larisa Aleksandrovskaya (February 2 (15), 1902 (official data - 1904) Minsk - May 23, 1980) - Belarusian Soviet opera singer (soprano), director, publicist and public figure. People\'s Artist of the USSR (1940).',
+    timeline: [
       {date: '1919-1924', text: 'member of the troupe at the political department of the Western Front.'},
       {date: '1927', text: 'performs Belarusian folk songs at the International Music Exhibition in Frankfurt.'},
       {date: '1933', text: 'Artist of the Belarusian Opera and Ballet Theater.'},
@@ -298,14 +349,14 @@ const directors = [
     id: '5',
     url: 'lutsenka',
     name: 'Boris Lutsenko',
-    bornDate: '16/09/1937',
     born: '16 September 1937',
     deceased: '5 February 2020',
     description: 'Belarusian theater director, People\'s Artist of Belarus.',
     image: 'https://www.rustheatre.by/images/stories/administration/lutsenko_black.jpg',
     placeOfBirth: 'Maykop, Adygeisk Autonomous Oblast, USSR',
     placeOfDe6ath: 'Minsk',
-    bio: [
+    shortBiography : 'Boris Lutsenko (September 16, 1937, Maykop, Krasnodar Territory - February 5, 2020, Minsk) - Soviet and Belarusian film and theater director. People\'s Artist of the Republic of Belarus (1995). Honored Artist of the Belarusian SSR (1975).',
+    timeline: [
       {date: '1962—1967', text: 'studied at the Belarusian Theater and Art Institute.'},
       {date: '1967', text: 'admitted to the Belarusian Theater by Y. Kupala.'},
       {date: '1970', text: 'began to teach at the Belarusian Academy of Arts.'},
@@ -357,14 +408,14 @@ const directors = [
     id: '6',
     url: 'kryzanowski',
     name: 'Evgeny Kryzhanovsky',
-    bornDate: '06/06/1955',
     born: '6 June 1955',
     deceased: 'our days',
     description: 'Belarusian actor and chief director of the Minsk Theater of Satire and Humor «Christopher», Honored Artist of the Republic of Belarus.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Kryzanowski.jpg',
     placeOfBirth: 'Nikolaev, Nikolaev region, USSR, USSR',
     placeOfDe6ath: ' ',
-    bio: [
+    shortBiography : 'Yevgeny Kryzhanovsky (born June 6, 1955, Nikolaev, Ukrainian SSR, USSR) is a Soviet and Belarusian comedian, actor and chief director of the Minsk Theater of Satire and Humor "Hristofor" (1986-2016). Artistic director of the television project "Humorinka" (2015-2019). Artistic Director of the Cinema Center Evgeny Kryzhanovsky. Honored Artist of the Republic of Belarus (2015).',
+    timeline: [
       {date: '1972', text: 'studied at a school in Kozelsk (RSFSR).'},
       {date: '1973', text: 'entered the Belarusian Theater and Art Institute in the acting department.'},
       {date: '1977', text: 'accepted into the troupe of the Yanka Kupala Academic Theater.'},
@@ -408,70 +459,40 @@ const directors = [
   },
 ];
 
-const developers = [
-  {
-    id: 'D0',
-    name: 'Ekaterina Rudenko',
-    github: 'https://github.com/Rekaterina',
-    telegram: 'https://t.me/rekaterina',
-    image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/rudenko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
-  },
-  {
-    id: 'D1',
-    name: 'Vladimir Serko',
-    github: 'https://github.com/Vir45',
-    telegram: 'https://t.me/Vova_Serko',
-    image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/serko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
-  },
-  {
-    id: 'D2',
-    name: 'Katsiaryna Yakubouskaya',
-    github: 'https://github.com/Katsiaryna31',
-    telegram: 'https://t.me/KatsiarynaYa',
-    image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yakubovskaya.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
-  },
-  {
-    id: 'D3',
-    name: 'Anton Yasko',
-    github: 'https://github.com/antonyasko',
-    telegram: 'https://t.me/anton_yasko',
-    image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yasko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
-  },
-  {
-    id: 'D4',
-    name: 'Kirill Leogky',
-    github: 'https://github.com/kirillleogky',
-    telegram: 'https://t.me/KirillLeogky',
-    image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/leogky.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
-  },
-  {
-    id: 'D5',
-    name: 'Roman Goncharov',
-    github: 'https://github.com/RomaSRS',
-    telegram: 'https://t.me/RomanSRS',
-    image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
-  },
-];
+const mainText = 'The profession of theater director in the form in which we are accustomed to seeing her, developed in the second half of the XIX century. But the concept of directing appeared much earlier - in 1742. The director of the theater defines the general idea, which will be revealed during the performance. This creative worker combines the efforts of everyone else - decorators and actors, composers and make-up artists. It is he who must unite all the theater workers, make them imbued with meaning, put their soul into the production. For this, the director needs to be a good psychologist, while being able to control himself. Theater director - a difficult profession. To become one, one must possess assertiveness, seriousness, literacy, intelligence and originality. This person interprets the plays - of course, according to his vision, so that they sound in a new way, interest the audience.';
+const addText = 'Since the mid-18th century, serf theaters began to spread in Belarus - the Radziwills, Sapieha, Oginsky and other magnates competed with each other, including in the field of art. Therefore, they did not spare money on the training of serf artists and invited the most qualified European choreographers: Austrians, French, Italians, Czechs. Closer to the 19th century, ballet from an “accidental” dance gradually turns into high art, with harmonious choreographic compositions and special music. At this time, the Belarusian ballet schools of Postavy, Slonim, Shklov, Vitebsk became famous. The professionalism of Belarusians was repeatedly noted by theatrical critics of that time, saying that other performances in their splendor exceeded even the Moscow ballet. The Belarusian theater school developed in parallel with the European theater. Belorussian school and serf theaters, folk battles were known. The beginning of the Belarusian professional theater can be considered the staging of the play "Selyanka" on the libretto by V. Dunin-Martinkevich and music by S. Manyushko. It happened almost 155 years ago - February 9, 1852. Today in Belarus there are 29 professional state theaters. Among them, the most dramatic (19). There are also 7 puppet theaters in the republic (in each region and capital) and 3 musical theaters. In this variety of theaters, many directors have devoted themselves to work in these institutions. And in this project, we want to talk about the most famous theater directors in Belarus.';
+
+const firstQuote = {
+  author: 'Jarko Petan',
+  text: "In the theater, the director is God, but the actors, alas, are atheists.",
+}
+
+const secondQuote = {
+  author: 'George Bernard Shaw',
+  text: "Director's work is incompatible with acting: the actor will fail if he will critically look at his partners.",
+}
+
+const directorOfTheDay = 'Director of the day';
 
 export default {
-  SEO: {
+  developers,
+  directors,
+  directorsLink: 'List of directors',
+  developersLink: 'Team members',
+  homePageLink: 'Home',
+  worklogLink: 'Worklog',
+  styleguideLink: 'Styleguide',
+  searchLabel: 'Name or place of birth',
+  directorsOfTheDayButton: 'More details',
+  timelineTitle: 'Timeline',
+  otherInfo: {
     lang: 'en',
     title: 'Theater directors of Belarus',
     description: 'Theater directors of Belarus: biography and their work.',
   },
-  directors,
-  developers,
-  // portalDescription,
-  // directorsPageLanguage,
-  directorsNav: 'Directors',
-  // developersList: 'Developers',
-  homePageLink: 'Home',
-  searchLabel: 'Name or place of birth',
-  directorsOfTheDayButton: 'More details',
+  mainText,
+  addText,
+  firstQuote,
+  secondQuote,
+  directorOfTheDay,
 }

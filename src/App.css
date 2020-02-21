@@ -1,1 +1,101 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a { 
+	text-decoration: none;
+ } 
+
+.App {
+	background: #F5F2EC;
+}
+
+.header {
+	margin-bottom: 50px;
+}
+
+.row-2 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo {
+margin: 0 60px 0 100px;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 0;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 100px;
+line-height: 90px;
+color: #F54D1C;
+}
+
+.navigation {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.navigation a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 31px;
+color: #000000;
+margin: 60px 80px 0 0;
+}
+
+.active.active {
+	color: #F54D1C;
+}
 
