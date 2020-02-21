@@ -53,7 +53,6 @@ function SelectLang(props) {
 		props.toggleLang(event);
 		const elem = document.body.querySelector(".MuiInputBase-root");
 		elem.blur()
-		console.log(elem)
 	}
 
 		return (
