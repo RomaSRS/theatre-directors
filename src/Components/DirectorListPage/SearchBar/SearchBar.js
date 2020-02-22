@@ -1,5 +1,5 @@
 import React from "react";
-// import "./styles.css";
+import "./SearchBar.css";
 
 class SearchBar extends React.Component {
   handleFilterTextChange = e => {
@@ -10,9 +10,10 @@ class SearchBar extends React.Component {
       <form>
         <input
           type="text"
-          placeholder="Search..."
+          placeholder=''
           value={this.props.filterText}
-          onChange={this.handleFilterTextChange}
+					onChange={this.handleFilterTextChange}
+					className="search-bar"
         />
       </form>
     );
