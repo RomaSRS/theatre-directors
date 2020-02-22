@@ -3,9 +3,9 @@ import './App.css';
 import DirectorNavigation from "./Components/DirectorListPage/DirectorNavigation";
 import Worklog from "./Components/WorklogPage/Worklog";
 import DevelopersList from "./Components/DevelopersListPage/developersList";
-import configEN from "./data/configEN";
-import configBY from "./data/configBY";
-import configRU from "./data/configRU";
+import configEN from "./Data/ConfigEN";
+import configBY from "./Data/ConfigBY";
+import configRU from "./Data/ConfigRU";
 import SelectLang from "./Components/Navigation/Select/Select"
 
 
