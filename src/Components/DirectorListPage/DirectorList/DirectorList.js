@@ -1,16 +1,22 @@
 import React from "react";
-// import "./styles.css";
+import "./DirectorList.css";
 import { Link
 } from "react-router-dom";
 
 
-class Author extends React.Component {
+class Director extends React.Component {
   render() {
-    return <li>{this.props.name}</li>;
+		const url = this.props.author.image;
+    return <li>
+			<div className="director-link" style={{backgroundImage: `url(${url})`}}>
+			{this.props.author.name}
+			</div>
+			<p className="description">{this.props.author.description}</p>
+		</li>;
   }
 }
 
-class AuthorList extends React.Component {
+class DirectorList extends React.Component {
   render() {
     const rows = [];
     const objectAuter = this.props.author;
@@ -23,13 +29,13 @@ class AuthorList extends React.Component {
       }
       rows.push(
         <Link to={`${url}/${item.id}`} key={item.id}>
-          <Author key={item.id} name={item.name} />
+          <Director key={item.id} author={item} />
         </Link>
       );
     });
-    return <ul>{rows}</ul>;
+    return <ul className="director-list">{rows}</ul>;
   }
 }
 
-export default AuthorList;
+export default DirectorList;
 

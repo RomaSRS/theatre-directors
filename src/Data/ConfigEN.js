@@ -477,13 +477,8 @@ const directorOfTheDay = 'Director of the day';
 export default {
   developers,
   directors,
-<<<<<<< HEAD:src/Components/dataConfig/configEN.js
-  directorsLink: 'Directors',
-  developersLink: 'Developers',
-=======
   directorsLink: 'List of directors',
   developersLink: 'Team members',
->>>>>>> 5cab4ed3750391e9e731642ed74220ae0016d455:src/dataConfig/configEN.js
   homePageLink: 'Home',
   worklogLink: 'Worklog',
   styleguideLink: 'Styleguide',
@@ -500,8 +495,4 @@ export default {
   firstQuote,
   secondQuote,
   directorOfTheDay,
-<<<<<<< HEAD:src/Components/dataConfig/configEN.js
 }
-=======
-}
->>>>>>> 5cab4ed3750391e9e731642ed74220ae0016d455:src/dataConfig/configEN.js
