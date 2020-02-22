@@ -1,10 +1,11 @@
 import React from 'react';
-import "./app.css";
-import AuthorNavigation from "./components/autorList/authornavigation";
-import configEN from "./data/configEN";
-import configBY from "./data/configBY";
-import configRU from "./data/configRU";
-import SelectLang from "./components/select/select"
+import './App.css';
+import DirectorNavigation from "./Components/DirectorListPage/DirectorNavigation";
+import configEN from "./Data/ConfigEN";
+import configBY from "./Data/ConfigBY";
+import configRU from "./Data/ConfigRU";
+import SelectLang from "./Components/SelectLang/Select"
+
 
 import {
 	BrowserRouter as Router,
@@ -84,7 +85,7 @@ class App extends React.Component {
 								<div>Desktop 1</div>
 							</Route>
 							<Route path="/list">
-								<AuthorNavigation author={data.directors} />
+								<DirectorNavigation author={data.directors} />
 							</Route>
 							<Route path="/team">
 								<div>team</div>
