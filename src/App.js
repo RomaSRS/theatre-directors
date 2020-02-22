@@ -90,7 +90,6 @@ class App extends React.Component {
 								<DirectorNavigation author={data.directors} />
 							</Route>
 							<Route path="/team">
-								{/* <div>team</div> */}
 								<DevelopersList developers={data.developers}/>
 							</Route>
 							<Route path="/style">
