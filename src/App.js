@@ -2,9 +2,10 @@ import React from 'react';
 import './App.css';
 import DirectorNavigation from "./Components/DirectorListPage/DirectorNavigation";
 import Worklog from "./Components/WorklogPage/Worklog";
-import configEN from "./Data/ConfigEN";
-import configBY from "./Data/ConfigBY";
-import configRU from "./Data/ConfigRU";
+import DevelopersList from "./Components/DevelopersListPage/developersList";
+import configEN from "./data/configEN";
+import configBY from "./data/configBY";
+import configRU from "./data/configRU";
 import SelectLang from "./Components/Navigation/Select/Select"
 
 
@@ -89,7 +90,8 @@ class App extends React.Component {
 								<DirectorNavigation author={data.directors} />
 							</Route>
 							<Route path="/team">
-								<div>team</div>
+								{/* <div>team</div> */}
+								<DevelopersList developers={data.developers}/>
 							</Route>
 							<Route path="/style">
 								<div>style</div>
