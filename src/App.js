@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
-import AuthorNavigation from "./Components/autorList/authornavigation";
-import configEN from "./Components/dataConfig/configEN";
-import configBY from "./Components/dataConfig/configBY";
-import configRU from "./Components/dataConfig/configRU";
-import SelectLang from "./Components/select/select"
+import "./app.css";
+import AuthorNavigation from "./components/autorList/authornavigation";
+import configEN from "./data/configEN";
+import configBY from "./data/configBY";
+import configRU from "./data/configRU";
+import SelectLang from "./components/select/select"
 
 import {
 	BrowserRouter as Router,
