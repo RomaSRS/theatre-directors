@@ -5,6 +5,7 @@ import { Route, useParams,   useRouteMatch
 
 import DirectorList from "./DirectorList/DirectorList";
 import SearchBar from "./SearchBar/SearchBar";
+import DirectorPage from "../DirectorPage/DirectorPage";
 
 
 class FilterDirector extends React.Component {
@@ -52,7 +53,7 @@ function AboutDirector(props) {
   let { id } = useParams();
   const index = props.author.findIndex(item => item.id === id);
   const data = props.author[index];
-  return <p>{data.description}</p>;
+	return <DirectorPage data={data} />;
 }
 
 export default DirectorNavigation;
