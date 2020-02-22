@@ -6,6 +6,7 @@ import configBY from "./Data/ConfigBY";
 import configRU from "./Data/ConfigRU";
 import SelectLang from "./Components/SelectLang/Select"
 
+
 import {
 	BrowserRouter as Router,
 	Link,
