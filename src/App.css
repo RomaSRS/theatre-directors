@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i&display=swap');
-
 .App {
+	padding: 0 4%;
 	background: #F5F2EC;
 }
 
@@ -12,12 +9,12 @@
 
 .row-2 {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 
 .logo {
-	margin: 0 60px 0 100px;
+	margin: 0 60px 0 0;
 	flex-grow: 1;
 	flex-shrink: 1;
 	flex-basis: 0;
@@ -54,3 +51,4 @@
 .active.active {
 	color: #F54D1C;
 }
+
