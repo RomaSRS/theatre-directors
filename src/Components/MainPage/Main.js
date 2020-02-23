@@ -3,7 +3,7 @@ import './Main.css';
 import introductionImage from '../../Assets/Images/Introduction.jpg';
 import bernardShowImage from '../../Assets/Images/GeorgeBernardShaw.jpg';
 import jarkoPetanImage from '../../Assets/Images/JarkoPetan.jpg';
-import theatreImage from '../../Assets/Images/theatre.jpg';
+import theatreImage from '../../Assets/Images/Theatre.jpg';
 
 function Introduction(props) {
     const text = props.data.mainText;
