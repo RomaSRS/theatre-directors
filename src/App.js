@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
-import AuthorNavigation from "./Components/autorList/authornavigation";
-import configEN from "./Components/dataConfig/configEN";
-import configBY from "./Components/dataConfig/configBY";
-import configRU from "./Components/dataConfig/configRU";
-import SelectLang from "./Components/select/select"
+import DirectorNavigation from "./Components/DirectorListPage/DirectorNavigation";
+import Worklog from "./Components/WorklogPage/Worklog";
+import DevelopersList from "./Components/DevelopersListPage/developersList";
+import configEN from "./Data/ConfigEN";
+import configBY from "./Data/ConfigBY";
+import configRU from "./Data/ConfigRU";
+import SelectLang from "./Components/Navigation/Select/Select"
+
 
 import {
 	BrowserRouter as Router,
@@ -16,26 +19,47 @@ import {
 class App extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = {lang: 'en'}
+		this.state = {lang: localStorage.getItem('Activelang')};
 	};
 
-	toggleLang = event => {
-		this.setState({ lang: event.target.value });
+	toggleLang = target => {
+		this.setState({ lang: target.value });
 	};
+
+	getArrOfLink() {
+		const columnOne = Array.from(document.body.querySelector('.column-1').children);
+		const columnTwo = Array.from(document.body.querySelector('.column-2').children);
+		const parent = [...columnOne, ...columnTwo];
+		return parent;
+	}
+
+	componentDidMount() {
+		const link = localStorage.getItem('ActiveLink');
+		const parent = this.getArrOfLink();
+			for( let i = 0; i < parent.length; i++) {
+				if (parent[i].classList.contains("active"))
+				parent[i].classList.remove("active");
+				if(parent[i].href === link) {
+					parent[i].classList.add("active")
+				}
+			}
+	}
 
 	getActive = event => {
 		const target = event.target.closest('a');
+
 		if(!target) {
 			return;
 		}
-		const parent = Array.from(target.closest('ul').children);
 
+		const parent = this.getArrOfLink();
 		for( let i = 0; i < parent.length; i++) {
 			if (parent[i].classList.contains("active"))
 			parent[i].classList.remove("active")
 		}
-		
-		target.classList.add("active")
+
+		target.classList.add("active");
+		localStorage.setItem('ActiveLink', target.href);
 	}
 	
 	render() {
@@ -53,10 +77,10 @@ class App extends React.Component {
 			<div className="App">
 				<Router>
 					<div className="header">
-						<SelectLang toggleLang={this.toggleLang} />
 						<div className="row-2">
 						<h1 className="logo">{data.otherInfo.title}</h1>
 						<ul className="navigation" onClick={this.getActive}>
+							<div className="column-1">
 							<Link className="active" to="/">
 								<li>{data.homePageLink}</li>
 							</Link>
@@ -66,34 +90,36 @@ class App extends React.Component {
 							<Link to="/team">
 								<li>{data.developersLink}</li>
 							</Link>
+							</div>
+							<div className="column-2">
+							<SelectLang toggleLang={this.toggleLang} />
 							<Link to="/style">
 								<li>{data.styleguideLink}</li>
 							</Link>
 							<Link to="/worklog">
 								<li>{data.worklogLink}</li>
 							</Link>
+							</div>
 						</ul>
 						</div>
 					</div>
-				{/* В компоненте Switch выбираем нужный Route, вместо div вставляем свой компонент, 
-				в него в качестве пропса передаем data (пример: author={data.directors}, data - это конфиг, которыф передается с нужным языком) 
-				*/}
+			
 					<div className="main">
 						<Switch>
 							<Route exact path="/">
 								<div>Desktop 1</div>
 							</Route>
 							<Route path="/list">
-								<AuthorNavigation author={data.directors} />
+								<DirectorNavigation author={data.directors} />
 							</Route>
 							<Route path="/team">
-								<div>team</div>
+							<DevelopersList developers={data.developers}/>
 							</Route>
 							<Route path="/style">
 								<div>style</div>
 							</Route>
 							<Route path="/worklog">
-								<div>worklog</div>
+								<Worklog developers={data.developers}/>
 							</Route>
 						</Switch>
 					</div>
