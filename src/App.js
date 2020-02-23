@@ -35,7 +35,7 @@ class App extends React.Component {
 	}
 
 	componentDidMount() {
-		const link = localStorage.getItem('ActiveLink');
+		const link = sessionStorage.getItem('ActiveLink');
 		const parent = this.getArrOfLink();
 		if (link) {
 			for (let i = 0; i < parent.length; i++) {
@@ -62,7 +62,7 @@ class App extends React.Component {
 		}
 
 		target.classList.add("active");
-		localStorage.setItem('ActiveLink', target.href);
+		sessionStorage.setItem('ActiveLink', target.href);
 	}
 
 	render() {
