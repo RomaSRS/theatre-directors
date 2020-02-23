@@ -8,7 +8,7 @@ class Director extends React.Component {
   render() {
 		const url = this.props.author.image;
     return <li>
-			<div className="director-link" style={{backgroundImage: `url(${url})`}}>
+			<div className="director-link" style={{backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%), url(${url})`}}>
 			{this.props.author.name}
 			</div>
 			<p className="description">{this.props.author.description}</p>
