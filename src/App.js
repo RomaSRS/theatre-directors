@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import DirectorNavigation from "./Components/DirectorListPage/DirectorNavigation";
-import Worklog from "./Components/WorklogPage/Worklog";
-import DevelopersList from "./Components/DevelopersListPage/developersList";
+// import Worklog from "./Components/WorklogPage/Worklog";
+// import DevelopersList from "./Components/DevelopersListPage/developersList";
 import configEN from "./Data/ConfigEN";
 import configBY from "./Data/ConfigBY";
 import configRU from "./Data/ConfigRU";
@@ -36,6 +36,8 @@ class App extends React.Component {
 	componentDidMount() {
 		const link = localStorage.getItem('ActiveLink');
 		const parent = this.getArrOfLink();
+		console.log(parent)
+		if (link) {
 			for( let i = 0; i < parent.length; i++) {
 				if (parent[i].classList.contains("active"))
 				parent[i].classList.remove("active");
@@ -43,6 +45,7 @@ class App extends React.Component {
 					parent[i].classList.add("active")
 				}
 			}
+		}
 	}
 
 	getActive = event => {
@@ -113,13 +116,13 @@ class App extends React.Component {
 								<DirectorNavigation author={data.directors} />
 							</Route>
 							<Route path="/team">
-							<DevelopersList developers={data.developers}/>
+							<div>rrrrr</div>
 							</Route>
 							<Route path="/style">
 								<div>style</div>
 							</Route>
 							<Route path="/worklog">
-								<Worklog developers={data.developers}/>
+							<div>rrrrr</div>
 							</Route>
 						</Switch>
 					</div>

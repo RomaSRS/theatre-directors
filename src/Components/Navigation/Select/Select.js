@@ -4,7 +4,8 @@ class SelectLang extends React.Component {
 
 	componentDidMount() {
 		const value = localStorage.getItem('Activelang');
-		const parent = document.body.querySelector('.row-1').children;
+		if (value) {
+			const parent = document.body.querySelector('.row-1').children;
 			for( let i = 0; i < parent.length; i++) {
 				if (parent[i].classList.contains("active-button"))
 				parent[i].classList.remove("active-button");
@@ -12,6 +13,7 @@ class SelectLang extends React.Component {
 					parent[i].classList.add("active-button")
 				}
 			}
+		}
 	}
 
 	toggleLang = (event) => {
