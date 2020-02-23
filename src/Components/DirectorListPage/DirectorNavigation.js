@@ -53,7 +53,7 @@ function AboutDirector(props) {
   let { id } = useParams();
   const index = props.author.findIndex(item => item.id === id);
   const data = props.author[index];
-	return <DirectorPage data={data} />;
+  return <DirectorPage data={data} />;
 }
 
 export default DirectorNavigation;
