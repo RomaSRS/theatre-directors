@@ -1,5 +1,4 @@
 import React from 'react';
-
 import DirectorMainInfo from './DirectorMainInfo/DirectorMainInfo';
 import DirectorBiography from './DirectorBiography/DirectorBiography';
 import DirectorWorks from './DirectorWorks/DirectorWorks';
@@ -9,7 +8,7 @@ import Map from './Map/Map';
 import './DirectorPage.css';
 
 function DirectorPage(props) {
-    const { data } = props;
+		const { data } = props;
     return (
         <div className="director-page">
             <DirectorMainInfo data={data} />
