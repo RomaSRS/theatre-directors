@@ -56,7 +56,7 @@ const directors = [
     born: '10 August 1878',
     deceased: '16 February 1952',
     description: 'Belarusian playwright and theater director',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/0/0a/Mirovich_03.jpg',
+		image: 'https://boom.ms/wp-content/uploads/f/foto-babushek-i-dedushek-v-molodosti/6.jpg',
     placeOfBirth: 'St. Petersburg',
     shortBiography : 'Russian and Belarusian playwright, artist, director and teacher. One of the founders of the Belarusian national Soviet theater. Books about S.A. Petrovich “People\'s Artist of the BSSR E. A. Mirovich” (1963) and “Evstigney Mirovich” (1978) were published about the actor and director; the pedagogical activity of E. A. Mirovich is the subject of a chapter in the book of his student A. I. Butakov, “My teachers” (2004); chapters have been written about his life in encyclopedias; the memoirs of contemporaries in periodicals and the Internet are published. A postage stamp for the 100th anniversary of E. A. Mirovich and a postcard with the original stamp for his 125th anniversary were issued. On the creative fate of E. A. Mirovich, the Belarusfilm film studio shot the documentary Throughout Life (1978). A memorial plaque in honor of the outstanding theater figure Yevstigney Afinogenovich Mirovich was opened on the building of the Belarusian Academy of Arts.',
     timeline: [
@@ -114,7 +114,7 @@ const directors = [
     born: '15 May 1882',
     deceased: '28 September 1937',
     description: 'Belarusian playwright, prose writer, director, actor, artist.',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Vladislav_Golubok.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/4/40/Edward_Pep%C5%82owski.jpg',
     placeOfBirth: 'St. Lesnaya, Novogrudok district, Minsk province',
     shortBiography : 'Belorussian actor, director, writer, artist, decorator, first national artist of the Belarusian SSR (1928), one of the founders of the Belarusian national theater, artistic director and director of the Belarusian State Theater. According to the memoirs of contemporaries, there was no such region in the BSSR that the Dove Theater would not have visited. In 1920, he came with a performance to Slutsk at a time when the Paparazzi Kvetka association was operating on Sluchin. It is precisely the purpose of the activity of which was the study and promotion of the Belarusian language, culture and art, familiarization with the cultural values ​​of a wide range of people through the creation and support of branches, stationary and mobile libraries, lectures and concerts.',
     timeline: [
@@ -174,7 +174,7 @@ const directors = [
     born: '22 August 1861',
     deceased: '22 September 1917',
     description: 'Belarusian actor, director, theater figure, creator of the national professional theater, participant in literary life.',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Ihnat_Bujnicki.jpg',
+    image: 'https://seanmcdonorg.files.wordpress.com/2018/08/2018-06-23_ent_41837548_i1.jpg',
     placeOfBirth: 'Polivachi, Gluboksky district, Vitebsk region',
     shortBiography : 'Belarusian actor, director, theater figure, founder of the first professional national Belarusian theater. He was called the father of the Belarusian theater. Ignatiy Buinitsky first brought the “peasant” dance to the stage as a performer and director, showing the inexhaustible possibilities and beauty of Belarusian folk dances. As a dramatic actor, he performed mainly in characteristic roles, skillfully revealing humor and subtle irony. In Prozoroki, in the high school building, the museum of the founder of the Belarusian theater was created, where posters of performances, photos of the troupe, letters of Zoska Veras and Zygmunt Abramovich, memoirs of prozorok old residents are presented. In the square is the grave of Ignatius Buinitsky and a monument to him',
     timeline: [
@@ -226,7 +226,7 @@ const directors = [
     born: '6 August 1957',
     deceased: 'our days',
     description: 'Belarusian director, Honored Artist of the Republic of Belarus.',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Pinigin.JPG',
+    image: 'https://s9.stc.all.kpcdn.net/share/i/4/1432456/inx960x1380.jpg',
     placeOfBirth: 'Izum, Kharkov region, USSR',
     shortBiography : 'Belarusian director, Honored Artist of the Republic of Belarus. Being a very popular director, N.N. Pinigin tries and invariably succeeds in various types of theatrical art, whether it be a drama theater, a musical theater, or a puppet theater. Laureate of the State Prize of the Republic of Belarus. Recognized as the “Person of the Year in Belarus” in the nomination “Scene”. Laureate of the BSTD Prize named after E. Mirovich in the nomination "For the best direction". Diploma-holder at international festivals in Krakow (Poland), Moscow (Russia), Kharkov (Ukraine), Bratislava (Slovakia), Tallinn (Estonia), Vilnius (Lithuania).',
     timeline: [
@@ -398,7 +398,7 @@ const directors = [
     born: '6 June 1955',
     deceased: 'our days',
     description: 'Belarusian actor and chief director of the Minsk Theater of Satire and Humor «Christopher», Honored Artist of the Republic of Belarus.',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Kryzanowski.jpg',
+    image: 'http://st.oede.by/st/files/new%20year%202014/zvezda/zvezda_6.jpg',
     placeOfBirth: 'Nikolaev, Nikolaev region, USSR, USSR',
     shortBiography : 'Belarusian comedian, actor and chief director of the Minsk Theater of Satire and Humor "Christopher". Artistic director of the television project "Humorinka". Artistic Director of the Cinema Center Evgeny Kryzhanovsky. Honored Artist of the Republic of Belarus.',
     timeline: [
@@ -450,12 +450,12 @@ const addText = 'Since the mid-18th century, serf theaters began to spread in Be
 
 const firstQuote = {
   author: 'Jarko Petan',
-  text: "In the theater, the director is God, but the actors, alas, are atheists.",
+  text:"\"In the theater, the director is God, but the actors, alas, are atheists.\"",
 }
 
 const secondQuote = {
   author: 'George Bernard Shaw',
-  text: "Director's work is incompatible with acting: the actor will fail if he will critically look at his partners.",
+  text: "\"Director\'s work is incompatible with acting: the actor will fail if he will critically look at his partners.\"",
 }
 
 const directorOfTheDay = 'Director of the day';

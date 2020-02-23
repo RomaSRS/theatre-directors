@@ -1,12 +1,13 @@
 li {
-	margin: 10px 25px;
+	margin: 10px 0;
 }
 
 .director-link {
 	width: 346px;
 	height: 495px;
 	display: flex;
-	justify-content: start;
+	margin-left: 5px;
+	justify-content: flex-start;
 	align-items: flex-end;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -24,8 +25,8 @@ li {
 .director-list {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-items: start;
+	justify-content: space-around;
+	align-items: flex-start;
 }
 
 .description {
