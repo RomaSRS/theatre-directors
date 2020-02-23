@@ -113,7 +113,7 @@ class App extends React.Component {
 								<MainPage data={data}/>
 							</Route>
 							<Route path="/list">
-								<DirectorNavigation author={data.directors} />
+								<DirectorNavigation titles={data.directorPageTitles} author={data.directors} />
 							</Route>
 							<Route path="/team">
 								<DevelopersList developers={data.developers} />
