@@ -3,6 +3,7 @@ import './App.css';
 import DirectorNavigation from "./Components/DirectorListPage/DirectorNavigation";
 import Worklog from "./Components/WorklogPage/Worklog";
 import DevelopersList from "./Components/DevelopersListPage/DevelopersList";
+import MainPage from "./Components/MainPage/Main";
 import configEN from "./Data/ConfigEN";
 import configBY from "./Data/ConfigBY";
 import configRU from "./Data/ConfigRU";
@@ -34,7 +35,7 @@ class App extends React.Component {
 	}
 
 	componentDidMount() {
-		const link = localStorage.getItem('ActiveLink');
+		const link = sessionStorage.getItem('ActiveLink');
 		const parent = this.getArrOfLink();
 		if (link) {
 			for (let i = 0; i < parent.length; i++) {
@@ -61,7 +62,7 @@ class App extends React.Component {
 		}
 
 		target.classList.add("active");
-		localStorage.setItem('ActiveLink', target.href);
+		sessionStorage.setItem('ActiveLink', target.href);
 	}
 
 	render() {
@@ -109,7 +110,7 @@ class App extends React.Component {
 					<div className="main">
 						<Switch>
 							<Route exact path="/">
-								<div>Desktop 1</div>
+								<MainPage data={data}/>
 							</Route>
 							<Route path="/list">
 								<DirectorNavigation author={data.directors} />

@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "IBM Plex Sans";
-	src: url('./Assets/Fonts/IBMPlexSans.woff') format('woff');
+	src: url('./Assets/Fonts/IBMPlexSans-Light.woff') format('woff');
   }
-  
+
   @font-face {
 	font-family: "Montserrat";
-	src: url('./Assets/Fonts/Montserrat.woff') format('woff');
+	src: url('./Assets/Fonts/Montserrat-Black.ttf') format('ttf');
   }
 
 a {

@@ -10,7 +10,7 @@ import './DirectorPage.css';
 function DirectorPage(props) {
 		const { data } = props;
     return (
-        <div className='director-page'>
+        <div className="director-page">
             <DirectorMainInfo data={data} />
             <DirectorBiography data={data} />
             <DirectorWorks data={data} />
