@@ -186,7 +186,11 @@ const directors = [
       {date: '1917', text: 'During the First World War he went to the Western Front, was in military service in Molodechno.'},
     ],
     project: [
-      {date: '1910', text: '«The first Belarusian party in Vilnius»'},
+      {date: '1910', text: '«On revision» by M. Krapivnitsky'},
+      {date: '1910', text: '«Sewing fools» by M. Krapivnitsky'},
+      {date: '1910', text: '«Ham» by E. Orzeszko'},
+      {date: '1910', text: '«On a winter evening» by E. Orzeszko'},
+      {date: '1910', text: '«Fashionable nobleman» by K. Kaganets'},
     ],
     video: 'https://www.youtube.com/watch?v=ACDGr4TUkvs&feature=emb_logo',
     mapData: {
@@ -408,8 +412,11 @@ const directors = [
       {date: '1986', text: 'Created the theater of satire and humor «Christopher». He played more than 30 major and major roles.'},
     ],
     project: [
-      {date: '1982', text: '«Kupala night»'},
-      {date: '1985', text: '«Go and look»'},
+      {date: '1987', text: '«Who is who?»'},
+      {date: '1987', text: '«Good night, kids»'},
+      {date: '1992', text: '«Well sitting!»'},
+      {date: '1996', text: '«Yesterday, Today, Tomorrow»'},
+      {date: '2000', text: '«Just stand, just fall»'},
     ],
     video: 'https://www.youtube.com/watch?v=2q_HkfBF3AY',
     mapData: {
@@ -460,6 +467,14 @@ const secondQuote = {
 
 const directorOfTheDay = 'Director of the day';
 
+const directorPageTitles = {
+  timeline: 'Timeline',
+  work: 'Work',
+  dateOfCreation: 'Date of creation',
+  map: 'Map',
+  gallery: 'Gallery'
+}
+
 export default {
   developers,
   directors,
@@ -481,4 +496,5 @@ export default {
   firstQuote,
   secondQuote,
   directorOfTheDay,
+  directorPageTitles
 }
