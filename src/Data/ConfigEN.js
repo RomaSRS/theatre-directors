@@ -464,12 +464,12 @@ const addText = 'Since the mid-18th century, serf theaters began to spread in Be
 
 const firstQuote = {
   author: 'Jarko Petan',
-  text: "In the theater, the director is God, but the actors, alas, are atheists.",
+  text:"\"In the theater, the director is God, but the actors, alas, are atheists.\"",
 }
 
 const secondQuote = {
   author: 'George Bernard Shaw',
-  text: "Director's work is incompatible with acting: the actor will fail if he will critically look at his partners.",
+  text: "\"Director\'s work is incompatible with acting: the actor will fail if he will critically look at his partners.\"",
 }
 
 const directorOfTheDay = 'Director of the day';
