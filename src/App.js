@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
 import DirectorNavigation from "./Components/DirectorListPage/DirectorNavigation";
-import configEN from "./Data/ConfigEN";
-import configBY from "./Data/ConfigBY";
-import configRU from "./Data/ConfigRU";
+import Worklog from "./Components/WorklogPage/Worklog";
+import DevelopersList from "./Components/DevelopersListPage/developersList";
+import configEN from "./data/configEN";
+import configBY from "./data/configBY";
+import configRU from "./data/configRU";
 import SelectLang from "./Components/Navigation/Select/Select"
 
 
@@ -35,10 +37,10 @@ class App extends React.Component {
 			if (parent[i].classList.contains("active"))
 			parent[i].classList.remove("active")
 		}
-		
+
 		target.classList.add("active")
 	}
-	
+
 	render() {
 		let {lang} = this.state;
 		let data;
@@ -49,36 +51,36 @@ class App extends React.Component {
 		} else {
 			data = configBY;
 		}
-	
+
 		return (
 			<div className="App">
 				<Router>
 					<div className="header">
 						<SelectLang toggleLang={this.toggleLang} />
 						<div className="row-2">
-						<h1 className="logo">{data.otherInfo.title}</h1>
-						<ul className="navigation" onClick={this.getActive}>
-							<Link className="active" to="/">
-								<li>{data.homePageLink}</li>
-							</Link>
-							<Link to="/list">
-								<li>{data.directorsLink}</li>
-							</Link>
-							<Link to="/team">
-								<li>{data.developersLink}</li>
-							</Link>
-							<Link to="/style">
-								<li>{data.styleguideLink}</li>
-							</Link>
-							<Link to="/worklog">
-								<li>{data.worklogLink}</li>
-							</Link>
-						</ul>
+							<h1 className="logo">{data.otherInfo.title}</h1>
+							<ul className="navigation" onClick={this.getActive}>
+								<Link className="active" to="/">
+									<li>{data.homePageLink}</li>
+								</Link>
+								<Link to="/list">
+									<li>{data.directorsLink}</li>
+								</Link>
+								<Link to="/team">
+									<li>{data.developersLink}</li>
+								</Link>
+								<Link to="/style">
+									<li>{data.styleguideLink}</li>
+								</Link>
+								<Link to="/worklog">
+									<li>{data.worklogLink}</li>
+								</Link>
+							</ul>
 						</div>
 					</div>
-				{/* В компоненте Switch выбираем нужный Route, вместо div вставляем свой компонент, 
-				в него в качестве пропса передаем data (пример: author={data.directors}, data - это конфиг, которыф передается с нужным языком) 
-				*/}
+					{/* В компоненте Switch выбираем нужный Route, вместо div вставляем свой компонент,
+						в него в качестве пропса передаем data (пример: author={data.directors}, data - это конфиг, которыф передается с нужным языком)
+					*/}
 					<div className="main">
 						<Switch>
 							<Route exact path="/">
@@ -88,13 +90,13 @@ class App extends React.Component {
 								<DirectorNavigation author={data.directors} />
 							</Route>
 							<Route path="/team">
-								<div>team</div>
+								<DevelopersList developers={data.developers}/>
 							</Route>
 							<Route path="/style">
 								<div>style</div>
 							</Route>
 							<Route path="/worklog">
-								<div>worklog</div>
+								<Worklog developers={data.developers}/>
 							</Route>
 						</Switch>
 					</div>
