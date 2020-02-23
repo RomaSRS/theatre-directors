@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
-import Developer from './developer.js';
-import './developersList.css';
+import Developer from './Developer.js';
+import './DevelopersList.css';
 
 export default class DevelopersList extends PureComponent {
   render() {

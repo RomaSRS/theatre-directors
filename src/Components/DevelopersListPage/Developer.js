@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
-import githubIcon from '../../assets/icons/github.svg'
-import telegramIcon from '../../assets/icons/telegram.svg'
+import githubIcon from '../../Assets/Icons/Github.svg'
+import telegramIcon from '../../Assets/Icons/Telegram.svg'
 
 export default class Developer extends PureComponent {
   render() {
