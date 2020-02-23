@@ -35,7 +35,7 @@ class App extends React.Component {
 	}
 
 	componentDidMount() {
-		const link = localStorage.getItem('ActiveLink');
+		const link = sessionStorage.getItem('ActiveLink');
 		const parent = this.getArrOfLink();
 		if (link) {
 			for (let i = 0; i < parent.length; i++) {
@@ -62,7 +62,7 @@ class App extends React.Component {
 		}
 
 		target.classList.add("active");
-		localStorage.setItem('ActiveLink', target.href);
+		sessionStorage.setItem('ActiveLink', target.href);
 	}
 
 	render() {
@@ -85,22 +85,22 @@ class App extends React.Component {
 							<ul className="navigation" onClick={this.getActive}>
 								<div className="column-1">
 									<Link className="active" to="/">
-										<li>{data.homePageLink}</li>
+										<li className="navagation-link">{data.homePageLink}</li>
 									</Link>
 									<Link to="/list">
-										<li>{data.directorsLink}</li>
+										<li className="navagation-link">{data.directorsLink}</li>
 									</Link>
 									<Link to="/team">
-										<li>{data.developersLink}</li>
+										<li className="navagation-link">{data.developersLink}</li>
 									</Link>
 								</div>
 								<div className="column-2">
 									<SelectLang toggleLang={this.toggleLang} />
 									<Link to="/style">
-										<li>{data.styleguideLink}</li>
+										<li className="navagation-link">{data.styleguideLink}</li>
 									</Link>
 									<Link to="/worklog">
-										<li>{data.worklogLink}</li>
+										<li className="navagation-link">{data.worklogLink}</li>
 									</Link>
 								</div>
 							</ul>

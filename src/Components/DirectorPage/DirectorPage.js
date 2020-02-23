@@ -1,5 +1,4 @@
 import React from 'react';
-
 import DirectorMainInfo from './DirectorMainInfo/DirectorMainInfo';
 import DirectorBiography from './DirectorBiography/DirectorBiography';
 import DirectorWorks from './DirectorWorks/DirectorWorks';
