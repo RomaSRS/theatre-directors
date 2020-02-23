@@ -455,7 +455,7 @@ const firstQuote = {
 
 const secondQuote = {
   author: 'George Bernard Shaw',
-  text: "\"Director\'s work is incompatible with acting: the actor will fail if he will critically look at his partners.\"",
+  text: "\"Director's work is incompatible with acting: the actor will fail if he will critically look at his partners.\"",
 }
 
 const directorOfTheDay = 'Director of the day';

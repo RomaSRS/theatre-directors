@@ -19,17 +19,17 @@ function Quotes(props) {
     return <div className="quotes">
         <div className="firstQuote">
             <img src={bernardShowImage} alt="Bernard Show" width='160' height='160'></img>
-            <blackquote className="quote-wrapper">
+            <blockquote className="quote-wrapper">
                 <q>{secondQuote.text}</q>
                 <p>{secondQuote.author}</p>
-            </blackquote>
+            </blockquote>
         </div>
         <div className="secondQuote">
             <img src={jarkoPetanImage} alt="Jarko Petan" width='160' height='160'></img>
-            <blackquote className="quote-wrapper">
+            <blockquote className="quote-wrapper">
                 <q>{firstQuote.text}</q>
                 <p>{firstQuote.author}</p>
-            </blackquote>
+            </blockquote>
         </div>
     </div>;
 }
