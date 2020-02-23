@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i&display=swap');
+@font-face {
+	font-family: "IBM Plex Sans";
+	src: url('./Assets/Fonts/IBMPlexSans.woff') format('woff');
+  }
+  
+  @font-face {
+	font-family: "Montserrat";
+	src: url('./Assets/Fonts/Montserrat.woff') format('woff');
+  }
 
 a {
 	text-decoration: none;
 }
 .App {
-	padding: 0 4%;
+	padding: 0 7%;
 	background: #F5F2EC;
 }
 
