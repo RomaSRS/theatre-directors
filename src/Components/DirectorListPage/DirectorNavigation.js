@@ -43,7 +43,7 @@ function DirectorNavigation(props) {
         <FilterDirector author={props.author} url={url} />
       </Route>
       <Route path={`${path}/:id`}>
-        <AboutDirector author={props.author} />
+        <AboutDirector titles={props.titles} author={props.author} />
       </Route>
     </div>
   );
@@ -53,7 +53,7 @@ function AboutDirector(props) {
   let { id } = useParams();
   const index = props.author.findIndex(item => item.id === id);
   const data = props.author[index];
-  return <DirectorPage data={data} />;
+  return <DirectorPage titles={props.titles} data={data} />;
 }
 
 export default DirectorNavigation;
