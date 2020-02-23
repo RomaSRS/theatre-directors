@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import "./FilterDirector.css";
 import { Route, useParams,   useRouteMatch
 } from "react-router-dom";
 
 import DirectorList from "./DirectorList/DirectorList";
 import SearchBar from "./SearchBar/SearchBar";
-// import DirectorPage from "../DirectorPage/DirectorPage";
+import DirectorPage from "../DirectorPage/DirectorPage";
 
 
 class FilterDirector extends React.Component {
@@ -16,8 +16,8 @@ class FilterDirector extends React.Component {
 
   handleFilterTextChange = filterText => {
     this.setState({ filterText: filterText });
-  };
-
+	};
+	
   render() {
     return (
       <div className="director-filter">
@@ -36,7 +36,10 @@ class FilterDirector extends React.Component {
 }
 
 function DirectorNavigation(props) {
-  let { path, url } = useRouteMatch();
+	let { path, url } = useRouteMatch();
+	useEffect(() => {
+		document.body.scrollTop = document.documentElement.scrollTop = 0;
+	});
   return (
     <div>
       <Route exact path={path}>
@@ -50,10 +53,13 @@ function DirectorNavigation(props) {
 }
 
 function AboutDirector(props) {
-  let { id } = useParams();
+	let { id } = useParams();
   const index = props.author.findIndex(item => item.id === id);
-  const data = props.author[index];
-	return <p>ttttttttt</p>
+	const data = props.author[index];
+	useEffect(() => {
+		document.body.scrollTop = document.documentElement.scrollTop = 0;
+	});
+  return <DirectorPage data={data} />;
 }
 
 export default DirectorNavigation;
