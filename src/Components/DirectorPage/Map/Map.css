@@ -1,3 +1,14 @@
+.map-title {
+    margin-bottom: 20px;
+    font-family: "Montserrat", "Arial", "sans-serif";
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.005em;
+    line-height: 50px;
+    color: #F54D1C;
+}
+
 #map {
     margin: 0 auto;
     width: 800px;
@@ -11,4 +22,13 @@
     height: 50px;
     border-radius: 50%;
     cursor: pointer;
-  }
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+  
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: "Montserrat", "Arial", "sans-serif";
+}
