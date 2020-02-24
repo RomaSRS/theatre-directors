@@ -52,23 +52,21 @@ const developers = [
 const directors = [
   {
     id: '0',
-    url: 'mirovich',
     name: 'Evstigney Mirovich',
     born: '10 August 1878',
     deceased: '16 February 1952',
-    description: 'Belarusian playwright and theater director',
+    description: 'Belarusian playwright and theater director.',
 		image: 'https://boom.ms/wp-content/uploads/f/foto-babushek-i-dedushek-v-molodosti/6.jpg',
     placeOfBirth: 'St. Petersburg',
-    placeOfDeath: 'Minsk',
-    shortBiography : 'Evstigney Mirovich (real surname - Dunaev; July 29 [August 10] 1878, St. Petersburg - February 16, 1952, Minsk) - Russian and Belarusian Soviet actor, director, playwright, teacher, professor (1945). People\'s Artist of the BSSR (1940). One of the founders of the Belarusian theater of Art by Yanka Kupala. He participated in the creation of the Belarusian Theater and Art Institute (now the Belarusian State Academy of Arts).',
+    shortBiography : 'Russian and Belarusian playwright, artist, director and teacher. One of the founders of the Belarusian national Soviet theater. Books about S.A. Petrovich “People\'s Artist of the BSSR E. A. Mirovich” (1963) and “Evstigney Mirovich” (1978) were published about the actor and director; the pedagogical activity of E. A. Mirovich is the subject of a chapter in the book of his student A. I. Butakov, “My teachers” (2004); chapters have been written about his life in encyclopedias; the memoirs of contemporaries in periodicals and the Internet are published. A postage stamp for the 100th anniversary of E. A. Mirovich and a postcard with the original stamp for his 125th anniversary were issued. On the creative fate of E. A. Mirovich, the Belarusfilm film studio shot the documentary Throughout Life (1978). A memorial plaque in honor of the outstanding theater figure Yevstigney Afinogenovich Mirovich was opened on the building of the Belarusian Academy of Arts.',
     timeline: [
       {date: '1900', text: 'He began to work in St. Petersburg theaters as an actor, then as a director.'},
       {date: '1906', text: 'He became a full member of the St. Petersburg Union of Drama and Music Writers.'},
       {date: '1919', text: 'Started working in theaters of Belarus'},
-      {date: '1921—1931', text: 'Works as artistic director in theaters of Belarus.'},
-      {date: '1932—1935', text: 'Artistic Director of the Gomel Theater of Working Youth.'},
-      {date: '1937—1940', text: 'Artistic Director of the Belarusian Theater of Young Spectators by N. Krupskaya.'},
-      {date: '1941—1945', text: 'Works as a director of the Belarusian Theater by Y. Kupala (BST-1).'},
+      {date: '1921 — 1931', text: 'Works as artistic director in theaters of Belarus.'},
+      {date: '1932 — 1935', text: 'Artistic Director of the Gomel Theater of Working Youth.'},
+      {date: '1937 — 1940', text: 'Artistic Director of the Belarusian Theater of Young Spectators by N. Krupskaya.'},
+      {date: '1941 — 1945', text: 'Works as a director of the Belarusian Theater by Y. Kupala (BST-1).'},
     ],
     project: [
       {date: '1923', text: '«Kastus Kalinovsky»'},
@@ -112,22 +110,20 @@ const directors = [
   },
   {
     id: '1',
-    url: 'galubok',
     name: 'Vladislav Golubok',
     born: '15 May 1882',
     deceased: '28 September 1937',
     description: 'Belarusian playwright, prose writer, director, actor, artist.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/4/40/Edward_Pep%C5%82owski.jpg',
     placeOfBirth: 'St. Lesnaya, Novogrudok district, Minsk province',
-    placeOfDeath: 'Minsk',
-    shortBiography : 'Golubok Vladislav Iosifovich (also known as Golub, Golubev; May 3 [15], 1882 - September 28, 1937) - Belarusian Soviet actor, director, writer, artist, decorator, first People\'s Artist of the BSSR (1928), one of the founders of the Belarusian national Theater, artistic director and director of the Belarusian State Theater.',
+    shortBiography : 'Belorussian actor, director, writer, artist, decorator, first national artist of the Belarusian SSR (1928), one of the founders of the Belarusian national theater, artistic director and director of the Belarusian State Theater. According to the memoirs of contemporaries, there was no such region in the BSSR that the Dove Theater would not have visited. In 1920, he came with a performance to Slutsk at a time when the Paparazzi Kvetka association was operating on Sluchin. It is precisely the purpose of the activity of which was the study and promotion of the Belarusian language, culture and art, familiarization with the cultural values ​​of a wide range of people through the creation and support of branches, stationary and mobile libraries, lectures and concerts.',
     timeline: [
       {date: '1896', text: 'First visited the theater.'},
       {date: '1906', text: 'On the pages of «Nasha Niva" appeared his first poems and stories.'},
       {date: '1913', text: 'The first book «Stories» was published in Petersburg.'},
       {date: '1917', text: 'The First «Belarusian Drama and Comedy Society» was revived, previously banned by the authorities of the Russian Empire. The Golubok enters into society with his wife and children and makes his first attempts at drama. For the fall of 1917 alone, Golubok wrote three plays, which immediately puts his corpse.'},
-      {date: '1920', text: 'headed the Drama section of the cultural and educational organization «Fern Flower» in Slutsk.'},
-      {date: '1924', text: 'an order was issued by the People’s Commissariat of Education on transforming the corpses of the Golubok into the Belarusian State Troupe.'},
+      {date: '1920', text: 'Headed the Drama section of the cultural and educational organization «Fern Flower» in Slutsk.'},
+      {date: '1924', text: 'An order was issued by the People’s Commissariat of Education on transforming the corpses of the Golubok into the Belarusian State Troupe.'},
       {date: '1928', text: 'Awarded the title of People\'s Artist of the Republic. Golubok became the first Belarusian national artist.'},
       {date: '1931', text: 'The Theater by Golubok is being reorganized, it is called BGT-3 (Belarusian Third State Theater) and is “prescribed” in Gomel. Tours in the districts, however, continued.'},
       {date: '1933', text: 'BST-3 plays the play "White Weapon". The play tells of the wrecking activity of "enemies of the people" at one of the plants.'},
@@ -174,25 +170,27 @@ const directors = [
   },
   {
     id: '2',
-    url: 'bujnicki',
     name: 'Ignat Buinitsky',
     born: '22 August 1861',
     deceased: '22 September 1917',
     description: 'Belarusian actor, director, theater figure, creator of the national professional theater, participant in literary life.',
     image: 'https://seanmcdonorg.files.wordpress.com/2018/08/2018-06-23_ent_41837548_i1.jpg',
     placeOfBirth: 'Polivachi, Gluboksky district, Vitebsk region',
-    placeOfDeath: 'Polochany, Molodechno district, Minsk region',
-    shortBiography : 'Ignat (Ignatius) Buinitsky (August 10 (22), 1861, the estate of Polivachi of the Prozorok volost, now Glubokoe district of the Vitebsk region - September 9 (22), 1917) - Belarusian actor, director, theater figure, founder of the first professional national Belarusian theater.\nThe Buynitsky Theater showed performances in towns and villages of Belarus, toured in Vilnius, Minsk, Polotsk, St. Petersburg, Warsaw and other cities. His activities laid the foundations of the Belarusian professional theater art. Ignat Buinitsky directed most of the performances himself. In 1917, he was one of the initiators of the creation of the "First Partnership of the Belarusian Drama and Comedy" in Minsk.',
+    shortBiography : 'Belarusian actor, director, theater figure, founder of the first professional national Belarusian theater. He was called the father of the Belarusian theater. Ignatiy Buinitsky first brought the “peasant” dance to the stage as a performer and director, showing the inexhaustible possibilities and beauty of Belarusian folk dances. As a dramatic actor, he performed mainly in characteristic roles, skillfully revealing humor and subtle irony. In Prozoroki, in the high school building, the museum of the founder of the Belarusian theater was created, where posters of performances, photos of the troupe, letters of Zoska Veras and Zygmunt Abramovich, memoirs of prozorok old residents are presented. In the square is the grave of Ignatius Buinitsky and a monument to him',
     timeline: [
-      {date: '1907', text: 'founded a theater in Palivachi, where his relatives first participated.'},
+      {date: '1907', text: 'Founded a theater in Palivachi, where his relatives first participated.'},
       {date: '1910', text: 'On February 12, in Vilna, the Buynichsky Theater, at a special invitation from the editorial board of "Nasha Niva", took part in a performance that went down in history under the title “The First Belarusian Party in Vilna.'},
-      {date: '1910—1913', text: 'the theater toured Belarus (Minsk, Slutsk, Polotsk, Disna, Sventsyany, Pastavy, Nesvizh, Lyakhovichi), performed twice in St. Petersburg (1911, 1912), as well as in Warsaw (1913).'},
+      {date: '1910 — 1913', text: 'The theater toured Belarus (Minsk, Slutsk, Polotsk, Disna, Sventsyany, Pastavy, Nesvizh, Lyakhovichi), performed twice in St. Petersburg (1911, 1912), as well as in Warsaw (1913).'},
       {date: '1913', text: 'Due to material difficulties and pressure from the tsarist authorities, the activities of the troupe were discontinued.'},
-      {date: '1914', text: 'tried to create a new troupe, however, the 1st World War prevented the implementation of this plan.'},
+      {date: '1914', text: 'Tried to create a new troupe, however, the 1st World War prevented the implementation of this plan.'},
       {date: '1917', text: 'During the First World War he went to the Western Front, was in military service in Molodechno.'},
     ],
     project: [
-      {date: '1910', text: '«The first Belarusian party in Vilnius»'},
+      {date: '1910', text: '«On revision» by M. Krapivnitsky'},
+      {date: '1910', text: '«Sewing fools» by M. Krapivnitsky'},
+      {date: '1910', text: '«Ham» by E. Orzeszko'},
+      {date: '1910', text: '«On a winter evening» by E. Orzeszko'},
+      {date: '1910', text: '«Fashionable nobleman» by K. Kaganets'},
     ],
     video: 'https://www.youtube.com/watch?v=ACDGr4TUkvs&feature=emb_logo',
     mapData: {
@@ -228,22 +226,20 @@ const directors = [
   },
   {
     id: '3',
-    url: 'pinigin',
     name: 'Nikolai Pinigin',
     born: '6 August 1957',
     deceased: 'our days',
     description: 'Belarusian director, Honored Artist of the Republic of Belarus.',
     image: 'https://s9.stc.all.kpcdn.net/share/i/4/1432456/inx960x1380.jpg',
     placeOfBirth: 'Izum, Kharkov region, USSR',
-    placeOfDeath: ' ',
-    shortBiography : 'Nikolai Pinigin (6 August 1957, Izum, Kharkov region, Ukraine) - Russian theater director, artistic director of the National Academic theater by Yanka Kupala, honored Artist in Republic of Belarus.',
+    shortBiography : 'Belarusian director, Honored Artist of the Republic of Belarus. Being a very popular director, N.N. Pinigin tries and invariably succeeds in various types of theatrical art, whether it be a drama theater, a musical theater, or a puppet theater. Laureate of the State Prize of the Republic of Belarus. Recognized as the “Person of the Year in Belarus” in the nomination “Scene”. Laureate of the BSTD Prize named after E. Mirovich in the nomination "For the best direction". Diploma-holder at international festivals in Krakow (Poland), Moscow (Russia), Kharkov (Ukraine), Bratislava (Slovakia), Tallinn (Estonia), Vilnius (Lithuania).',
     timeline: [
       {date: '1979', text: 'Graduated from the directing department of the Belarusian Theater and Art Institute.'},
-      {date: '1980—1982', text: 'worked at the Russian Drama Theater. M. Gorky (Minsk).'},
+      {date: '1980 — 1982', text: 'Worked at the Russian Drama Theater. M. Gorky (Minsk).'},
       {date: '1985', text: 'Director of the National Academic Theater by Yanka Kupala.'},
-      {date: '1985-1987', text: 'Lecturer at the Department of Actor and Directing Skills at the Belarusian Academy of Arts.'},
+      {date: '1985 — 1987', text: 'Lecturer at the Department of Actor and Directing Skills at the Belarusian Academy of Arts.'},
       {date: '1998', text: 'Director of the Bolshoi Drama Theater. G. A. Tovstonogov (St. Petersburg)'},
-      {date: '2008', text: 'became the main director of the National Academic Theater by Yanka Kupala.'},
+      {date: '2008', text: 'Became the main director of the National Academic Theater by Yanka Kupala.'},
     ],
     project: [
       {date: '1979', text: '«Night stagecoach»'},
@@ -288,21 +284,19 @@ const directors = [
   },
   {
     id: '4',
-    url: 'aleksandrouskaja',
     name: 'Larisa Alexandrovskaya',
     born: '15 February 1904',
     deceased: '23 May 1980',
     description: 'Belarusian opera singer (soprano), theater director, director and public figure.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/0/0c/%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg',
     placeOfBirth: 'Minsk',
-    placeOfDe6ath: 'Minsk',
-    shortBiography : 'Larisa Aleksandrovskaya (February 2 (15), 1902 (official data - 1904) Minsk - May 23, 1980) - Belarusian Soviet opera singer (soprano), director, publicist and public figure. People\'s Artist of the USSR (1940).',
+    shortBiography : 'Беларуская оперная спявачка (сапрана), тэатральны рэжысёр, рэжысёр і грамадскі дзеяч. Незвычайнай прыгажосці голас, унутраны напор і энергетыка. Ёй першай з беларускіх артыстаў у 1940 годзе было прысуджана званне народнай артысткі Савецкага Саюза. Праз год прысуджана Сталінская прэмія. Аляксандраўская валодала ўсім, каб лічыцца зоркай першай велічыні ў дзяржаве. І сапраўды, непадзельна правілы беларускім оперным тэатрам некалькі дзесяцігоддзяў, таму што была не проста часткай беларускай музычнай культуры, а адным з яе заснавальнікаў. На Аляксандраўскую арыентаваліся ўсе вядучыя беларускія кампазітары, ствараючы свае оперы ў сярэдзіне 1930-х і пасляваенныя гады. У гэты час Аляксандраўская стала сімвалам беларускага мастацтва і Беларусі наогул.',
     timeline: [
-      {date: '1919-1924', text: 'member of the troupe at the political department of the Western Front.'},
-      {date: '1927', text: 'performs Belarusian folk songs at the International Music Exhibition in Frankfurt.'},
+      {date: '1919 — 1924', text: 'Member of the troupe at the political department of the Western Front.'},
+      {date: '1927', text: 'Performs Belarusian folk songs at the International Music Exhibition in Frankfurt.'},
       {date: '1933', text: 'Artist of the Belarusian Opera and Ballet Theater.'},
-      {date: '1946', text: 'became the chairman of the Belarusian Theater Association.'},
-      {date: '1951—1960', text: 'The main director of the Belarusian Opera and Ballet Theater.'},
+      {date: '1946', text: 'Became the chairman of the Belarusian Theater Association.'},
+      {date: '1951 — 1960', text: 'The main director of the Belarusian Opera and Ballet Theater.'},
       {date: '1976', text: 'Appointed Honorary Chairman of the Belarusian Theater Association.'},
     ],
     project: [
@@ -347,23 +341,21 @@ const directors = [
   },
   {
     id: '5',
-    url: 'lutsenka',
     name: 'Boris Lutsenko',
     born: '16 September 1937',
     deceased: '5 February 2020',
     description: 'Belarusian theater director, People\'s Artist of Belarus.',
     image: 'https://www.rustheatre.by/images/stories/administration/lutsenko_black.jpg',
     placeOfBirth: 'Maykop, Adygeisk Autonomous Oblast, USSR',
-    placeOfDe6ath: 'Minsk',
-    shortBiography : 'Boris Lutsenko (September 16, 1937, Maykop, Krasnodar Territory - February 5, 2020, Minsk) - Soviet and Belarusian film and theater director. People\'s Artist of the Republic of Belarus (1995). Honored Artist of the Belarusian SSR (1975).',
+    shortBiography : 'Belarusian director of theater and cinema. People\'s Artist of the Republic of Belarus. Honored Artist of the Belarusian SSR. The creativity of B. Lutsenko is characterized by a desire for stage metaphor, psychological certainty in the characteristics of the characters, the search for expressive plastic solutions. He has his own vision of the world and the role of man in it, believes that the magic ramp, if it does not heal, then at least console and slightly help, if not all, but at least a few. He is one of the leading and famous directors of Belarus. He has staged over a hundred performances on the stages of the country and abroad.',
     timeline: [
-      {date: '1962—1967', text: 'studied at the Belarusian Theater and Art Institute.'},
-      {date: '1967', text: 'admitted to the Belarusian Theater by Y. Kupala.'},
-      {date: '1970', text: 'began to teach at the Belarusian Academy of Arts.'},
-      {date: '1973-1981', text: 'chief director of the State Russian Drama Theater by M. Gorky.'},
-      {date: '1981-1982', text: 'Director of the Kupalovsky Theater.'},
-      {date: '1982—1991', text: 'The main director of the Studio Theater of the film actor.'},
-      {date: '1991-2007', text: 'Artistic Director of the National Academic Drama Theater by M. Gorky.'},
+      {date: '1962 — 1967', text: 'Studied at the Belarusian Theater and Art Institute.'},
+      {date: '1967', text: 'Admitted to the Belarusian Theater by Y. Kupala.'},
+      {date: '1970', text: 'Began to teach at the Belarusian Academy of Arts.'},
+      {date: '1973 — 1981', text: 'Chief director of the State Russian Drama Theater by M. Gorky.'},
+      {date: '1981 — 1982', text: 'Director of the Kupalovsky Theater.'},
+      {date: '1982 — 1991', text: 'The main director of the Studio Theater of the film actor.'},
+      {date: '1991 — 2007', text: 'Artistic Director of the National Academic Drama Theater by M. Gorky.'},
     ],
     project: [
       {date: '1970', text: '«Memory of the heart» by Alexandra Korneichuk'},
@@ -406,24 +398,25 @@ const directors = [
   },
   {
     id: '6',
-    url: 'kryzanowski',
     name: 'Evgeny Kryzhanovsky',
     born: '6 June 1955',
     deceased: 'our days',
     description: 'Belarusian actor and chief director of the Minsk Theater of Satire and Humor «Christopher», Honored Artist of the Republic of Belarus.',
     image: 'http://st.oede.by/st/files/new%20year%202014/zvezda/zvezda_6.jpg',
     placeOfBirth: 'Nikolaev, Nikolaev region, USSR, USSR',
-    placeOfDe6ath: ' ',
-    shortBiography : 'Yevgeny Kryzhanovsky (born June 6, 1955, Nikolaev, Ukrainian SSR, USSR) is a Soviet and Belarusian comedian, actor and chief director of the Minsk Theater of Satire and Humor "Hristofor" (1986-2016). Artistic director of the television project "Humorinka" (2015-2019). Artistic Director of the Cinema Center Evgeny Kryzhanovsky. Honored Artist of the Republic of Belarus (2015).',
+    shortBiography : 'Belarusian comedian, actor and chief director of the Minsk Theater of Satire and Humor "Christopher". Artistic director of the television project "Humorinka". Artistic Director of the Cinema Center Evgeny Kryzhanovsky. Honored Artist of the Republic of Belarus.',
     timeline: [
-      {date: '1972', text: 'studied at a school in Kozelsk (RSFSR).'},
-      {date: '1973', text: 'entered the Belarusian Theater and Art Institute in the acting department.'},
-      {date: '1977', text: 'accepted into the troupe of the Yanka Kupala Academic Theater.'},
-      {date: '1986', text: 'created the theater of satire and humor «Christopher». He played more than 30 major and major roles.'},
+      {date: '1972', text: 'Studied at a school in Kozelsk (RSFSR).'},
+      {date: '1973', text: 'Entered the Belarusian Theater and Art Institute in the acting department.'},
+      {date: '1977', text: 'Accepted into the troupe of the Yanka Kupala Academic Theater.'},
+      {date: '1986', text: 'Created the theater of satire and humor «Christopher». He played more than 30 major and major roles.'},
     ],
     project: [
-      {date: '1982', text: '«Kupala night»'},
-      {date: '1985', text: '«Go and look»'},
+      {date: '1987', text: '«Who is who?»'},
+      {date: '1987', text: '«Good night, kids»'},
+      {date: '1992', text: '«Well sitting!»'},
+      {date: '1996', text: '«Yesterday, Today, Tomorrow»'},
+      {date: '2000', text: '«Just stand, just fall»'},
     ],
     video: 'https://www.youtube.com/watch?v=2q_HkfBF3AY',
     mapData: {
@@ -464,15 +457,23 @@ const addText = 'Since the mid-18th century, serf theaters began to spread in Be
 
 const firstQuote = {
   author: 'Jarko Petan',
-  text: "In the theater, the director is God, but the actors, alas, are atheists.",
+  text:"\"In the theater, the director is God, but the actors, alas, are atheists.\"",
 }
 
 const secondQuote = {
   author: 'George Bernard Shaw',
-  text: "Director's work is incompatible with acting: the actor will fail if he will critically look at his partners.",
+  text: "\"Director's work is incompatible with acting: the actor will fail if he will critically look at his partners.\"",
 }
 
 const directorOfTheDay = 'Director of the day';
+
+const directorPageTitles = {
+  timeline: 'Timeline',
+  work: 'Work',
+  dateOfCreation: 'Date of creation',
+  map: 'Map',
+  gallery: 'Gallery'
+}
 
 export default {
   developers,
@@ -495,4 +496,5 @@ export default {
   firstQuote,
   secondQuote,
   directorOfTheDay,
+  directorPageTitles
 }

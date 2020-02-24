@@ -1,0 +1,135 @@
+.main-page {
+    padding: 100px 0 300px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 220px;
+}
+
+.introduction-text {
+    font-family: IBM Plex Sans, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 31px;
+    vertical-align: top;
+    width: 600px;
+}
+
+.quotes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 190px;
+}
+
+.firstQuote,
+.secondQuote {
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondQuote {
+    padding-top: 100px;
+}
+
+.quote-wrapper {
+    color: #F54D1C;
+}
+
+.quote-wrapper q {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.quote-wrapper p{
+    font-size: 20px;
+    line-height: 25px; 
+}
+
+.history {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 190px;
+}
+
+.history-text {
+    font-family: IBM Plex Sans, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 31px;
+    vertical-align: top;
+    width: 570px;
+}
+
+.directorOfDay {
+    border: 2px solid #F54D1C;
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.directorOfDay-container {
+    width: 642px;
+}
+
+.directorOfDay-container h4 {
+    font-family: IBM Plex Sans, Arial, sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 31px;
+    color: #F54D1C;
+    opacity: 0.8;
+    padding-bottom: 8px;
+}
+
+.directorDay-name {
+    font-family: Montserrat, Arial, sans-serif;;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.005em;
+    color: #F54D1C;
+    padding-bottom: 8px;
+    position: relative;
+}
+
+.directorOfDay-nameContainer {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.directorOfDay-nameContainer span {
+    font-family: IBM Plex Sans, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 70px;
+    color: #F54D1C;
+}
+
+.directorDay-dates {
+    font-family: IBM Plex Sans, Arial, sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 31px;
+    color: #F54D1C;
+    opacity: 0.8;
+    padding-bottom: 62px;
+}
+
+.directorDay-description {
+    font-family: IBM Plex Sans, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+}
