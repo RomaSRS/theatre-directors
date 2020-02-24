@@ -4,7 +4,6 @@ import './VideoBlock.css';
 export default class VideoBlock extends PureComponent {
   render() {
     function closePopUp() {
-      // document.getElementById('director-video').stopVideo();
       document.getElementById('director-video').src = '';
 
       document.getElementById('popup-window').style.display = 'none';
