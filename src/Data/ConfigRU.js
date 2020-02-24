@@ -136,7 +136,7 @@ const directors = [
       {date: '1927', text: '«Краб»'},
       {date: '1933', text: '«Белое оружие»'},
     ],
-    video: 'https://www.youtube.com/watch?v=FQ054q0969g',
+    video: 'https://www.youtube.com/embed/FQ054q0969g',
     mapData: {
       center: [53.9032207, 27.5344804],
       zoom: 12,
@@ -192,7 +192,7 @@ const directors = [
       {date: '1910', text: '«В зимний вечер» Э. Ожешко'},
       {date: '1910', text: '«Модный шляхтич» К. Каганца'},
     ],
-    video: 'https://www.youtube.com/watch?v=ACDGr4TUkvs&feature=emb_logo',
+    video: 'https://www.youtube.com/embed/ACDGr4TUkvs',
     mapData: {
       center: [55.2899866, 28.220279],
       zoom: 12,
@@ -250,7 +250,7 @@ const directors = [
       {date: '2000', text: '«Ложь на длинных ногах» Э. де Филиппо'},
       {date: '2001', text: '«Таланты и поклонники» А. Н. Островского'},
     ],
-    video: 'https://www.youtube.com/watch?v=lexVZsR-GF0',
+    video: 'https://www.youtube.com/embed/lexVZsR-GF0',
     mapData: {
       center: [59.927614, 30.330527],
       zoom: 12,
@@ -307,7 +307,7 @@ const directors = [
       {date: '1957', text: '«Михась Подгорный» Е. Тикоцкого'},
       {date: '1960', text: '«Пиковая дама» П. Чайковского'},
     ],
-    video: 'https://www.youtube.com/watch?v=eDYuC8m5wsw&feature=youtu.be',
+    video: 'https://www.youtube.com/embed/eDYuC8m5wsw',
     mapData: {
       center: [53.9103046, 27.5615253],
       zoom: 12,
@@ -364,7 +364,7 @@ const directors = [
       {date: '1985', text: '"Не боюсь Вирджинии Вульф» Эдварда Олби'},
       {date: '1990', text: '«Генералы в юбках» Жана Ануя'},
     ],
-    video: 'https://www.youtube.com/watch?v=C3TMCDZA2rY',
+    video: 'https://www.youtube.com/embed/C3TMCDZA2rY',
     mapData: {
       center: [53.898314, 27.5507955],
       zoom: 12,
@@ -418,7 +418,7 @@ const directors = [
       {date: '1996', text: '«Вчера, сегодня, завтра»'},
       {date: '2000', text: '«Хоть стой, хоть падай»'},
     ],
-    video: 'https://www.youtube.com/watch?v=2q_HkfBF3AY',
+    video: 'https://www.youtube.com/embed/2q_HkfBF3AY',
     mapData: {
       center: [53.9008774, 27.5626722],
       zoom: 12,

@@ -1,0 +1,18 @@
+import React, { PureComponent } from 'react';
+import './VideoBlock.css';
+
+export default class VideoBlock extends PureComponent {
+  render() {
+    function closePopUp() {
+      document.getElementById('popup-window').style.display = 'none';
+    }
+    return (
+      <div id="popup-window">
+        <div id="video-block">
+          <button id="close-video" type="button" onClick={closePopUp}>Close</button>
+          <iframe title="youtube" id="director-video" width="817" height="470" src="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+      </div>
+    );
+  }
+}
