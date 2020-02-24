@@ -5,7 +5,6 @@ import './DirectorMainInfo.css';
 function DirectorMainInfo(props) {
     const { data } = props;
     const { born, deceased, shortBiography, name, image } = data;
-
     return (
         <div className="director-main-info">
             <div className="director-main-info-description">

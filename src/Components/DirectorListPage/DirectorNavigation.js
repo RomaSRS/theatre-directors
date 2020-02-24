@@ -17,7 +17,7 @@ class FilterDirector extends React.Component {
   handleFilterTextChange = filterText => {
     this.setState({ filterText: filterText });
 	};
-	
+
   render() {
     return (
       <div className="director-filter">
@@ -56,6 +56,7 @@ function AboutDirector(props) {
 	let { id } = useParams();
   const index = props.author.findIndex(item => item.id === id);
   const data = props.author[index];
+  console.log(props.titles)
   return <DirectorPage titles={props.titles} data={data} />;
 }
 
