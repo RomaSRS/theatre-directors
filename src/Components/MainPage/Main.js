@@ -7,8 +7,12 @@ import theatreImage from '../../Assets/Images/Theatre.jpg';
 
 
 function changeLink() {
+    const columnOne = Array.from(document.body.querySelector('.column-1').children);
+    const parent = [...columnOne];
     
-    
+    parent[0].classList.remove('active');
+    parent[1].classList.add('active');  
+
 }
 
 function DirectorOfDay(props) {
@@ -23,7 +27,7 @@ function DirectorOfDay(props) {
     return <div className="directorOfDay">
                 <div className="directorOfDay-container">
                     <h4>{header}</h4>
-                    <a href={`list/${weekDay}`} onClick={() => changeLink()}>
+                    <a href={`list/${weekDay}`} onClick={(e) => changeLink()}>
                         <div className="directorOfDay-nameContainer">
                             <p className="directorDay-name">{directorName}</p>
                             <span>→</span>
