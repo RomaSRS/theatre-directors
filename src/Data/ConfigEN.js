@@ -76,7 +76,7 @@ const directors = [
       {date: '1937', text: '«How steel was tempered» by N. Ostrovsky'},
       {date: '1939', text: '«Wonderful pipe» by Volsky'},
     ],
-    // video: '',
+    video: 'https://www.youtube.com/embed/Yunms45xnog',
     mapData: {
       center: [53.9226577, 27.6010486],
       zoom: 12,
