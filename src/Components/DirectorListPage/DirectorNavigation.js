@@ -17,7 +17,7 @@ class FilterDirector extends React.Component {
   handleFilterTextChange = filterText => {
     this.setState({ filterText: filterText });
 	};
-	
+
   render() {
     return (
       <div className="director-filter">

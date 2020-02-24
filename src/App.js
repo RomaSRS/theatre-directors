@@ -4,6 +4,7 @@ import DirectorNavigation from "./Components/DirectorListPage/DirectorNavigation
 import Worklog from "./Components/WorklogPage/Worklog";
 import DevelopersList from "./Components/DevelopersListPage/DevelopersList";
 import MainPage from "./Components/MainPage/Main";
+import VideoBlock from "./Components/VideoBlock/VideoBlock";
 import configEN from "./Data/ConfigEN";
 import configBY from "./Data/ConfigBY";
 import configRU from "./Data/ConfigRU";
@@ -20,7 +21,7 @@ import {
 class App extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = { lang: localStorage.getItem('Activelang') };
+    this.state = { lang: localStorage.getItem('Activelang') };
 	};
 
 	toggleLang = target => {
@@ -63,7 +64,7 @@ class App extends React.Component {
 
 		target.classList.add("active");
 		sessionStorage.setItem('ActiveLink', target.href);
-	}
+  }
 
 	render() {
 		let { lang } = this.state;
@@ -127,7 +128,8 @@ class App extends React.Component {
 						</Switch>
 					</div>
 				</Router>
-			</div>
+			  <VideoBlock />
+      </div>
 		);
 	}
 }
