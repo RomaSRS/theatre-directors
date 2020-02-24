@@ -12,7 +12,7 @@ li {
 	background-repeat: no-repeat;
 	background-size: cover;
 	outline: none;
-	font-family: Montserrat;
+  font-family: "Montserrat", "Arial", "sans-serif";
 	font-style: normal;
 	font-weight: 900;
 	font-size: 42px;
@@ -33,7 +33,7 @@ li {
 	width: 346px;
 	height: auto;
 	margin-top: 10px;
-	font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans", "Arial", "sans-serif";
 	font-style: normal;
 	font-weight: 300;
 	font-size: 24px;
@@ -73,16 +73,8 @@ li {
 
 
 @media (max-width: 620px) {
-	.director-link {
-		width: 200px;
-    height: 240px;
-    font-size: 18px;
-    line-height: 32px;
-	}
-
 	.description {
-		width: 210px;
-		font-size: 15px;
+	margin-bottom: 30px;
 	}
 
 }
