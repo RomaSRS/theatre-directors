@@ -76,7 +76,7 @@ const directors = [
       {date: '1937', text: '«Як гартавалася сталь» па М. Астроўскаму'},
       {date: '1939', text: '«Цудоўная дудка» Вольскага'},
     ],
-    // video: '',
+    video: 'https://www.youtube.com/embed/Yunms45xnog',
     mapData: {
       center: [53.9226577, 27.6010486],
       zoom: 12,

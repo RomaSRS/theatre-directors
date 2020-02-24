@@ -76,7 +76,7 @@ const directors = [
       {date: '1937', text: '«Как закалялась сталь» по Н. Островскому'},
       {date: '1939', text: '«Чудесная дудка» Вольского'},
     ],
-    // video: '',
+    video: 'https://www.youtube.com/embed/Yunms45xnog',
     mapData: {
       center: [53.9226577, 27.6010486],
       zoom: 12,
