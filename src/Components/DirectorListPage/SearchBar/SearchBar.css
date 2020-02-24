@@ -4,7 +4,7 @@
 	padding: 4px 50px;
 	margin-bottom: 40px;
 	border: 2px solid #F54D1C;
-	background: url('./Image/search.svg');
+	background: url('../../../Assets/Icons/search.svg');
 	background-repeat: no-repeat;
 	background-position: 4px;
 	background-size: contain;
