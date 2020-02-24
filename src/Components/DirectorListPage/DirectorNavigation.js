@@ -55,8 +55,10 @@ function DirectorNavigation(props) {
 function AboutDirector(props) {
 	let { id } = useParams();
   const index = props.author.findIndex(item => item.id === id);
-  const data = props.author[index];
-  console.log(props.titles)
+	const data = props.author[index];
+	useEffect(() => {
+		document.body.scrollTop = document.documentElement.scrollTop = 0;
+	});
   return <DirectorPage titles={props.titles} data={data} />;
 }
 

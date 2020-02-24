@@ -40,7 +40,7 @@
   padding-left: 10px;
   padding-top: 330px;
   margin: 0;
-  font-family: Montserrat;
+  font-family: "Montserrat", "Arial", "sans-serif";
   font-style: normal;
   font-weight: 900;
   font-size: 33px;
@@ -52,7 +52,7 @@
 .developer-contribution {
   height: min-content;
   margin: 0;
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans", "Arial", "sans-serif";
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
