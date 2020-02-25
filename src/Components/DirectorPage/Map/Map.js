@@ -31,7 +31,7 @@ class Map extends React.Component {
     }
 
     render() {
-        return <div>
+        return <div className="map-wrapper">
             <p className="map-title">{this.titles.map}</p>
             <div id='map'></div>
         </div>
