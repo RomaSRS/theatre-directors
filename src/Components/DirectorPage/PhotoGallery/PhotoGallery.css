@@ -1,0 +1,56 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery {
+  width: 346px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.image-gallery-slides {
+  height: 495px !important;
+}
+
+.image-gallery-left-nav,
+.image-gallery-right-nav {
+  padding: 0px 5px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+.image-gallery-left-nav,
+.image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+  width: 70px !important;
+}
+
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+  height: 50px !important;
+}
+
+.image-gallery-fullscreen-button,
+.image-gallery-play-button {
+  bottom: 0 !important;
+  padding: 10px !important;
+}
+
+.image-gallery-fullscreen-button .image-gallery-svg,
+.image-gallery-play-button .image-gallery-svg {
+  height: 25px !important;
+  width: 25px !important;
+}
+
+.image-gallery-image {
+  width: 100% !important;
+	height: 100% !important;
+	object-fit: contain !important;
+	object-position: center !important;
+}
+
+.image-gallery-slides {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  object-fit: cover !important;
+
+}

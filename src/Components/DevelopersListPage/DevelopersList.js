@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import Developer from './Developer.js';
+import Developer from './Developer';
 import './DevelopersList.css';
 
 export default class DevelopersList extends PureComponent {
@@ -13,6 +13,7 @@ export default class DevelopersList extends PureComponent {
         {developers.map(developerData => {
           return (
             <Developer
+              key={developerData.id}
               developerData={developerData}
             />
           );
