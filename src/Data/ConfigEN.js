@@ -1,3 +1,28 @@
+const colors = [
+  {
+    id: 'orange',
+    name: 'Accent Orange',
+    hex: '# F54D1C',
+  },
+  {
+    id: 'black',
+    name: 'Black',
+    hex: '# 000000',
+  },
+  {
+    id: 'grey',
+    name: 'Grey',
+    hex: '# F5F2EC',
+  },
+];
+
+const styleguideNav = {
+  colorsTitle: 'Colors',
+  buttonsLinksTitle: 'Buttons / Links',
+  buttonsLinksName: 'Link',
+  textStylesTitle: 'Text styles',
+};
+
 const developers = [
   {
     id: 'D0',
@@ -455,12 +480,14 @@ const firstQuote = {
 
 const secondQuote = {
   author: 'George Bernard Shaw',
-  text: "\"Director\'s work is incompatible with acting: the actor will fail if he will critically look at his partners.\"",
+  text: "\"Director's work is incompatible with acting: the actor will fail if he will critically look at his partners.\"",
 }
 
 const directorOfTheDay = 'Director of the day';
 
 export default {
+  styleguideNav,
+  colors,
   developers,
   directors,
   directorsLink: 'List of directors',

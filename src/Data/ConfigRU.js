@@ -1,3 +1,28 @@
+const colors = [
+  {
+    id: 'orange',
+    name: 'Акцент Оранжевый',
+    hex: '# F54D1C',
+  },
+  {
+    id: 'black',
+    name: 'Черный',
+    hex: '# 000000',
+  },
+  {
+    id: 'grey',
+    name: 'Серый',
+    hex: '# F5F2EC',
+  },
+];
+
+const styleguideNav = {
+  colorsTitle: 'Цвета',
+  buttonsLinksTitle: 'Кнопки / Ссылки',
+  buttonsLinksName: 'Ссылка',
+  textStylesTitle: 'Стиль текста',
+};
+
 const developers = [
   {
     id: 'D0',
@@ -461,6 +486,8 @@ const secondQuote = {
 const directorOfTheDay = 'Режиссёр дня';
 
 export default {
+  styleguideNav,
+  colors,
   developers,
   directors,
   directorsLink: 'Режиссёры',
