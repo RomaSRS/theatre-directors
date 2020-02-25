@@ -1,4 +1,9 @@
 .video {
+  width: 190px;
+  height: 136px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0;
   border: none;
   background: none;
@@ -9,4 +14,9 @@
 .youtube-image {
   width: 160px;
   height: 112px;
+}
+
+.youtube-image:hover {
+  width: 180px;
+  height: 126px;
 }
