@@ -55,7 +55,7 @@ const directors = [
     name: 'Evstigney Mirovich',
     born: '10 August 1878',
     deceased: '16 February 1952',
-    description: 'Belarusian playwright and theater director',
+    description: 'Belarusian playwright and theater director.',
 		image: 'https://boom.ms/wp-content/uploads/f/foto-babushek-i-dedushek-v-molodosti/6.jpg',
     placeOfBirth: 'St. Petersburg',
     shortBiography : 'Russian and Belarusian playwright, artist, director and teacher. One of the founders of the Belarusian national Soviet theater. Books about S.A. Petrovich “People\'s Artist of the BSSR E. A. Mirovich” (1963) and “Evstigney Mirovich” (1978) were published about the actor and director; the pedagogical activity of E. A. Mirovich is the subject of a chapter in the book of his student A. I. Butakov, “My teachers” (2004); chapters have been written about his life in encyclopedias; the memoirs of contemporaries in periodicals and the Internet are published. A postage stamp for the 100th anniversary of E. A. Mirovich and a postcard with the original stamp for his 125th anniversary were issued. On the creative fate of E. A. Mirovich, the Belarusfilm film studio shot the documentary Throughout Life (1978). A memorial plaque in honor of the outstanding theater figure Yevstigney Afinogenovich Mirovich was opened on the building of the Belarusian Academy of Arts.',
@@ -76,7 +76,7 @@ const directors = [
       {date: '1937', text: '«How steel was tempered» by N. Ostrovsky'},
       {date: '1939', text: '«Wonderful pipe» by Volsky'},
     ],
-    // video: '',
+    video: 'https://www.youtube.com/embed/Yunms45xnog',
     mapData: {
       center: [53.9226577, 27.6010486],
       zoom: 12,
@@ -136,7 +136,7 @@ const directors = [
       {date: '1927', text: '«Crab»'},
       {date: '1933', text: '«White Weapon»'},
     ],
-    video: 'https://www.youtube.com/watch?v=FQ054q0969g',
+    video: 'https://www.youtube.com/embed/FQ054q0969g',
     mapData: {
       center: [53.9032207, 27.5344804],
       zoom: 12,
@@ -186,9 +186,13 @@ const directors = [
       {date: '1917', text: 'During the First World War he went to the Western Front, was in military service in Molodechno.'},
     ],
     project: [
-      {date: '1910', text: '«The first Belarusian party in Vilnius»'},
+      {date: '1910', text: '«On revision» by M. Krapivnitsky'},
+      {date: '1910', text: '«Sewing fools» by M. Krapivnitsky'},
+      {date: '1910', text: '«Ham» by E. Orzeszko'},
+      {date: '1910', text: '«On a winter evening» by E. Orzeszko'},
+      {date: '1910', text: '«Fashionable nobleman» by K. Kaganets'},
     ],
-    video: 'https://www.youtube.com/watch?v=ACDGr4TUkvs&feature=emb_logo',
+    video: 'https://www.youtube.com/embed/ACDGr4TUkvs',
     mapData: {
       center: [55.2899866, 28.220279],
       zoom: 12,
@@ -246,7 +250,7 @@ const directors = [
       {date: '2000', text: '«Lying on long legs» by E. de Filippo'},
       {date: '2001', text: '«Talents and fans» by A. Ostrovsky'},
     ],
-    video: 'https://www.youtube.com/watch?v=lexVZsR-GF0',
+    video: 'https://www.youtube.com/embed/lexVZsR-GF0',
     mapData: {
       center: [59.927614, 30.330527],
       zoom: 12,
@@ -303,7 +307,7 @@ const directors = [
       {date: '1957', text: '«Mikhas Podgorny» by E. Tikotsky'},
       {date: '1960', text: '«The Queen of Spades» by P. Tchaikovsky'},
     ],
-    video: 'https://www.youtube.com/watch?v=eDYuC8m5wsw&feature=youtu.be',
+    video: 'https://www.youtube.com/embed/eDYuC8m5wsw',
     mapData: {
       center: [53.9103046, 27.5615253],
       zoom: 12,
@@ -360,7 +364,7 @@ const directors = [
       {date: '1985', text: '«Not Afraid of Virginia Woolf» by bEdward Albee'},
       {date: '1990', text: '«Generals in skirts» by Zhana Anuya'},
     ],
-    video: 'https://www.youtube.com/watch?v=C3TMCDZA2rY',
+    video: 'https://www.youtube.com/embed/C3TMCDZA2rY',
     mapData: {
       center: [53.898314, 27.5507955],
       zoom: 12,
@@ -408,10 +412,13 @@ const directors = [
       {date: '1986', text: 'Created the theater of satire and humor «Christopher». He played more than 30 major and major roles.'},
     ],
     project: [
-      {date: '1982', text: '«Kupala night»'},
-      {date: '1985', text: '«Go and look»'},
+      {date: '1987', text: '«Who is who?»'},
+      {date: '1987', text: '«Good night, kids»'},
+      {date: '1992', text: '«Well sitting!»'},
+      {date: '1996', text: '«Yesterday, Today, Tomorrow»'},
+      {date: '2000', text: '«Just stand, just fall»'},
     ],
-    video: 'https://www.youtube.com/watch?v=2q_HkfBF3AY',
+    video: 'https://www.youtube.com/embed/2q_HkfBF3AY',
     mapData: {
       center: [53.9008774, 27.5626722],
       zoom: 12,
@@ -455,10 +462,18 @@ const firstQuote = {
 
 const secondQuote = {
   author: 'George Bernard Shaw',
-  text: "\"Director\'s work is incompatible with acting: the actor will fail if he will critically look at his partners.\"",
+  text: "\"Director's work is incompatible with acting: the actor will fail if he will critically look at his partners.\"",
 }
 
 const directorOfTheDay = 'Director of the day';
+
+const directorPageTitles = {
+  timeline: 'Timeline',
+  work: 'Work',
+  dateOfCreation: 'Date of creation',
+  map: 'Map',
+  gallery: 'Gallery'
+}
 
 export default {
   developers,
@@ -481,4 +496,5 @@ export default {
   firstQuote,
   secondQuote,
   directorOfTheDay,
+  directorPageTitles
 }

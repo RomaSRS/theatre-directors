@@ -13,6 +13,7 @@ export default class DevelopersList extends PureComponent {
         {developers.map(developerData => {
           return (
             <Developer
+              key={developerData.id}
               developerData={developerData}
             />
           );

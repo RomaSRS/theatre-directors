@@ -76,7 +76,7 @@ const directors = [
       {date: '1937', text: '«Как закалялась сталь» по Н. Островскому'},
       {date: '1939', text: '«Чудесная дудка» Вольского'},
     ],
-    // video: '',
+    video: 'https://www.youtube.com/embed/Yunms45xnog',
     mapData: {
       center: [53.9226577, 27.6010486],
       zoom: 12,
@@ -136,7 +136,7 @@ const directors = [
       {date: '1927', text: '«Краб»'},
       {date: '1933', text: '«Белое оружие»'},
     ],
-    video: 'https://www.youtube.com/watch?v=FQ054q0969g',
+    video: 'https://www.youtube.com/embed/FQ054q0969g',
     mapData: {
       center: [53.9032207, 27.5344804],
       zoom: 12,
@@ -174,7 +174,7 @@ const directors = [
     born: '22 августа 1861',
     deceased: '22 сентября 1917',
     description: 'Белорусский актер, режиссер, театральный деятель, создатель национального профессионального театра, участник литературной жизни.',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Ihnat_Bujnicki.jpg',
+    image: 'https://seanmcdonorg.files.wordpress.com/2018/08/2018-06-23_ent_41837548_i1.jpg',
     placeOfBirth: 'усадьба Поливачи Прозорокской волости, ныне Глубокский район Витебской области',
     shortBiography : 'Белорусский актёр, режиссёр, театральный деятель, основатель первого профессионального национального белорусского театра. Его называли отцом белорусского театра. Игнатий Буйницкий впервые вывел "мужицкий" танец на сцену, как исполнитель и постановщик, показав неисчерпаемые возможности и красоту белорусских народных танцев. Как драматический актер выступал преимущественно в характерных ролях, умело выявлял юмор и тонкую иронию. В Прозороках, в здании средней школы создан музей основателя белорусского театра, где представлены афиши спектаклей, фотографии труппы, письма Зоськи Верас и Зигмунта Абрамовича, воспоминания прозорокских старожилов. В сквере расположена могила Игнатия Буйницкого и памятник ему.',
     timeline: [
@@ -186,9 +186,13 @@ const directors = [
       {date: '1917', text: 'Во время Первой мировой войны отправился на Западный фронт, был на военной службе в Молодечно.'},
     ],
     project: [
-      {date: '1910', text: '«Первая белорусская вечеринка в Вильно'},
+      {date: '1910', text: '«По ревизии» М. Крапивницкого'},
+      {date: '1910', text: '«Пошились в дурни» М. Крапивницкого'},
+      {date: '1910', text: '«Хам» Э. Ожешко'},
+      {date: '1910', text: '«В зимний вечер» Э. Ожешко'},
+      {date: '1910', text: '«Модный шляхтич» К. Каганца'},
     ],
-    video: 'https://www.youtube.com/watch?v=ACDGr4TUkvs&feature=emb_logo',
+    video: 'https://www.youtube.com/embed/ACDGr4TUkvs',
     mapData: {
       center: [55.2899866, 28.220279],
       zoom: 12,
@@ -246,7 +250,7 @@ const directors = [
       {date: '2000', text: '«Ложь на длинных ногах» Э. де Филиппо'},
       {date: '2001', text: '«Таланты и поклонники» А. Н. Островского'},
     ],
-    video: 'https://www.youtube.com/watch?v=lexVZsR-GF0',
+    video: 'https://www.youtube.com/embed/lexVZsR-GF0',
     mapData: {
       center: [59.927614, 30.330527],
       zoom: 12,
@@ -303,7 +307,7 @@ const directors = [
       {date: '1957', text: '«Михась Подгорный» Е. Тикоцкого'},
       {date: '1960', text: '«Пиковая дама» П. Чайковского'},
     ],
-    video: 'https://www.youtube.com/watch?v=eDYuC8m5wsw&feature=youtu.be',
+    video: 'https://www.youtube.com/embed/eDYuC8m5wsw',
     mapData: {
       center: [53.9103046, 27.5615253],
       zoom: 12,
@@ -360,7 +364,7 @@ const directors = [
       {date: '1985', text: '"Не боюсь Вирджинии Вульф» Эдварда Олби'},
       {date: '1990', text: '«Генералы в юбках» Жана Ануя'},
     ],
-    video: 'https://www.youtube.com/watch?v=C3TMCDZA2rY',
+    video: 'https://www.youtube.com/embed/C3TMCDZA2rY',
     mapData: {
       center: [53.898314, 27.5507955],
       zoom: 12,
@@ -408,10 +412,13 @@ const directors = [
       {date: '1986', text: 'Создал театр сатиры и юмора «Христофор». Сыграл более 30 больших и главных ролей.'},
     ],
     project: [
-      {date: '1982', text: '«Купальская ночь»'},
-      {date: '1985', text: '«Иди и смотри»'},
+      {date: '1987', text: '«Кто кого?»'},
+      {date: '1987', text: '«Спокойной ночи, малыши»'},
+      {date: '1992', text: '«Хорошо сидим!»'},
+      {date: '1996', text: '«Вчера, сегодня, завтра»'},
+      {date: '2000', text: '«Хоть стой, хоть падай»'},
     ],
-    video: 'https://www.youtube.com/watch?v=2q_HkfBF3AY',
+    video: 'https://www.youtube.com/embed/2q_HkfBF3AY',
     mapData: {
       center: [53.9008774, 27.5626722],
       zoom: 12,
@@ -460,6 +467,14 @@ const secondQuote = {
 
 const directorOfTheDay = 'Режиссёр дня';
 
+const directorPageTitles = {
+  timeline: 'Хроника',
+  work: 'Работа',
+  dateOfCreation: 'Дата создания',
+  map: 'Карта',
+  gallery: 'Галерея'
+}
+
 export default {
   developers,
   directors,
@@ -481,4 +496,5 @@ export default {
   firstQuote,
   secondQuote,
   directorOfTheDay,
+  directorPageTitles
 }

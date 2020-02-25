@@ -1,0 +1,15 @@
+.video {
+  width: min-content;
+  height: min-content;
+  padding: 5px;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 90px;
+  color: #F54D1C;
+}
