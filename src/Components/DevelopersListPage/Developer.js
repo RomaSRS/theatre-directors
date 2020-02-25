@@ -9,7 +9,7 @@ export default class Developer extends PureComponent {
     } = this.props;
 
     return (
-      <div key={developerData.id} className="developer">
+      <div className="developer">
         <p className="developer-name">{developerData.name}</p>
         <img className="developer-photo" src={developerData.image} alt={developerData.name} />
         <div className="social-links">

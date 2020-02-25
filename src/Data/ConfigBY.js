@@ -76,7 +76,7 @@ const directors = [
       {date: '1937', text: '«Як гартавалася сталь» па М. Астроўскаму'},
       {date: '1939', text: '«Цудоўная дудка» Вольскага'},
     ],
-    // video: '',
+    video: 'https://www.youtube.com/embed/Yunms45xnog',
     mapData: {
       center: [53.9226577, 27.6010486],
       zoom: 12,
@@ -136,7 +136,7 @@ const directors = [
       {date: '1927', text: '«Краб»'},
       {date: '1933', text: '«Белая зброя»'},
     ],
-    video: 'https://www.youtube.com/watch?v=FQ054q0969g',
+    video: 'https://www.youtube.com/embed/FQ054q0969g',
     mapData: {
       center: [53.9032207, 27.5344804],
       zoom: 12,
@@ -174,7 +174,7 @@ const directors = [
     born: '22 жніўня 1861',
     deceased: '22 верасня 1917',
     description: 'Беларускі акцёр, рэжысёр, тэатральны дзеяч, стваральнік нацыянальнага прафесійнага тэатра, удзельнік літаратурнага жыцця.',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Ihnat_Bujnicki.jpg',
+    image: 'https://seanmcdonorg.files.wordpress.com/2018/08/2018-06-23_ent_41837548_i1.jpg',
     placeOfBirth: 'фальварак Палівачы, Празароцкая воласць (цяпер Глыбоцкі раён), Дзісенскі павет',
     shortBiography : 'Беларускі акцёр, рэжысёр, тэатральны дзеяч, заснавальнік першага прафесійнага нацыянальнага беларускага тэатра. Яго называлі бацькам беларускага тэатра. Ігнат Буйніцкі ўпершыню вывеў «мужыцкі" танец на сцэну, як выканаўца і пастаноўшчык, паказаўшы невычэрпныя магчымасці і прыгажосць беларускіх народных танцаў. Як драматычны акцёр выступаў пераважна ў характэрных ролях, умела выяўляў гумар і тонкую іронію. У Празароках, у будынку сярэдняй школы створаны музей заснавальніка беларускага тэатра, дзе прадстаўлены афішы спектакляў, фатаграфіі трупы, лісты Зоські Верас і Зыгмунта Абрамовіча, успаміны прозорокских старажылаў. У скверы размешчана магіла Ігната Буйніцкага і помнік яму.',
     timeline: [
@@ -186,9 +186,13 @@ const directors = [
       {date: '1917', text: 'У час Першай сусветнай вайны адправіўся на Заходні фронт, быў на вайсковай службе ў Маладзечне.'},
     ],
     project: [
-      {date: '1910', text: '«Першая беларуская вечарынка ў Вільні»'},
+      {date: '1910', text: '«Па рэвізіі» М. Крапіўніцкага'},
+      {date: '1910', text: '«Пашыліся ў дурні» М. Крапіўніцкага'},
+      {date: '1910', text: '«Хам» Э. Ажэшкі'},
+      {date: '1910', text: '«У зімовы вечар» Э. Ажэшкі'},
+      {date: '1910', text: '«Модны шляхцюк» К. Каганца'},
     ],
-    video: 'https://www.youtube.com/watch?v=ACDGr4TUkvs&feature=emb_logo',
+    video: 'https://www.youtube.com/embed/ACDGr4TUkvs',
     mapData: {
       center: [55.2899866, 28.220279],
       zoom: 12,
@@ -246,7 +250,7 @@ const directors = [
       {date: '2000', text: '«Хлусня на доўгіх нагах» Э. дэ Філіпа'},
       {date: '2001', text: '«Таленты і прыхільнікі» А. М. Астроўскага'},
     ],
-    video: 'https://www.youtube.com/watch?v=lexVZsR-GF0',
+    video: 'https://www.youtube.com/embed/lexVZsR-GF0',
     mapData: {
       center: [59.927614, 30.330527],
       zoom: 12,
@@ -303,7 +307,7 @@ const directors = [
       {date: '1957', text: '«Міхась Падгорны» Я. Цікоцкага'},
       {date: '1960', text: '«Пікавая дама» П. Чайкоўскага'},
     ],
-    video: 'https://www.youtube.com/watch?v=eDYuC8m5wsw&feature=youtu.be',
+    video: 'https://www.youtube.com/embed/eDYuC8m5wsw',
     mapData: {
       center: [53.9103046, 27.5615253],
       zoom: 12,
@@ -360,7 +364,7 @@ const directors = [
       {date: '1985', text: '«Не баюся Вірджыніі Вульф» Эдварда Олбі'},
       {date: '1990', text: '«Генералы ў спадніцах» Жана Ануя'},
     ],
-    video: 'https://www.youtube.com/watch?v=C3TMCDZA2rY',
+    video: 'https://www.youtube.com/embed/C3TMCDZA2rY',
     mapData: {
       center: [53.898314, 27.5507955],
       zoom: 12,
@@ -408,10 +412,13 @@ const directors = [
       {date: '1986', text: 'Стварыў тэатр сатыры і гумару «Хрыстафор». Згуляў больш за 30 вялікіх і галоўных роляў.'},
     ],
     project: [
-      {date: '1982', text: '«Купальская ноч»'},
-      {date: '1985', text: '«Ідзі і глядзі»'},
+      {date: '1987', text: '«Хто каго?»'},
+      {date: '1987', text: '«Дабранач, малышы»'},
+      {date: '1992', text: '«Добра сядзім!»'},
+      {date: '1996', text: '«Учора, сёння, заўтра»'},
+      {date: '2000', text: '«Хоць стой, хоць падай»'},
     ],
-    video: 'https://www.youtube.com/watch?v=2q_HkfBF3AY',
+    video: 'https://www.youtube.com/embed/2q_HkfBF3AY',
     mapData: {
       center: [53.9008774, 27.5626722],
       zoom: 12,
@@ -460,6 +467,14 @@ const secondQuote = {
 
 const directorOfTheDay = 'Рэжысёр дня';
 
+const directorPageTitles = {
+  timeline: 'Хроніка',
+  work: 'Работа',
+  dateOfCreation: 'Дата стварэння',
+  map: 'Карта',
+  gallery: 'Галерэя'
+}
+
 export default {
   directors,
   developers,
@@ -481,4 +496,5 @@ export default {
   firstQuote,
   secondQuote,
   directorOfTheDay,
+  directorPageTitles
 }
