@@ -10,6 +10,7 @@ class Map extends React.Component {
         this.titles = props.titles;
         this.location = props.data.mapData.center.reverse();
         this.zoom = props.data.mapData.zoom;
+        this.place = props.data.mapData.place;
     }
 
     componentDidMount() {
@@ -26,7 +27,7 @@ class Map extends React.Component {
         new mapboxgl.Marker(el)
             .setLngLat(this.location)
             .setPopup(new mapboxgl.Popup({ offset: 25 })
-                .setHTML('<h3>Name of the theatre</h3><p>address</p>'))
+                .setHTML('<h3>'+this.place+'</h3>'))
             .addTo(map);
     }
 
