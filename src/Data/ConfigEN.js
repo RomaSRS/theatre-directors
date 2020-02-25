@@ -79,6 +79,7 @@ const directors = [
     video: 'https://www.youtube.com/embed/Yunms45xnog',
     mapData: {
       center: [53.9226577, 27.6010486],
+      place: 'Belarusian Academy of Arts',
       zoom: 12,
     },
     photos: [
@@ -129,7 +130,8 @@ const directors = [
     ],
     video: 'https://www.youtube.com/embed/FQ054q0969g',
     mapData: {
-      center: [53.9032207, 27.5344804],
+      center: [52.431906, 31.0122417],
+      place: 'Belarusian third State Theater',
       zoom: 12,
     },
     photos: [
@@ -177,6 +179,7 @@ const directors = [
     video: 'https://www.youtube.com/embed/ACDGr4TUkvs',
     mapData: {
       center: [55.2899866, 28.220279],
+      place: 'Theater in home',
       zoom: 12,
     },
     photos: [
@@ -226,6 +229,7 @@ const directors = [
     video: 'https://www.youtube.com/embed/lexVZsR-GF0',
     mapData: {
       center: [59.927614, 30.330527],
+      place: 'Tovstonogov Bolshoi Drama Theater',
       zoom: 12,
     },
     photos: [
@@ -274,6 +278,7 @@ const directors = [
     video: 'https://www.youtube.com/embed/eDYuC8m5wsw',
     mapData: {
       center: [53.9103046, 27.5615253],
+      place: 'The National Academic Grand Opera and Ballet Theatre',
       zoom: 12,
     },
     photos: [
@@ -322,6 +327,7 @@ const directors = [
     video: 'https://www.youtube.com/embed/C3TMCDZA2rY',
     mapData: {
       center: [53.898314, 27.5507955],
+      place: 'Theater by M. Gorky',
       zoom: 12,
     },
     photos: [
@@ -367,6 +373,7 @@ const directors = [
     video: 'https://www.youtube.com/embed/2q_HkfBF3AY',
     mapData: {
       center: [53.9008774, 27.5626722],
+      place: 'National Academic Theater by Y. Kupala',
       zoom: 12,
     },
     photos: [

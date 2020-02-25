@@ -79,6 +79,7 @@ const directors = [
     video: 'https://www.youtube.com/embed/Yunms45xnog',
     mapData: {
       center: [53.9226577, 27.6010486],
+      place: 'Беларуская дзяржаўная акадэмія мастацтваў',
       zoom: 12,
     },
     photos: [
@@ -129,7 +130,8 @@ const directors = [
     ],
     video: 'https://www.youtube.com/embed/FQ054q0969g',
     mapData: {
-      center: [53.9032207, 27.5344804],
+      center: [52.431906, 31.0122417],
+      place: 'Беларускі трэці дзяржаўны тэатр',
       zoom: 12,
     },
     photos: [
@@ -177,6 +179,7 @@ const directors = [
     video: 'https://www.youtube.com/embed/ACDGr4TUkvs',
     mapData: {
       center: [55.2899866, 28.220279],
+      place: 'Тэатр на хаце',
       zoom: 12,
     },
     photos: [
@@ -226,6 +229,7 @@ const directors = [
     video: 'https://www.youtube.com/embed/lexVZsR-GF0',
     mapData: {
       center: [59.927614, 30.330527],
+      place: 'Вялікі драматычны тэатр імя Г. Таўстаногава',
       zoom: 12,
     },
     photos: [
@@ -274,6 +278,7 @@ const directors = [
     video: 'https://www.youtube.com/embed/eDYuC8m5wsw',
     mapData: {
       center: [53.9103046, 27.5615253],
+      place: 'Нацыянальны акадэмічны Вялікі тэатр оперы і балета',
       zoom: 12,
     },
     photos: [
@@ -322,6 +327,7 @@ const directors = [
     video: 'https://www.youtube.com/embed/C3TMCDZA2rY',
     mapData: {
       center: [53.898314, 27.5507955],
+      place: 'Тэатр імя М. Горкага',
       zoom: 12,
     },
     photos: [
@@ -367,6 +373,7 @@ const directors = [
     video: 'https://www.youtube.com/embed/2q_HkfBF3AY',
     mapData: {
       center: [53.9008774, 27.5626722],
+      place: 'Нацыянальны акадэмічны тэатр імя Янкі Купалы',
       zoom: 12,
     },
     photos: [
