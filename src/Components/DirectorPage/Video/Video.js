@@ -12,7 +12,7 @@ function Video(props) {
   }
     return (
       <button type='button' className='video' onClick={showPopUp}>
-        <img class='youtube-image' src={Youtube} alt='Youtube'></img>
+        <img className='youtube-image' src={Youtube} alt='Youtube'></img>
       </button>
     );
 }
