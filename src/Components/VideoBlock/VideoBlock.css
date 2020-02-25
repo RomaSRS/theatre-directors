@@ -4,8 +4,11 @@
   background-color: #00000080;
   overflow: hidden;
   position: fixed;
+  margin: auto;
   top: 0px;
+  left: 0;
   display: none;
+  cursor: not-allowed;
 }
 
 #video-block {

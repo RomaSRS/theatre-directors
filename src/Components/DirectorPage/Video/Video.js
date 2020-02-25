@@ -7,6 +7,7 @@ function Video(props) {
 
   function showPopUp() {
     document.getElementById('director-video').src = `${data.video}`;
+    document.querySelector('body').style.overflow = 'hidden';
     document.getElementById('popup-window').style.display = 'block';
   }
     return (

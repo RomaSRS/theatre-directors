@@ -5,8 +5,8 @@ export default class VideoBlock extends PureComponent {
   render() {
     function closePopUp() {
       document.getElementById('director-video').src = '';
-
       document.getElementById('popup-window').style.display = 'none';
+      document.querySelector('body').style.overflow = 'scroll';
     }
     return (
       <div id="popup-window">
