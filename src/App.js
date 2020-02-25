@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import DirectorNavigation from "./Components/DirectorListPage/DirectorNavigation";
 import Worklog from "./Components/WorklogPage/Worklog";
+import Styleguide from "./Components/StyleguidePage/Styleguide";
 import DevelopersList from "./Components/DevelopersListPage/DevelopersList";
 import MainPage from "./Components/MainPage/Main";
 import VideoBlock from "./Components/VideoBlock/VideoBlock";
@@ -82,7 +83,9 @@ class App extends React.Component {
 								<DevelopersList developers={data.developers} />
 							</Route>
 							<Route path="/style">
-								<div>style</div>
+								<Styleguide
+                  colorsData={data.colors}
+                  navTitle={data.styleguideNav}/>
 							</Route>
 							<Route path="/worklog">
 								<Worklog developers={data.developers} />

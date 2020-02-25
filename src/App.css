@@ -8,6 +8,12 @@
   src: url('./Assets/Fonts/Montserrat-Black.ttf') format('ttf');
 }
 
+  @font-face {
+  font-family: "IBM Plex Sans";
+  src: url('./Assets/Fonts/IBMPlexSans-Bold.woff') format('woff');
+  font-weight: bold;
+  }
+
 a {
   text-decoration: none;
 }

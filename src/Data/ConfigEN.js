@@ -1,3 +1,28 @@
+const colors = [
+  {
+    id: 'orange',
+    name: 'Accent Orange',
+    hex: '# F54D1C',
+  },
+  {
+    id: 'black',
+    name: 'Black',
+    hex: '# 000000',
+  },
+  {
+    id: 'grey',
+    name: 'Grey',
+    hex: '# F5F2EC',
+  },
+];
+
+const styleguideNav = {
+  colorsTitle: 'Colors',
+  buttonsLinksTitle: 'Buttons / Links',
+  buttonsLinksName: 'Link',
+  textStylesTitle: 'Text styles',
+};
+
 const developers = [
   {
     id: 'D0',
@@ -420,6 +445,8 @@ const directorPageTitles = {
 }
 
 export default {
+  styleguideNav,
+  colors,
   developers,
   directors,
   directorsLink: 'List of directors',
