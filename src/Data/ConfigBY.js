@@ -430,6 +430,7 @@ export default {
   searchLabel: 'Імя або месца нараджэння',
   directorsOfTheDayButton: 'Больш падрабязна',
   timelineTitle: 'Часовыя падзеі',
+  close: 'Зачыніць',
   otherInfo: {
     lang: 'by',
     title: 'Тэатральныя рэжысёры Беларусі',

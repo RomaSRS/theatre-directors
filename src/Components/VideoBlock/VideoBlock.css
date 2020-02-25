@@ -21,11 +21,11 @@
 }
 
 #close-video {
-  width: 76px;
-  height: 41px;
-  padding: 5px;
-  outline: none;
+  width: min-content;
+  height: min-content;
+  padding: 5px 10px;
   background-color: #F54D1C;
+  outline: none;
   border: none;
   user-select: none;
   font-family: "IBM Plex Sans", "Arial", "sans-serif";

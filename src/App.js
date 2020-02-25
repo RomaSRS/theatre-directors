@@ -90,7 +90,7 @@ class App extends React.Component {
 						</Switch>
 					</div>
 				</Router>
-			  <VideoBlock />
+			  <VideoBlock close={data.close}/>
       </div>
 		);
 	}

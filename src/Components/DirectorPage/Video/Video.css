@@ -1,16 +1,12 @@
 .video {
-  width: min-content;
-  height: min-content;
-  padding: 5px;
+  padding: 0;
   border: none;
   background: none;
   outline: none;
   cursor: pointer;
-  font-family: "Montserrat", "Arial", "sans-serif";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 90px;
-  color: #F54D1C;
-  margin-bottom: 35px;
+}
+
+.youtube-image {
+  width: 160px;
+  height: 112px;
 }

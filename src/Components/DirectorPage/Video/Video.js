@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Youtube from '../../../Assets/Images/YouTube.png'
 import './Video.css';
 
 function Video(props) {
@@ -12,7 +12,7 @@ function Video(props) {
   }
     return (
       <button type='button' className='video' onClick={showPopUp}>
-        Youtube
+        <img class='youtube-image' src={Youtube} alt='Youtube'></img>
       </button>
     );
 }

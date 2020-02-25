@@ -430,6 +430,7 @@ export default {
   searchLabel: 'Name or place of birth',
   directorsOfTheDayButton: 'More details',
   timelineTitle: 'Timeline',
+  close: 'Close',
   otherInfo: {
     lang: 'en',
     title: 'Theater directors of Belarus',

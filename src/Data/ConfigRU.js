@@ -430,6 +430,7 @@ export default {
   searchLabel: 'Имя или место рождения',
   directorsOfTheDayButton: 'Подробнее',
   timelineTitle: 'Временные события',
+  close: 'Закрыть',
   otherInfo: {
     lang: 'ru',
     title: 'Театральные режиссёры Беларуси',
