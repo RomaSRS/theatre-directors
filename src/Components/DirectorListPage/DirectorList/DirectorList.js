@@ -1,7 +1,6 @@
 import React from "react";
 import "./DirectorList.css";
-import { Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 class Director extends React.Component {
@@ -45,4 +44,3 @@ class DirectorList extends React.Component {
 }
 
 export default DirectorList;
-
