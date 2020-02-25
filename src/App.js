@@ -21,7 +21,7 @@ import {
 class App extends React.Component {
 	constructor(props) {
 		super(props);
-    this.state = { lang: localStorage.getItem('Activelang') };
+    	this.state = { lang: localStorage.getItem('Activelang') };
 	};
 
 	toggleLang = target => {
@@ -90,7 +90,7 @@ class App extends React.Component {
 						</Switch>
 					</div>
 				</Router>
-			  <VideoBlock />
+			  <VideoBlock close={data.close}/>
       </div>
 		);
 	}

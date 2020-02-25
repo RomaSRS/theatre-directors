@@ -7,6 +7,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoia2F0ZTMxIiwiYSI6ImNrM3QxcmQ2eTBhbXEzbm5oaDZqc
 class Map extends React.Component {
     constructor(props) {
         super(props);
+        this.titles = props.titles;
         this.location = props.data.mapData.center.reverse();
         this.zoom = props.data.mapData.zoom;
     }
@@ -15,21 +16,25 @@ class Map extends React.Component {
         const map = new mapboxgl.Map({
             container: 'map',
             style: 'mapbox://styles/mapbox/navigation-preview-night-v4',
-            center: this.location, // starting position [lng, lat]
-            zoom: this.zoom // starting zoom
+            center: this.location,
+            zoom: this.zoom
         });
 
         var el = document.createElement('div');
         el.className = 'marker';
 
-        // make a marker for each feature and add to the map
         new mapboxgl.Marker(el)
             .setLngLat(this.location)
+            .setPopup(new mapboxgl.Popup({ offset: 25 })
+                .setHTML('<h3>Name of the theatre</h3><p>address</p>'))
             .addTo(map);
     }
 
     render() {
-        return <div id='map'></div>
+        return <div className="map-wrapper">
+            <p className="map-title">{this.titles.map}</p>
+            <div id='map'></div>
+        </div>
     }
 
 }
