@@ -17,7 +17,7 @@ const developers = [
   },
   {
     id: 'D2',
-    name: 'Katsiaryna Yakubouskaya',
+    name: 'Ekaterina Yakubouskaya',
     github: 'https://github.com/Katsiaryna31',
     telegram: 'https://t.me/KatsiarynaYa',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yakubovskaya.jpg',
