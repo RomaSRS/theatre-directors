@@ -1,0 +1,17 @@
+.worklog {
+    height: 5500px;
+}
+
+
+@media (max-width: 854px) {
+    .worklog {
+        height: 4500px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .worklog {
+        height: 6500px;
+    }
+}

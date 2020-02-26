@@ -21,6 +21,30 @@ const styleguideNav = {
   buttonsLinksTitle: 'Buttons / Links',
   buttonsLinksName: 'Link',
   textStylesTitle: 'Text styles',
+  size: 'Size',
+  lineHeight: 'Line Height',
+  letterSpacing: 'Letter Spacing',
+};
+
+const tasksData = {
+  tasksTitle: 'Maximum points - 240',
+  tasks: [
+    'Main page + page with a list of authors + author’s page - 10',
+    'Page with team members + page with worklog - 10',
+    'Page with list of authors contains search widget - 10',
+    'Portal has two languages - 20',
+    'Portal has page with styleguide - 20',
+    'Mobile version is okey - 10',
+    'Ipad/tablet version is okey - 10',
+    'Author’s page contains timeline - 10',
+    'Author’s page contains video overlay - 10',
+    'Author’s page contains photo gallery - 20',
+    'Author’s page contains map - 10',
+    'Design - 20',
+    'Material-ui is used - 20',
+    'Portal has third language - 10',
+    'Animations - 20',
+  ],
 };
 
 const developers = [
@@ -486,6 +510,7 @@ const secondQuote = {
 const directorOfTheDay = 'Director of the day';
 
 export default {
+  tasksData,
   styleguideNav,
   colors,
   developers,
