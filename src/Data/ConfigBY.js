@@ -30,7 +30,7 @@ const developers = [
     github: 'https://github.com/Rekaterina',
     telegram: 'https://t.me/rekaterina',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/rudenko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: '➤Створана старонка з інфармацыяй пра рэжысёра.\n ➤Рэалізаваная часовая шкала падзей.',
   },
   {
     id: 'D1',
@@ -38,7 +38,7 @@ const developers = [
     github: 'https://github.com/Vir45',
     telegram: 'https://t.me/Vova_Serko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/serko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: '➤Створаны Header, Navigation (routing), старонка са спісам рэжысёраў.\n ➤Рэалізаваны пераклад сайта на тры мовы.\n ➤Рэалізаваны пошук рэжысёраў.',
   },
   {
     id: 'D2',
@@ -46,7 +46,7 @@ const developers = [
     github: 'https://github.com/Katsiaryna31',
     telegram: 'https://t.me/KatsiarynaYa',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yakubovskaya.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: '➤Створана базавая структура праекта.\n ➤Рэалізаваная разметка галоўнай старонкі.\n ➤Рэалізаваная карта.',
   },
   {
     id: 'D3',
@@ -54,7 +54,7 @@ const developers = [
     github: 'https://github.com/antonyasko',
     telegram: 'https://t.me/anton_yasko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yasko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: '➤Створана старонка з членамі каманды.\n ➤Сазданы файлы з дадзенымі.\n ➤Рэалізаваны відэа блок.',
   },
   {
     id: 'D4',
@@ -62,7 +62,7 @@ const developers = [
     github: 'https://github.com/kirillleogky',
     telegram: 'https://t.me/KirillLeogky',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/leogky.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: '➤Саздан дызайн праекта.\n ➤Рэалізаваны старонкі з рабочым журналам і гідам па стылю.',
   },
   {
     id: 'D5',
@@ -70,7 +70,7 @@ const developers = [
     github: 'https://github.com/RomaSRS',
     telegram: 'https://t.me/RomanSRS',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: '➤Рэалізавана фота галерэя.',
   },
 ];
 
