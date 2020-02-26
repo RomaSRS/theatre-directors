@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import "./FilterDirector.css";
-import { Route, useParams,   useRouteMatch
-} from "react-router-dom";
-
+import { Route, useParams,   useRouteMatch } from "react-router-dom";
 import DirectorList from "./DirectorList/DirectorList";
 import SearchBar from "./SearchBar/SearchBar";
 import DirectorPage from "../DirectorPage/DirectorPage";
