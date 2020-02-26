@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import DirectorNavigation from "./Components/DirectorListPage/DirectorNavigation";
 import Worklog from "./Components/WorklogPage/Worklog";
+import Styleguide from "./Components/StyleguidePage/Styleguide";
 import DevelopersList from "./Components/DevelopersListPage/DevelopersList";
 import MainPage from "./Components/MainPage/Main";
 import VideoBlock from "./Components/VideoBlock/VideoBlock";
@@ -9,7 +10,7 @@ import configEN from "./Data/ConfigEN";
 import configBY from "./Data/ConfigBY";
 import configRU from "./Data/ConfigRU";
 import SelectLang from "./Components/Navigation/Select/Select"
-import Fade from 'react-reveal/Fade';
+
 
 import {
 	BrowserRouter as Router,
@@ -44,9 +45,7 @@ class App extends React.Component {
 				<Router>
 					<div className="header">
 						<div className="row-2">
-              <Fade left>
-                <h1 className="logo">{data.otherInfo.title}</h1>
-              </Fade>
+							<h1 className="logo">{data.otherInfo.title}</h1>
 							<ul className="navigation" onClick={this.getActive}>
 								<div className="column-1">
 									<NavLink exact  to="/">
@@ -84,7 +83,9 @@ class App extends React.Component {
 								<DevelopersList developers={data.developers} />
 							</Route>
 							<Route path="/style">
-								<div>style</div>
+								<Styleguide
+                  colorsData={data.colors}
+                  navTitle={data.styleguideNav}/>
 							</Route>
 							<Route path="/worklog">
 								<Worklog developers={data.developers} />

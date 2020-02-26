@@ -8,12 +8,9 @@ import theatreImage from '../../Assets/Images/Theatre.jpg';
 
 function changeLink() {
   const columnOne = Array.from(document.body.querySelector('.column-1').children);
-  const columnTwo = Array.from(document.body.querySelector('.column-2').children);
-  const parent = [...columnOne, ...columnTwo];
-  for (let i = 0; i < parent.length; i++) {
-    		if (parent[i].classList.contains("active"))
-    			parent[i].classList.remove("active")
-    	}
+  const parent = [...columnOne];
+  parent[0].classList.remove("active");
+  parent[1].classList.add("active");
 }
 
 function DirectorOfDay(props) {
@@ -92,5 +89,3 @@ class MainPage extends React.Component {
 }
 
 export default MainPage;
-
-

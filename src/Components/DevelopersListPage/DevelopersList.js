@@ -1,8 +1,6 @@
 import React, { PureComponent } from 'react';
 import Developer from './Developer';
 import './DevelopersList.css';
-import ScrollAnimation from 'react-animate-on-scroll';
-import "animate.css/animate.min.css";
 
 export default class DevelopersList extends PureComponent {
   render() {
@@ -10,10 +8,7 @@ export default class DevelopersList extends PureComponent {
       developers
     } = this.props;
 
-    return (
-      <ScrollAnimation animateIn='zoomIn'
-  animateOut='bounce'>
-      <div className="developers-list">
+    return <div className="developers-list">
         {developers.map(developerData => {
           return (
             <Developer
@@ -22,8 +17,6 @@ export default class DevelopersList extends PureComponent {
             />
           );
         })}
-      </div>
-      </ScrollAnimation>
-    );
+      </div>;
   }
 }

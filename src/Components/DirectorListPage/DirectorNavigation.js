@@ -17,19 +17,17 @@ class FilterDirector extends React.Component {
 	};
 
   render() {
-    return (
-      <div className="director-filter">
-        <SearchBar
-          handleFilterTextChange={this.handleFilterTextChange}
-          filterText={this.state.filterText}
-        />
-        <DirectorList
-          author={this.props.author}
-          filterText={this.state.filterText}
-          url={this.props.url}
-        />
-      </div>
-    );
+    return <div className="director-filter">
+          <SearchBar
+            handleFilterTextChange={this.handleFilterTextChange}
+            filterText={this.state.filterText}
+          />
+          <DirectorList
+            author={this.props.author}
+            filterText={this.state.filterText}
+            url={this.props.url}
+          />
+        </div>;
   }
 }
 

@@ -12,10 +12,10 @@ function DirectorMainInfo(props) {
                 <p className="director-short-biography">{shortBiography}</p>
             </div>
             <Zoom>
-            <div className="director-image-container">
+              <div className="director-image-container">
                 <img src={image} className="director-main-info-image" alt="director"/>
                 <p className="director-main-info-name">{name}</p>
-            </div>
+              </div>
             </Zoom>
         </div>
     );
