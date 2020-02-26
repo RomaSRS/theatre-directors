@@ -21,6 +21,9 @@ const styleguideNav = {
   buttonsLinksTitle: 'Buttons / Links',
   buttonsLinksName: 'Link',
   textStylesTitle: 'Text styles',
+  size: 'Size',
+  lineHeight: 'Line Height',
+  letterSpacing: 'Letter Spacing',
 };
 
 const developers = [

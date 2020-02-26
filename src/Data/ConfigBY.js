@@ -21,6 +21,9 @@ const styleguideNav = {
   buttonsLinksTitle: 'Кнопкі / Спасылкі',
   buttonsLinksName: 'Cпасылка',
   textStylesTitle: 'Стыль тэксту',
+  size: 'Памер',
+  lineHeight: 'Інтэрлін‎яж',
+  letterSpacing: 'Міжлітаральная адлегласць',
 };
 
 const developers = [

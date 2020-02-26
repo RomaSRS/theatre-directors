@@ -21,6 +21,9 @@ const styleguideNav = {
   buttonsLinksTitle: 'Кнопки / Ссылки',
   buttonsLinksName: 'Ссылка',
   textStylesTitle: 'Стиль текста',
+  size: 'Размер',
+  lineHeight: 'Интерлиньяж',
+  letterSpacing: 'Межбуквенное расстояние',
 };
 
 const developers = [
