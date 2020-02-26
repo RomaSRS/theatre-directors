@@ -21,6 +21,30 @@ const styleguideNav = {
   buttonsLinksTitle: 'Кнопки / Ссылки',
   buttonsLinksName: 'Ссылка',
   textStylesTitle: 'Стиль текста',
+  size: 'Размер',
+  lineHeight: 'Интерлиньяж',
+  letterSpacing: 'Межбуквенное расстояние',
+};
+
+const tasksData = {
+  tasksTitle: 'Максимальное количество очков - 240',
+  tasks: [
+    'Главная страница + страница со списком авторов + страница автора - 10',
+    'Страница с членами команды + страница с рабочим журналом - 10',
+    'Страница со списком авторов содержит виджет поиска - 10',
+    'Портал имеет два языка - 20',
+    'Портал имеет страницу с руководством по стилю - 20',
+    'Мобильная версия в порядке - 10',
+    'Версия для Ipad / планшета в порядке - 10',
+    'Страница автора содержит временную шкалу - 10',
+    'Страница автора содержит оверлей видео - 10',
+    'Страница автора содержит фотогалерею - 20',
+    'Страница автора содержит карту - 10',
+    'Дизайн - 20',
+    'Используется Material-ui - 20',
+    'Портал имеет третий язык - 10',
+    'Анимации - 20',
+  ],
 };
 
 const developers = [
@@ -30,7 +54,10 @@ const developers = [
     github: 'https://github.com/Rekaterina',
     telegram: 'https://t.me/rekaterina',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/rudenko.jpg',
-    contribution: '➤Создана страница с информацией о режиссёре.\n ➤Реализована временная шкала событий.',
+    contribution: [
+      '➤Создана страница с информацией о режиссёре.',
+      '➤Реализована временная шкала событий.'
+    ],
   },
   {
     id: 'D1',
@@ -38,7 +65,11 @@ const developers = [
     github: 'https://github.com/Vir45',
     telegram: 'https://t.me/Vova_Serko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/serko.jpg',
-    contribution: '➤Созданы Header, Navigation (routing), страница со списком режиссёров.\n ➤Реализован перевод сайта на три языка.\n ➤Реализован поиск режиссёров.',
+    contribution: [
+      '➤Созданы Header, Navigation (routing), страница со списком режиссёров.',
+      '➤Реализован перевод сайта на три языка.',
+      '➤Реализован поиск режиссёров.'
+    ],
   },
   {
     id: 'D2',
@@ -46,7 +77,11 @@ const developers = [
     github: 'https://github.com/Katsiaryna31',
     telegram: 'https://t.me/KatsiarynaYa',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yakubovskaya.jpg',
-    contribution: '➤Создана базовая структура проекта.\n ➤Реализована разметка главной страницы.\n ➤Реализована карта.',
+    contribution: [
+      '➤Создана базовая структура проекта.',
+      '➤Реализована разметка главной страницы.',
+      '➤Реализована карта.'
+    ],
   },
   {
     id: 'D3',
@@ -54,7 +89,11 @@ const developers = [
     github: 'https://github.com/antonyasko',
     telegram: 'https://t.me/anton_yasko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yasko.jpg',
-    contribution: '➤Создана страница с членами команды.\n ➤Созданы файлы с данными.\n ➤Реализован видео блок.',
+    contribution: [
+      '➤Создана страница с членами команды.',
+      '➤Созданы файлы с данными.',
+      '➤Реализован видео блок.'
+    ],
   },
   {
     id: 'D4',
@@ -62,7 +101,10 @@ const developers = [
     github: 'https://github.com/kirillleogky',
     telegram: 'https://t.me/KirillLeogky',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/leogky.jpg',
-    contribution: '➤Создан дизайн проекта.\n ➤Реализованы страницы с рабочим журналом и гидом по стилю.',
+    contribution: [
+      '➤Создан дизайн проекта.',
+      '➤Реализованы страницы с рабочим журналом и гидом по стилю.'
+    ],
   },
   {
     id: 'D5',
@@ -70,7 +112,9 @@ const developers = [
     github: 'https://github.com/RomaSRS',
     telegram: 'https://t.me/RomanSRS',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
-    contribution: '➤Реализована фото галерея.',
+    contribution: [
+      '➤Реализована фото галерея.'
+    ],
   },
 ];
 
@@ -445,6 +489,7 @@ const directorPageTitles = {
 }
 
 export default {
+  tasksData,
   styleguideNav,
   colors,
   developers,

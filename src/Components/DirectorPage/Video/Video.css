@@ -1,6 +1,7 @@
 .video {
-  width: 190px;
-  height: 136px;
+  width: 160px;
+  height: 112px;
+  margin: 7px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +17,14 @@
   height: 112px;
 }
 
+.video:hover {
+  width: 180px;
+  height: 126px;
+  margin: 0;
+}
+
 .youtube-image:hover {
   width: 180px;
   height: 126px;
+  opacity: 0.6;
 }

@@ -14,31 +14,31 @@ import Fade from 'react-reveal/Fade';
 
 
 import {
-	BrowserRouter as Router,
-	NavLink,
-	Route,
-	Switch,
+  BrowserRouter as Router,
+  NavLink,
+  Route,
+  Switch,
 } from "react-router-dom";
 
 class App extends React.Component {
-	constructor(props) {
+  constructor(props) {
 		super(props);
-    	this.state = { lang: localStorage.getItem('Activelang') };
-	};
+    this.state = { lang: localStorage.getItem('Activelang') };
+  };
 
-	toggleLang = target => {
-		this.setState({ lang: target.value });
-	};
+  toggleLang = target => {
+    this.setState({ lang: target.value });
+  };
 
-	render() {
-		let { lang } = this.state;
-		let data;
-		if (lang === 'en') {
+  render() {
+    let { lang } = this.state;
+    let data;
+    if (lang === 'ru') {
+      data = configRU;
+    } else if (lang === 'by') {
+      data = configBY;
+    } else {
 			data = configEN;
-		} else if (lang === 'ru') {
-			data = configRU;
-		} else {
-			data = configBY;
 		}
 
 		return (
@@ -91,15 +91,17 @@ class App extends React.Component {
                   navTitle={data.styleguideNav}/>
 							</Route>
 							<Route path="/worklog">
-								<Worklog developers={data.developers} />
+								<Worklog
+                  developers={data.developers}
+                  tasks={data.tasksData}/>
 							</Route>
 						</Switch>
 					</div>
 				</Router>
 			  <VideoBlock close={data.close}/>
       </div>
-		);
-	}
+    );
+  }
 }
 
 export default App;

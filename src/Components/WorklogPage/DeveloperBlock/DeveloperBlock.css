@@ -30,3 +30,40 @@
     width: 60% !important;
     margin-left: 5%;
 }
+
+
+@media (max-width: 854px) {
+    .developer_block-name {
+        font-size: 30px;
+        line-height: 44px;
+        top: 313px;
+    }
+    .developer_block-image_name {
+        width: 296px;
+        height: 395px;
+        background-size: cover !important;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .developer_block {
+        flex-direction: column;
+        height: 700px;
+    }
+
+    .developer_block-image_name {
+        margin: 0 auto;
+        width: 280px;
+        height: 295px;
+    }
+
+    .developer_block-time_feature {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    .developer_block-name {
+        top: 213px;
+    }
+}
