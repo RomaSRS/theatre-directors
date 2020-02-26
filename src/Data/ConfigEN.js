@@ -30,7 +30,7 @@ const developers = [
     github: 'https://github.com/Rekaterina',
     telegram: 'https://t.me/rekaterina',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/rudenko.jpg',
-    contribution: '➤Created markup Page of an director.\n ➤Implemented timeline block.\n',
+    contribution: '➤Created markup Page of an director.\n ➤Implemented timeline block.',
   },
   {
     id: 'D1',
