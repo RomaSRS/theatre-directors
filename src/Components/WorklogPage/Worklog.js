@@ -1,5 +1,6 @@
 import React from 'react';
 import Developer from "./DeveloperBlock/DeveloperBlock";
+import './Worklog.css';
 
 export default class Worklog extends React.Component {
   render() {
