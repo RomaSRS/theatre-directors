@@ -25,8 +25,9 @@ function DirectorOfDay(props) {
     const deadDate = props.data.directors[weekDay].deceased;
     const description = props.data.directors[weekDay].description;
     const image = props.data.directors[weekDay].image;
-    return <ScrollAnimation animateIn='fadeIn'
-    animateOut='fadeOut'><div className="directorOfDay">
+    return <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
+      <div className="directorOfDay">
+
                 <div className="directorOfDay-container">
                     <h4>{header}</h4>
                     <a href={`list/${weekDay}`} onClick={(e) => changeLink()}>
@@ -39,7 +40,8 @@ function DirectorOfDay(props) {
                     <p className="directorDay-description">{description}</p>
                 </div>
                 <img src={image} alt="Director of Day" width="236px" height="320px"></img>
-            </div></ScrollAnimation>
+            </div>
+          </ScrollAnimation>
 }
 
 function Introduction(props) {

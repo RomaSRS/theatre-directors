@@ -52,22 +52,22 @@ class App extends React.Component {
 							<ul className="navigation" onClick={this.getActive}>
 								<div className="column-1">
 									<NavLink exact  to="/">
-										<li className="navagation-link">{data.homePageLink}</li>
+										<li className="navigation-link">{data.homePageLink}</li>
 									</NavLink>
 									<NavLink exact to="/list">
-										<li className="navagation-link">{data.directorsLink}</li>
+										<li className="navigation-link">{data.directorsLink}</li>
 									</NavLink>
 									<NavLink exact to="/team">
-										<li className="navagation-link">{data.developersLink}</li>
+										<li className="navigation-link">{data.developersLink}</li>
 									</NavLink>
 								</div>
 								<div className="column-2">
 									<SelectLang toggleLang={this.toggleLang} />
 									<NavLink exact to="/style">
-										<li className="navagation-link">{data.styleguideLink}</li>
+										<li className="navigation-link">{data.styleguideLink}</li>
 									</NavLink>
 									<NavLink exact to="/worklog">
-										<li className="navagation-link">{data.worklogLink}</li>
+										<li className="navigation-link">{data.worklogLink}</li>
 									</NavLink>
 								</div>
 							</ul>
