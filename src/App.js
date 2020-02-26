@@ -86,7 +86,9 @@ class App extends React.Component {
                   navTitle={data.styleguideNav}/>
 							</Route>
 							<Route path="/worklog">
-								<Worklog developers={data.developers} />
+								<Worklog
+                  developers={data.developers}
+                  tasks={data.tasksData}/>
 							</Route>
 						</Switch>
 					</div>

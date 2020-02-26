@@ -16,3 +16,13 @@
     line-height: 31px;
     margin-top: 40px;
 }
+
+
+@media (max-width: 854px) {
+    .feature_block-title {
+        font-size: 30px;
+    }
+    .feature_block-feature {
+      font-size: 15px;
+    }
+}
