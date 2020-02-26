@@ -30,7 +30,10 @@ const developers = [
     github: 'https://github.com/Rekaterina',
     telegram: 'https://t.me/rekaterina',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/rudenko.jpg',
-    contribution: '➤Created markup Page of an director.\n ➤Implemented timeline block.',
+    contribution: [
+      '➤Created markup Page of an director.',
+      '➤Implemented timeline block.'
+    ],
   },
   {
     id: 'D1',
@@ -38,7 +41,11 @@ const developers = [
     github: 'https://github.com/Vir45',
     telegram: 'https://t.me/Vova_Serko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/serko.jpg',
-    contribution: '➤Created markup Header with Navigation (routing), Page with a list of directors.\n ➤Implemented a website translation into three languages (the whole team wrote the text).\n ➤Implemented directors Search.',
+    contribution: [
+      '➤Created markup Header with Navigation (routing), Page with a list of directors.',
+      '➤Implemented a website translation into three languages (the whole team wrote the text).',
+      '➤Implemented directors Search.'
+    ],
   },
   {
     id: 'D2',
@@ -46,7 +53,11 @@ const developers = [
     github: 'https://github.com/Katsiaryna31',
     telegram: 'https://t.me/KatsiarynaYa',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yakubovskaya.jpg',
-    contribution: '➤Created base structure of the project with CRA.\n ➤Implemented markup Main page.\n ➤Implemented map (geowidget).',
+    contribution: [
+      '➤Created base structure of the project with CRA.',
+      '➤Implemented markup Main page.',
+      '➤Implemented map (geowidget).'
+  ],
   },
   {
     id: 'D3',
@@ -54,7 +65,11 @@ const developers = [
     github: 'https://github.com/antonyasko',
     telegram: 'https://t.me/anton_yasko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yasko.jpg',
-    contribution: '➤Created markup Page with team members.\n ➤Created data files.\n ➤Implemented video overlay.',
+    contribution: [
+      '➤Created markup Page with team members.',
+      '➤Created data files.',
+      '➤Implemented video overlay.'
+    ],
   },
   {
     id: 'D4',
@@ -62,7 +77,10 @@ const developers = [
     github: 'https://github.com/kirillleogky',
     telegram: 'https://t.me/KirillLeogky',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/leogky.jpg',
-    contribution: '➤Created the project design.\n ➤Implemented markup Pages with worklog and styleguide.',
+    contribution: [
+      '➤Created the project design.',
+      '➤Implemented markup Pages with worklog and styleguide.'
+    ],
   },
   {
     id: 'D5',
@@ -70,7 +88,9 @@ const developers = [
     github: 'https://github.com/RomaSRS',
     telegram: 'https://t.me/RomanSRS',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
-    contribution: '➤Implemented photo gallery.',
+    contribution: [
+      '➤Implemented photo gallery.'
+    ],
   },
 ];
 
