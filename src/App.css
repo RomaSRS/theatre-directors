@@ -8,11 +8,11 @@
   src: url('./Assets/Fonts/Montserrat-Black.ttf') format('ttf');
 }
 
-  @font-face {
+@font-face {
   font-family: "IBM Plex Sans";
   src: url('./Assets/Fonts/IBMPlexSans-Bold.woff') format('woff');
   font-weight: bold;
-  }
+}
 
 a {
   text-decoration: none;
@@ -77,8 +77,34 @@ a:hover {
   color: #000000;
 }
 
+.column-1 a::after {
+  content: "\2192";
+  padding-left: 5px;
+  font-family: "IBM Plex Sans", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.column-2 a::after {
+  content: "\2192";
+  padding-left: 5px;
+  font-family: "IBM Plex Sans", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+}
+
 .active.active {
   color: #F54D1C;
+}
+
+.active.active::after {
+  content: "";
 }
 
 .column-2,
@@ -97,45 +123,54 @@ a:hover {
   align-items: flex-end;
 }
 
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper>div {
+  position: absolute;
+}
 
 
 @media (max-width: 1600px) {
-
-  .header {
-    margin-bottom: 50px;
-    padding-top: 10px;
-  }
-
-  .logo {
-    font-size: 74px;
-    line-height: 72px;
-  }
-
-  .navigation a {
-    margin: 40px 0 0 60px;
-    font-size: 24px;
-    line-height: 27px;
-  }
-
-}
-
-@media (max-width: 1300px) {
 
   .header {
     margin-bottom: 30px;
   }
 
   .logo {
-    font-size: 62px;
+    font-size: 76px;
     line-height: 64px;
   }
 
   .navigation a {
     margin: 30px 0 0 60px;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 23px;
   }
 
+  .column-1 a::after {
+    font-size: 20px;
+  }
+
+  .column-2 a::after {
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width: 1300px) {
+
+  .logo {
+    font-size: 68px;
+    line-height: 64px;
+  }
+
+  .navigation a {
+    margin: 30px 0 0 30px;
+    font-size: 20px;
+    line-height: 23px;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -152,6 +187,14 @@ a:hover {
     margin: 39px 0 0 0px;
     font-size: 28px;
     line-height: 31px;
+  }
+
+  .column-1 a::after {
+    font-size: 28px;
+  }
+
+  .column-2 a::after {
+    font-size: 28px;
   }
 
   .column-1 {
@@ -182,6 +225,14 @@ a:hover {
     font-size: 80px;
     line-height: 87px;
   }
+
+  .navigation a {
+    margin: 25px 0 0 0px;
+  }
+
+  .column-1 {
+    margin-right: 80px;
+  }
 }
 
 
@@ -193,11 +244,7 @@ a:hover {
   }
 
   .column-1 {
-    margin-right: 80px;
-  }
-
-  .navigation a {
-    margin: 25px 0 0 0px;
+    margin-right: 50px;
   }
 }
 
@@ -209,8 +256,10 @@ a:hover {
     line-height: 62px;
   }
 
-  .column-1 {
-    margin-right: 60px;
+  .navigation a {
+    margin: 20px 0 0 0px;
+    font-size: 22px;
+    line-height: 24px;
   }
 }
 
@@ -221,14 +270,18 @@ a:hover {
     line-height: 52px;
   }
 
-  .column-1 {
-    margin-right: 60px;
-  }
-
   .navigation a {
     margin: 20px 0 0 0px;
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .column-1 a::after {
+    font-size: 18px;
+  }
+
+  .column-2 a::after {
+    font-size: 18px;
   }
 }
 
@@ -240,13 +293,21 @@ a:hover {
   }
 
   .column-1 {
-    margin-right: 40px;
+    margin-right: 30px;
   }
 
   .navigation a {
-    margin: 20px 0 0 0px;
-    font-size: 18px;
-    line-height: 20px;
+    margin: 10px 0 0 0px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .column-1 a::after {
+    font-size: 14px;
+  }
+
+  .column-2 a::after {
+    font-size: 14px;
   }
 }
 
@@ -256,15 +317,5 @@ a:hover {
   .logo {
     font-size: 38px;
     line-height: 42px;
-  }
-
-  .column-1 {
-    margin-right: 20px;
-  }
-
-  .navigation a {
-    margin: 10px 0 0 0px;
-    font-size: 14px;
-    line-height: 18px;
   }
 }
