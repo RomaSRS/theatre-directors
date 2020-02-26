@@ -19,7 +19,6 @@
 	border-radius: 5px;
 }
 
-
 @media (max-width: 800px) {
 	.search-bar {
 		height: 30px;

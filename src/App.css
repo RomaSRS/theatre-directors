@@ -120,17 +120,11 @@ a:hover {
 }
 
 .column-2 {
-  align-items: flex-end;
 }
 
 .switch-wrapper {
   position: relative;
 }
-
-.switch-wrapper>div {
-  position: absolute;
-}
-
 
 @media (max-width: 1600px) {
 
