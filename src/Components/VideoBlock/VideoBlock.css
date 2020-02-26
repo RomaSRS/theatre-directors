@@ -7,6 +7,8 @@
   margin: auto;
   top: 0px;
   left: 0;
+  bottom: 0;
+  right: 0;
   display: none;
   cursor: not-allowed;
 }
@@ -71,7 +73,7 @@
 
 @media (max-width: 480px){
   #video-block {
-    width: 300px;
+    width: 280px;
     height: 249px;
   }
 }

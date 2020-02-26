@@ -51,6 +51,7 @@
 
 .developer-contribution {
   height: min-content;
+  text-align: left;
   margin: 0;
   font-family: "IBM Plex Sans", "Arial", "sans-serif";
   font-style: normal;
