@@ -54,7 +54,10 @@ const developers = [
     github: 'https://github.com/Rekaterina',
     telegram: 'https://t.me/rekaterina',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/rudenko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Створана старонка з інфармацыяй пра рэжысёра.',
+      '➤Рэалізаваная часовая шкала падзей.'
+    ],
   },
   {
     id: 'D1',
@@ -62,7 +65,11 @@ const developers = [
     github: 'https://github.com/Vir45',
     telegram: 'https://t.me/Vova_Serko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/serko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Створаны Header, Navigation (routing), старонка са спісам рэжысёраў.',
+      '➤Рэалізаваны пераклад сайта на тры мовы.',
+      '➤Рэалізаваны пошук рэжысёраў.'
+    ],
   },
   {
     id: 'D2',
@@ -70,7 +77,11 @@ const developers = [
     github: 'https://github.com/Katsiaryna31',
     telegram: 'https://t.me/KatsiarynaYa',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yakubovskaya.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Створана базавая структура праекта.',
+      '➤Рэалізаваная разметка галоўнай старонкі.',
+      '➤Рэалізаваная карта.'
+    ],
   },
   {
     id: 'D3',
@@ -78,7 +89,11 @@ const developers = [
     github: 'https://github.com/antonyasko',
     telegram: 'https://t.me/anton_yasko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yasko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Створана старонка з членамі каманды.',
+      '➤Сазданы файлы з дадзенымі.',
+      '➤Рэалізаваны відэа блок.'
+    ],
   },
   {
     id: 'D4',
@@ -86,7 +101,10 @@ const developers = [
     github: 'https://github.com/kirillleogky',
     telegram: 'https://t.me/KirillLeogky',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/leogky.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Саздан дызайн праекта.',
+      '➤Рэалізаваны старонкі з рабочым журналам і гідам па стылю.'
+    ],
   },
   {
     id: 'D5',
@@ -94,7 +112,9 @@ const developers = [
     github: 'https://github.com/RomaSRS',
     telegram: 'https://t.me/RomanSRS',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Рэалізавана фота галерэя.'
+    ],
   },
 ];
 
@@ -125,34 +145,26 @@ const directors = [
       {date: '1937', text: '«Як гартавалася сталь» па М. Астроўскаму'},
       {date: '1939', text: '«Цудоўная дудка» Вольскага'},
     ],
-    // video: '',
+    video: 'https://www.youtube.com/embed/Yunms45xnog',
     mapData: {
       center: [53.9226577, 27.6010486],
+      place: 'Беларуская дзяржаўная акадэмія мастацтваў',
       zoom: 12,
     },
     photos: [
       {
         num: 0,
         src: 'https://upload.wikimedia.org/wikipedia/ru/b/b1/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%B0%D0%BA%D1%82%D1%91%D1%80%D0%B0_%D0%95%D0%B2%D1%81%D1%82%D0%B8%D0%B3%D0%BD%D0%B5%D1%8F_%D0%9C%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87%D0%B0.JPG',
-        // width: 4,
-        // height: 3,
-        // title: 'Магіла Міровіча',
         text: 'Магіла Міровіча на Вайсковых могілках Мінска.'
       },
       {
         num: 1,
         src: 'https://img.tyt.by/n/obshchestvo/0b/4/08_mirovich-1952_620.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Партрэт Міровіча',
         text: 'Партрэт пэндзля народнага мастака БССР Івана Ахрэмчыка.'
       },
       {
         num: 2,
         src: 'https://img.tyt.by/n/obshchestvo/06/0/09_mirovich_doska_620.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Барэльеф Міровіча',
         text: 'Барэльеф Міровіча на фасадзе Беларускай акадэміі мастацтваў.'
       },
     ],
@@ -185,34 +197,26 @@ const directors = [
       {date: '1927', text: '«Краб»'},
       {date: '1933', text: '«Белая зброя»'},
     ],
-    video: 'https://www.youtube.com/watch?v=FQ054q0969g',
+    video: 'https://www.youtube.com/embed/FQ054q0969g',
     mapData: {
-      center: [53.9032207, 27.5344804],
+      center: [52.431906, 31.0122417],
+      place: 'Беларускі трэці дзяржаўны тэатр',
       zoom: 12,
     },
     photos: [
       {
         num: 0,
         src: 'https://upload.wikimedia.org/wikipedia/commons/1/19/%D0%A3%D0%BB%D0%B0%D0%B4%D1%8B%D1%81%D0%BB%D0%B0%D1%9E_%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Афіша',
         text: 'Афіша 1929 года'
       },
       {
         num: 1,
         src: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Haluboktheatre4.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Сцэна са спектаклю',
         text: 'Сцэна са спектаклю «Мой сябра» М. Пагодзіна, 1932 год.'
       },
       {
         num: 2,
         src: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/%D0%A3%D0%BB%D0%B0%D0%B4%D0%B7%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA._%D0%A4%D0%BE%D1%82%D0%B0.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Фотапартрэт',
         text: 'Уладзіслаў Галубок. Фотапартрэт'
       },
     ],
@@ -223,7 +227,7 @@ const directors = [
     born: '22 жніўня 1861',
     deceased: '22 верасня 1917',
     description: 'Беларускі акцёр, рэжысёр, тэатральны дзеяч, стваральнік нацыянальнага прафесійнага тэатра, удзельнік літаратурнага жыцця.',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Ihnat_Bujnicki.jpg',
+    image: 'https://seanmcdonorg.files.wordpress.com/2018/08/2018-06-23_ent_41837548_i1.jpg',
     placeOfBirth: 'фальварак Палівачы, Празароцкая воласць (цяпер Глыбоцкі раён), Дзісенскі павет',
     shortBiography : 'Беларускі акцёр, рэжысёр, тэатральны дзеяч, заснавальнік першага прафесійнага нацыянальнага беларускага тэатра. Яго называлі бацькам беларускага тэатра. Ігнат Буйніцкі ўпершыню вывеў «мужыцкі" танец на сцэну, як выканаўца і пастаноўшчык, паказаўшы невычэрпныя магчымасці і прыгажосць беларускіх народных танцаў. Як драматычны акцёр выступаў пераважна ў характэрных ролях, умела выяўляў гумар і тонкую іронію. У Празароках, у будынку сярэдняй школы створаны музей заснавальніка беларускага тэатра, дзе прадстаўлены афішы спектакляў, фатаграфіі трупы, лісты Зоські Верас і Зыгмунта Абрамовіча, успаміны прозорокских старажылаў. У скверы размешчана магіла Ігната Буйніцкага і помнік яму.',
     timeline: [
@@ -235,36 +239,32 @@ const directors = [
       {date: '1917', text: 'У час Першай сусветнай вайны адправіўся на Заходні фронт, быў на вайсковай службе ў Маладзечне.'},
     ],
     project: [
-      {date: '1910', text: '«Першая беларуская вечарынка ў Вільні»'},
+      {date: '1910', text: '«Па рэвізіі» М. Крапіўніцкага'},
+      {date: '1910', text: '«Пашыліся ў дурні» М. Крапіўніцкага'},
+      {date: '1910', text: '«Хам» Э. Ажэшкі'},
+      {date: '1910', text: '«У зімовы вечар» Э. Ажэшкі'},
+      {date: '1910', text: '«Модны шляхцюк» К. Каганца'},
     ],
-    video: 'https://www.youtube.com/watch?v=ACDGr4TUkvs&feature=emb_logo',
+    video: 'https://www.youtube.com/embed/ACDGr4TUkvs',
     mapData: {
       center: [55.2899866, 28.220279],
+      place: 'Тэатр на хаце',
       zoom: 12,
     },
     photos: [
       {
         num: 0,
         src: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Buinicki.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Фотаздымак',
         text: 'І. Буйніцкі з дачкамі Вандай (злева) і Аленай'
       },
       {
         num: 1,
         src: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/Bujnicki2.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Фотаздымак',
         text: 'І. Буйніцкі з дачкой Вандай у час выступлення на Першай беларускай вечарынцы ў Вільні. 1910 г.'
       },
       {
         num: 2,
         src: 'https://upload.wikimedia.org/wikipedia/commons/2/20/%D0%9F%D1%80%D0%B0%D0%B7%D0%B0%D1%80%D0%BE%D0%BA%D1%96._%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%86%D0%B3%D0%BD%D0%B0%D1%82%D1%83_%D0%91%D1%83%D0%B9%D0%BD%D1%96%D1%86%D0%BA%D0%B0%D0%BC%D1%83.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Помнік',
         text: 'Помнік на магіле І.Ц. Буйніцкага ў в. Празарокі'
       },
     ],
@@ -295,34 +295,26 @@ const directors = [
       {date: '2000', text: '«Хлусня на доўгіх нагах» Э. дэ Філіпа'},
       {date: '2001', text: '«Таленты і прыхільнікі» А. М. Астроўскага'},
     ],
-    video: 'https://www.youtube.com/watch?v=lexVZsR-GF0',
+    video: 'https://www.youtube.com/embed/lexVZsR-GF0',
     mapData: {
       center: [59.927614, 30.330527],
+      place: 'Вялікі драматычны тэатр імя Г. Таўстаногава',
       zoom: 12,
     },
     photos: [
       {
         num: 0,
         src: 'https://minsknews.by/wp-content/uploads/2018/07/DSC_0237-copy-696x464.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Фотаздымак',
         text: 'Фотаздымак'
       },
       {
         num: 1,
         src: 'https://cdn12.img.sputnik.by/images/102328/96/1023289681.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Фотаздымак',
         text: 'Фотаздымак'
       },
       {
         num: 2,
         src: 'https://s13.stc.all.kpcdn.net/share/i/12/11199960/inx960x640.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Фотаздымак',
         text: 'Фотаздымак'
       },
     ],
@@ -352,34 +344,26 @@ const directors = [
       {date: '1957', text: '«Міхась Падгорны» Я. Цікоцкага'},
       {date: '1960', text: '«Пікавая дама» П. Чайкоўскага'},
     ],
-    video: 'https://www.youtube.com/watch?v=eDYuC8m5wsw&feature=youtu.be',
+    video: 'https://www.youtube.com/embed/eDYuC8m5wsw',
     mapData: {
       center: [53.9103046, 27.5615253],
+      place: 'Нацыянальны акадэмічны Вялікі тэатр оперы і балета',
       zoom: 12,
     },
     photos: [
       {
         num: 0,
         src: 'https://upload.wikimedia.org/wikipedia/ru/6/62/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%BF%D0%B5%D0%B2%D0%B8%D1%86%D1%8B_%D0%9B%D0%B0%D1%80%D0%B8%D1%81%D1%8B_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B9.JPG',
-        // width: 4,
-        // height: 3,
-        // title: 'Магіла Александроўскай',
         text: 'Магіла Александроўскай на Усходніх могілках Мінска.'
       },
       {
         num: 1,
         src: 'https://minsknews.by/wp-content/uploads/2018/03/4-9.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Вобраз Кармэн',
         text: 'Спявачка ў вобразе Кармэн.'
       },
       {
         num: 2,
         src: 'https://www.sb.by/upload/medialibrary/377/3775af02273a590150a1e89012960225.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Юбілей',
         text: '70 год.'
       },
     ],
@@ -409,34 +393,26 @@ const directors = [
       {date: '1985', text: '«Не баюся Вірджыніі Вульф» Эдварда Олбі'},
       {date: '1990', text: '«Генералы ў спадніцах» Жана Ануя'},
     ],
-    video: 'https://www.youtube.com/watch?v=C3TMCDZA2rY',
+    video: 'https://www.youtube.com/embed/C3TMCDZA2rY',
     mapData: {
       center: [53.898314, 27.5507955],
+      place: 'Тэатр імя М. Горкага',
       zoom: 12,
     },
     photos: [
       {
         num: 0,
         src: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG',
-        // width: 4,
-        // height: 3,
-        // title: 'Партрэт Барыса Луцэнка',
         text: 'Партрэт Барыса Луцэнка пэндзля беларускага мастака Аляксея Кузьміча, 2001 год.'
       },
       {
         num: 1,
         src: 'http://images.aif.by/007/667/03b8ec457923e6c67efae3f6275f67cd.JPG',
-        // width: 4,
-        // height: 3,
-        // title: 'У тэатры',
         text: 'Рэжысёр у тэатры.'
       },
       {
         num: 2,
         src: 'https://cdn.iz.ru/sites/default/files/styles/900x506/public/news-2020-02/TASS_18992976%20copy.jpg?itok=LmXoBDLI',
-        // width: 4,
-        // height: 3,
-        // title: 'Фотаздымак',
         text: 'Фотаздымак'
       },
     ],
@@ -457,37 +433,32 @@ const directors = [
       {date: '1986', text: 'Стварыў тэатр сатыры і гумару «Хрыстафор». Згуляў больш за 30 вялікіх і галоўных роляў.'},
     ],
     project: [
-      {date: '1982', text: '«Купальская ноч»'},
-      {date: '1985', text: '«Ідзі і глядзі»'},
+      {date: '1987', text: '«Хто каго?»'},
+      {date: '1987', text: '«Дабранач, малышы»'},
+      {date: '1992', text: '«Добра сядзім!»'},
+      {date: '1996', text: '«Учора, сёння, заўтра»'},
+      {date: '2000', text: '«Хоць стой, хоць падай»'},
     ],
-    video: 'https://www.youtube.com/watch?v=2q_HkfBF3AY',
+    video: 'https://www.youtube.com/embed/2q_HkfBF3AY',
     mapData: {
       center: [53.9008774, 27.5626722],
+      place: 'Нацыянальны акадэмічны тэатр імя Янкі Купалы',
       zoom: 12,
     },
     photos: [
       {
         num: 0,
         src: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Jaugen_Kryzhanouski_and_his_daughter_-_on_an_International_book_exhibition_in_Minsk_city_-_14_February_2015_AD_-_1.JPG',
-        // width: 4,
-        // height: 3,
-        // title: 'Яўген Крыжаноўскі і яго дачка',
         text: 'Яўген Крыжаноўскі і яго дачка — на XXII Міжнароднай кніжнай выстаўцы ў Мінску (Беларусь), 14 лютага 2015 г.'
       },
       {
         num: 1,
         src: 'http://kryzhanovski.tripod.com/images/photo/pic8.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'З Анатолем Длускім',
         text: 'З Анатолем Длускім.'
       },
       {
         num: 2,
         src: 'http://kryzhanovski.tripod.com/images/photo/pic3.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'З сям\'ёй.',
         text: 'З сям\'ёй.'
       },
     ],
@@ -509,6 +480,14 @@ const secondQuote = {
 
 const directorOfTheDay = 'Рэжысёр дня';
 
+const directorPageTitles = {
+  timeline: 'Хроніка',
+  work: 'Работа',
+  dateOfCreation: 'Дата стварэння',
+  map: 'Карта',
+  gallery: 'Галерэя'
+}
+
 export default {
   tasksData,
   styleguideNav,
@@ -523,6 +502,7 @@ export default {
   searchLabel: 'Імя або месца нараджэння',
   directorsOfTheDayButton: 'Больш падрабязна',
   timelineTitle: 'Часовыя падзеі',
+  close: 'Зачыніць',
   otherInfo: {
     lang: 'by',
     title: 'Тэатральныя рэжысёры Беларусі',
@@ -533,4 +513,5 @@ export default {
   firstQuote,
   secondQuote,
   directorOfTheDay,
+  directorPageTitles
 }

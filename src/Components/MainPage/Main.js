@@ -5,6 +5,39 @@ import bernardShowImage from '../../Assets/Images/GeorgeBernardShaw.jpg';
 import jarkoPetanImage from '../../Assets/Images/JarkoPetan.jpg';
 import theatreImage from '../../Assets/Images/Theatre.jpg';
 
+
+function changeLink() {
+  const columnOne = Array.from(document.body.querySelector('.column-1').children);
+  const parent = [...columnOne];
+  parent[0].classList.remove("active");
+  parent[1].classList.add("active");
+}
+
+function DirectorOfDay(props) {
+    const currentDay = new Date();
+    const weekDay = currentDay.getDay();
+    const header = props.data.directorOfTheDay;
+    const directorName = props.data.directors[weekDay].name;
+    const birthDate = props.data.directors[weekDay].born;
+    const deadDate = props.data.directors[weekDay].deceased;
+    const description = props.data.directors[weekDay].description;
+    const image = props.data.directors[weekDay].image;
+    return <div className="directorOfDay">
+                <div className="directorOfDay-container">
+                    <h4>{header}</h4>
+                    <a href={`list/${weekDay}`} onClick={(e) => changeLink()}>
+                        <div className="directorOfDay-nameContainer">
+                            <p className="directorDay-name">{directorName}</p>
+                            <span>→</span>
+                        </div>
+                    </a>
+                    <p className="directorDay-dates">{birthDate} - {deadDate}</p>
+                    <p className="directorDay-description">{description}</p>
+                </div>
+                <img src={image} alt="Director of Day" width="236px" height="320px"></img>
+            </div>
+}
+
 function Introduction(props) {
     const text = props.data.mainText;
     return <div className="introduction">
@@ -50,6 +83,7 @@ class MainPage extends React.Component {
             <Introduction data={data} />
             <Quotes data={data} />
             <History data={data} />
+            <DirectorOfDay data={data} />
         </div>
     }
 }

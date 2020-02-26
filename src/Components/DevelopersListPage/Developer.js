@@ -9,7 +9,7 @@ export default class Developer extends PureComponent {
     } = this.props;
 
     return (
-      <div key={developerData.id} className="developer">
+      <div className="developer">
         <p className="developer-name">{developerData.name}</p>
         <img className="developer-photo" src={developerData.image} alt={developerData.name} />
         <div className="social-links">
@@ -20,7 +20,13 @@ export default class Developer extends PureComponent {
             <img className="telegram-icon" src={telegramIcon} alt="telegram" width="42" height="42" />
           </a>
         </div>
-        <p className="developer-contribution">{developerData.contribution}</p>
+        <ul className="developer-contribution">
+          {developerData.contribution.map((contribution, index) => {
+            return (
+              <li key={index}>{contribution}</li>
+            );
+          })}
+        </ul>
       </div>
     );
   }

@@ -21,15 +21,28 @@
 
 .social-links {
   width: 300px;
+  height: 57px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1 1 100%;
   justify-content: space-around;
-  margin: 10px 0;
+  margin: 5px 0 0 0;
 }
 
 .telegram-icon .github-icon {
   width: 42px;
   height: 42px;
+}
+
+.telegram-icon:hover {
+  width: 55px;
+  height: 55px;
+}
+
+.github-icon:hover {
+  width: 55px;
+  height: 55px;
 }
 
  .developer-name {
@@ -40,7 +53,7 @@
   padding-left: 10px;
   padding-top: 330px;
   margin: 0;
-  font-family: Montserrat;
+  font-family: "Montserrat", "Arial", "sans-serif";
   font-style: normal;
   font-weight: 900;
   font-size: 33px;
@@ -51,8 +64,9 @@
 
 .developer-contribution {
   height: min-content;
+  text-align: left;
   margin: 0;
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans", "Arial", "sans-serif";
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
@@ -62,6 +76,29 @@
 
 @media (max-width: 480px){
   .developer {
+    width: 260px;
     margin: 0 0 20px 0;
+  }
+
+  .developer-photo {
+    width: 250px;
+    height: 354px;
+  }
+
+  .social-links {
+    width: 250px;
+  }
+
+   .developer-name {
+     width: 150px;
+    padding-top: 275px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .developer-contribution {
+    width: 250px;
+    font-size: 24px;
+    line-height: 31px;
   }
 }

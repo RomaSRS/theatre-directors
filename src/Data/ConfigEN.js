@@ -54,7 +54,10 @@ const developers = [
     github: 'https://github.com/Rekaterina',
     telegram: 'https://t.me/rekaterina',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/rudenko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Created markup Page of an director.',
+      '➤Implemented timeline block.'
+    ],
   },
   {
     id: 'D1',
@@ -62,15 +65,23 @@ const developers = [
     github: 'https://github.com/Vir45',
     telegram: 'https://t.me/Vova_Serko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/serko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Created markup Header with Navigation (routing), Page with a list of directors.',
+      '➤Implemented a website translation into three languages (the whole team wrote the text).',
+      '➤Implemented directors Search.'
+    ],
   },
   {
     id: 'D2',
-    name: 'Katsiaryna Yakubouskaya',
+    name: 'Ekaterina Yakubouskaya',
     github: 'https://github.com/Katsiaryna31',
     telegram: 'https://t.me/KatsiarynaYa',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yakubovskaya.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Created base structure of the project with CRA.',
+      '➤Implemented markup Main page.',
+      '➤Implemented map (geowidget).'
+  ],
   },
   {
     id: 'D3',
@@ -78,7 +89,11 @@ const developers = [
     github: 'https://github.com/antonyasko',
     telegram: 'https://t.me/anton_yasko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yasko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Created markup Page with team members.',
+      '➤Created data files.',
+      '➤Implemented video overlay.'
+    ],
   },
   {
     id: 'D4',
@@ -86,7 +101,10 @@ const developers = [
     github: 'https://github.com/kirillleogky',
     telegram: 'https://t.me/KirillLeogky',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/leogky.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Created the project design.',
+      '➤Implemented markup Pages with worklog and styleguide.'
+    ],
   },
   {
     id: 'D5',
@@ -94,7 +112,9 @@ const developers = [
     github: 'https://github.com/RomaSRS',
     telegram: 'https://t.me/RomanSRS',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Implemented photo gallery.'
+    ],
   },
 ];
 
@@ -104,7 +124,7 @@ const directors = [
     name: 'Evstigney Mirovich',
     born: '10 August 1878',
     deceased: '16 February 1952',
-    description: 'Belarusian playwright and theater director',
+    description: 'Belarusian playwright and theater director.',
 		image: 'https://boom.ms/wp-content/uploads/f/foto-babushek-i-dedushek-v-molodosti/6.jpg',
     placeOfBirth: 'St. Petersburg',
     shortBiography : 'Russian and Belarusian playwright, artist, director and teacher. One of the founders of the Belarusian national Soviet theater. Books about S.A. Petrovich “People\'s Artist of the BSSR E. A. Mirovich” (1963) and “Evstigney Mirovich” (1978) were published about the actor and director; the pedagogical activity of E. A. Mirovich is the subject of a chapter in the book of his student A. I. Butakov, “My teachers” (2004); chapters have been written about his life in encyclopedias; the memoirs of contemporaries in periodicals and the Internet are published. A postage stamp for the 100th anniversary of E. A. Mirovich and a postcard with the original stamp for his 125th anniversary were issued. On the creative fate of E. A. Mirovich, the Belarusfilm film studio shot the documentary Throughout Life (1978). A memorial plaque in honor of the outstanding theater figure Yevstigney Afinogenovich Mirovich was opened on the building of the Belarusian Academy of Arts.',
@@ -125,34 +145,26 @@ const directors = [
       {date: '1937', text: '«How steel was tempered» by N. Ostrovsky'},
       {date: '1939', text: '«Wonderful pipe» by Volsky'},
     ],
-    // video: '',
+    video: 'https://www.youtube.com/embed/Yunms45xnog',
     mapData: {
       center: [53.9226577, 27.6010486],
+      place: 'Belarusian Academy of Arts',
       zoom: 12,
     },
     photos: [
       {
         num: 0,
         src: 'https://upload.wikimedia.org/wikipedia/ru/b/b1/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%B0%D0%BA%D1%82%D1%91%D1%80%D0%B0_%D0%95%D0%B2%D1%81%D1%82%D0%B8%D0%B3%D0%BD%D0%B5%D1%8F_%D0%9C%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87%D0%B0.JPG',
-        // width: 4,
-        // height: 3,
-        // title: 'Grave of Mirovich',
         text: 'Grave of Mirovich at the Military Cemetery of Minsk.'
       },
       {
         num: 1,
         src: 'https://img.tyt.by/n/obshchestvo/0b/4/08_mirovich-1952_620.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Portrait of the Mirovich',
         text: 'Portrait of the Mirovich by Ivan Akhremchik.'
       },
       {
         num: 2,
         src: 'https://img.tyt.by/n/obshchestvo/06/0/09_mirovich_doska_620.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Bas-relief of Mirovich',
         text: 'Bas-relief of Mirovich on the facade of the Belarusian Academy of Arts.'
       },
     ],
@@ -185,34 +197,26 @@ const directors = [
       {date: '1927', text: '«Crab»'},
       {date: '1933', text: '«White Weapon»'},
     ],
-    video: 'https://www.youtube.com/watch?v=FQ054q0969g',
+    video: 'https://www.youtube.com/embed/FQ054q0969g',
     mapData: {
-      center: [53.9032207, 27.5344804],
+      center: [52.431906, 31.0122417],
+      place: 'Belarusian third State Theater',
       zoom: 12,
     },
     photos: [
       {
         num: 0,
         src: 'https://upload.wikimedia.org/wikipedia/commons/1/19/%D0%A3%D0%BB%D0%B0%D0%B4%D1%8B%D1%81%D0%BB%D0%B0%D1%9E_%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Poster',
         text: 'Poster in 1929'
       },
       {
         num: 1,
         src: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Haluboktheatre4.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Scene from the play',
         text: 'Scene from the play "My Friend" by M. Pogodin, 1932.'
       },
       {
         num: 2,
         src: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/%D0%A3%D0%BB%D0%B0%D0%B4%D0%B7%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA._%D0%A4%D0%BE%D1%82%D0%B0.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Photo',
         text: 'Vladislav Golubok. Photo'
       },
     ],
@@ -235,36 +239,32 @@ const directors = [
       {date: '1917', text: 'During the First World War he went to the Western Front, was in military service in Molodechno.'},
     ],
     project: [
-      {date: '1910', text: '«The first Belarusian party in Vilnius»'},
+      {date: '1910', text: '«On revision» by M. Krapivnitsky'},
+      {date: '1910', text: '«Sewing fools» by M. Krapivnitsky'},
+      {date: '1910', text: '«Ham» by E. Orzeszko'},
+      {date: '1910', text: '«On a winter evening» by E. Orzeszko'},
+      {date: '1910', text: '«Fashionable nobleman» by K. Kaganets'},
     ],
-    video: 'https://www.youtube.com/watch?v=ACDGr4TUkvs&feature=emb_logo',
+    video: 'https://www.youtube.com/embed/ACDGr4TUkvs',
     mapData: {
       center: [55.2899866, 28.220279],
+      place: 'Theater in home',
       zoom: 12,
     },
     photos: [
       {
         num: 0,
         src: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Buinicki.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Photo',
         text: 'I. Buinitsky with his daughters Wanda (left) and Elena'
       },
       {
         num: 1,
         src: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/Bujnicki2.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Photo',
         text: 'I. Buinitsky with his daughter Wanda during a speech at the First Belarusian Party in Vilna. 1910'
       },
       {
         num: 2,
         src: 'https://upload.wikimedia.org/wikipedia/commons/2/20/%D0%9F%D1%80%D0%B0%D0%B7%D0%B0%D1%80%D0%BE%D0%BA%D1%96._%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%86%D0%B3%D0%BD%D0%B0%D1%82%D1%83_%D0%91%D1%83%D0%B9%D0%BD%D1%96%D1%86%D0%BA%D0%B0%D0%BC%D1%83.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Monument on the grave',
         text: 'Monument on the grave of I. Buinichsky in the Prozoroki'
       },
     ],
@@ -295,34 +295,26 @@ const directors = [
       {date: '2000', text: '«Lying on long legs» by E. de Filippo'},
       {date: '2001', text: '«Talents and fans» by A. Ostrovsky'},
     ],
-    video: 'https://www.youtube.com/watch?v=lexVZsR-GF0',
+    video: 'https://www.youtube.com/embed/lexVZsR-GF0',
     mapData: {
       center: [59.927614, 30.330527],
+      place: 'Tovstonogov Bolshoi Drama Theater',
       zoom: 12,
     },
     photos: [
       {
         num: 0,
         src: 'https://minsknews.by/wp-content/uploads/2018/07/DSC_0237-copy-696x464.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Photo',
         text: 'Photo'
       },
       {
         num: 1,
         src: 'https://cdn12.img.sputnik.by/images/102328/96/1023289681.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Photo',
         text: 'Photo'
       },
       {
         num: 2,
         src: 'https://s13.stc.all.kpcdn.net/share/i/12/11199960/inx960x640.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Photo',
         text: 'Photo'
       },
     ],
@@ -352,34 +344,26 @@ const directors = [
       {date: '1957', text: '«Mikhas Podgorny» by E. Tikotsky'},
       {date: '1960', text: '«The Queen of Spades» by P. Tchaikovsky'},
     ],
-    video: 'https://www.youtube.com/watch?v=eDYuC8m5wsw&feature=youtu.be',
+    video: 'https://www.youtube.com/embed/eDYuC8m5wsw',
     mapData: {
       center: [53.9103046, 27.5615253],
+      place: 'The National Academic Grand Opera and Ballet Theatre',
       zoom: 12,
     },
     photos: [
       {
         num: 0,
         src: 'https://upload.wikimedia.org/wikipedia/ru/6/62/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%BF%D0%B5%D0%B2%D0%B8%D1%86%D1%8B_%D0%9B%D0%B0%D1%80%D0%B8%D1%81%D1%8B_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B9.JPG',
-        // width: 4,
-        // height: 3,
-        // title: 'Grave of Aleksandrovskaya',
         text: 'Grave of Aleksandrovskaya at the Eastern cemetery of Minsk.'
       },
       {
         num: 1,
         src: 'https://minsknews.by/wp-content/uploads/2018/03/4-9.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Carmen',
         text: 'The singer in the image of Carmen.'
       },
       {
         num: 2,
         src: 'https://www.sb.by/upload/medialibrary/377/3775af02273a590150a1e89012960225.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'Anniversary',
         text: '70 years old.'
       },
     ],
@@ -409,34 +393,26 @@ const directors = [
       {date: '1985', text: '«Not Afraid of Virginia Woolf» by bEdward Albee'},
       {date: '1990', text: '«Generals in skirts» by Zhana Anuya'},
     ],
-    video: 'https://www.youtube.com/watch?v=C3TMCDZA2rY',
+    video: 'https://www.youtube.com/embed/C3TMCDZA2rY',
     mapData: {
       center: [53.898314, 27.5507955],
+      place: 'Theater by M. Gorky',
       zoom: 12,
     },
     photos: [
       {
         num: 0,
         src: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG',
-        // width: 4,
-        // height: 3,
-        // title: 'Portrait of Boris Lutsenko',
         text: 'Portrait of Boris Lutsenko by Belarusian artist Alexei Kuzmich, 2001.'
       },
       {
         num: 1,
         src: 'http://images.aif.by/007/667/03b8ec457923e6c67efae3f6275f67cd.JPG',
-        // width: 4,
-        // height: 3,
-        // title: 'In the theater',
         text: 'Director in the theater.'
       },
       {
         num: 2,
         src: 'https://cdn.iz.ru/sites/default/files/styles/900x506/public/news-2020-02/TASS_18992976%20copy.jpg?itok=LmXoBDLI',
-        // width: 4,
-        // height: 3,
-        // title: 'Photo',
         text: 'Photo'
       },
     ],
@@ -457,37 +433,32 @@ const directors = [
       {date: '1986', text: 'Created the theater of satire and humor «Christopher». He played more than 30 major and major roles.'},
     ],
     project: [
-      {date: '1982', text: '«Kupala night»'},
-      {date: '1985', text: '«Go and look»'},
+      {date: '1987', text: '«Who is who?»'},
+      {date: '1987', text: '«Good night, kids»'},
+      {date: '1992', text: '«Well sitting!»'},
+      {date: '1996', text: '«Yesterday, Today, Tomorrow»'},
+      {date: '2000', text: '«Just stand, just fall»'},
     ],
-    video: 'https://www.youtube.com/watch?v=2q_HkfBF3AY',
+    video: 'https://www.youtube.com/embed/2q_HkfBF3AY',
     mapData: {
       center: [53.9008774, 27.5626722],
+      place: 'National Academic Theater by Y. Kupala',
       zoom: 12,
     },
     photos: [
       {
         num: 0,
         src: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Jaugen_Kryzhanouski_and_his_daughter_-_on_an_International_book_exhibition_in_Minsk_city_-_14_February_2015_AD_-_1.JPG',
-        // width: 4,
-        // height: 3,
-        // title: 'Yevgeny Kryzhanovsky and his daughter',
         text: 'Yevgeny Kryzhanovsky and his daughter at the XXII International Book Exhibition in Minsk (Belarus), February 14, 2015.'
       },
       {
         num: 1,
         src: 'http://kryzhanovski.tripod.com/images/photo/pic8.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'With Anatoly Dluskim',
         text: 'With Anatoly Dluskim.'
       },
       {
         num: 2,
         src: 'http://kryzhanovski.tripod.com/images/photo/pic3.jpg',
-        // width: 4,
-        // height: 3,
-        // title: 'With family.',
         text: 'With family.'
       },
     ],
@@ -509,6 +480,14 @@ const secondQuote = {
 
 const directorOfTheDay = 'Director of the day';
 
+const directorPageTitles = {
+  timeline: 'Timeline',
+  work: 'Work',
+  dateOfCreation: 'Date of creation',
+  map: 'Map',
+  gallery: 'Gallery'
+}
+
 export default {
   tasksData,
   styleguideNav,
@@ -523,6 +502,7 @@ export default {
   searchLabel: 'Name or place of birth',
   directorsOfTheDayButton: 'More details',
   timelineTitle: 'Timeline',
+  close: 'Close',
   otherInfo: {
     lang: 'en',
     title: 'Theater directors of Belarus',
@@ -533,4 +513,5 @@ export default {
   firstQuote,
   secondQuote,
   directorOfTheDay,
+  directorPageTitles
 }
