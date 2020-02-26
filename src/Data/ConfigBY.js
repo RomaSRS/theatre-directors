@@ -30,7 +30,10 @@ const developers = [
     github: 'https://github.com/Rekaterina',
     telegram: 'https://t.me/rekaterina',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/rudenko.jpg',
-    contribution: '➤Створана старонка з інфармацыяй пра рэжысёра.\n ➤Рэалізаваная часовая шкала падзей.',
+    contribution: [
+      '➤Створана старонка з інфармацыяй пра рэжысёра.',
+      '➤Рэалізаваная часовая шкала падзей.'
+    ],
   },
   {
     id: 'D1',
@@ -38,7 +41,11 @@ const developers = [
     github: 'https://github.com/Vir45',
     telegram: 'https://t.me/Vova_Serko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/serko.jpg',
-    contribution: '➤Створаны Header, Navigation (routing), старонка са спісам рэжысёраў.\n ➤Рэалізаваны пераклад сайта на тры мовы.\n ➤Рэалізаваны пошук рэжысёраў.',
+    contribution: [
+      '➤Створаны Header, Navigation (routing), старонка са спісам рэжысёраў.',
+      '➤Рэалізаваны пераклад сайта на тры мовы.',
+      '➤Рэалізаваны пошук рэжысёраў.'
+    ],
   },
   {
     id: 'D2',
@@ -46,7 +53,11 @@ const developers = [
     github: 'https://github.com/Katsiaryna31',
     telegram: 'https://t.me/KatsiarynaYa',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yakubovskaya.jpg',
-    contribution: '➤Створана базавая структура праекта.\n ➤Рэалізаваная разметка галоўнай старонкі.\n ➤Рэалізаваная карта.',
+    contribution: [
+      '➤Створана базавая структура праекта.',
+      '➤Рэалізаваная разметка галоўнай старонкі.',
+      '➤Рэалізаваная карта.'
+    ],
   },
   {
     id: 'D3',
@@ -54,7 +65,11 @@ const developers = [
     github: 'https://github.com/antonyasko',
     telegram: 'https://t.me/anton_yasko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yasko.jpg',
-    contribution: '➤Створана старонка з членамі каманды.\n ➤Сазданы файлы з дадзенымі.\n ➤Рэалізаваны відэа блок.',
+    contribution: [
+      '➤Створана старонка з членамі каманды.',
+      '➤Сазданы файлы з дадзенымі.',
+      '➤Рэалізаваны відэа блок.'
+    ],
   },
   {
     id: 'D4',
@@ -62,7 +77,10 @@ const developers = [
     github: 'https://github.com/kirillleogky',
     telegram: 'https://t.me/KirillLeogky',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/leogky.jpg',
-    contribution: '➤Саздан дызайн праекта.\n ➤Рэалізаваны старонкі з рабочым журналам і гідам па стылю.',
+    contribution: [
+      '➤Саздан дызайн праекта.',
+      '➤Рэалізаваны старонкі з рабочым журналам і гідам па стылю.'
+    ],
   },
   {
     id: 'D5',
@@ -70,7 +88,9 @@ const developers = [
     github: 'https://github.com/RomaSRS',
     telegram: 'https://t.me/RomanSRS',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
-    contribution: '➤Рэалізавана фота галерэя.',
+    contribution: [
+      '➤Рэалізавана фота галерэя.'
+    ],
   },
 ];
 
