@@ -21,4 +21,7 @@
     .time_block-title {
         font-size: 30px;
     }
+    .time_block-time {
+        font-size: 15px;
+    }
 }

@@ -22,4 +22,7 @@
     .feature_block-title {
         font-size: 30px;
     }
+    .feature_block-feature {
+      font-size: 15px;
+    }
 }
