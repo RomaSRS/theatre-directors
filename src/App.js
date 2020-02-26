@@ -10,6 +10,7 @@ import configEN from "./Data/ConfigEN";
 import configBY from "./Data/ConfigBY";
 import configRU from "./Data/ConfigRU";
 import SelectLang from "./Components/Navigation/Select/Select"
+import Fade from 'react-reveal/Fade';
 
 
 import {
@@ -45,7 +46,9 @@ class App extends React.Component {
 				<Router>
 					<div className="header">
 						<div className="row-2">
-							<h1 className="logo">{data.otherInfo.title}</h1>
+              <Fade left big>
+                <h1 className="logo">{data.otherInfo.title}</h1>
+              </Fade>
 							<ul className="navigation" onClick={this.getActive}>
 								<div className="column-1">
 									<NavLink exact  to="/">

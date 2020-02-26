@@ -51,6 +51,7 @@
 
 .developer-contribution {
   height: min-content;
+  text-align: left;
   margin: 0;
   font-family: "IBM Plex Sans", "Arial", "sans-serif";
   font-style: normal;
@@ -62,6 +63,29 @@
 
 @media (max-width: 480px){
   .developer {
+    width: 260px;
     margin: 0 0 20px 0;
+  }
+
+  .developer-photo {
+    width: 250px;
+    height: 354px;
+  }
+
+  .social-links {
+    width: 250px;
+  }
+
+   .developer-name {
+     width: 150px;
+    padding-top: 275px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .developer-contribution {
+    width: 250px;
+    font-size: 24px;
+    line-height: 31px;
   }
 }

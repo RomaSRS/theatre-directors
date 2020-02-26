@@ -4,8 +4,13 @@
   background-color: #00000080;
   overflow: hidden;
   position: fixed;
+  margin: auto;
   top: 0px;
+  left: 0;
+  bottom: 0;
+  right: 0;
   display: none;
+  cursor: not-allowed;
 }
 
 #video-block {
@@ -18,11 +23,11 @@
 }
 
 #close-video {
-  width: 76px;
-  height: 41px;
-  padding: 5px;
-  outline: none;
+  width: min-content;
+  height: min-content;
+  padding: 5px 10px;
   background-color: #F54D1C;
+  outline: none;
   border: none;
   user-select: none;
   font-family: "IBM Plex Sans", "Arial", "sans-serif";
@@ -68,7 +73,7 @@
 
 @media (max-width: 480px){
   #video-block {
-    width: 300px;
+    width: 280px;
     height: 249px;
   }
 }
