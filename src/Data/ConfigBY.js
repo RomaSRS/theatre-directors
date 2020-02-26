@@ -1,3 +1,28 @@
+const colors = [
+  {
+    id: 'orange',
+    name: 'Акцэнт Аранжавы',
+    hex: '# F54D1C',
+  },
+  {
+    id: 'black',
+    name: 'Чорны',
+    hex: '# 000000',
+  },
+  {
+    id: 'grey',
+    name: 'Шэры',
+    hex: '# F5F2EC',
+  },
+];
+
+const styleguideNav = {
+  colorsTitle: 'Колеры',
+  buttonsLinksTitle: 'Кнопкі / Спасылкі',
+  buttonsLinksName: 'Cпасылка',
+  textStylesTitle: 'Стыль тэксту',
+};
+
 const developers = [
   {
     id: 'D0',
@@ -420,6 +445,8 @@ const directorPageTitles = {
 }
 
 export default {
+  styleguideNav,
+  colors,
   directors,
   developers,
   directorsLink: 'Рэжысёры',

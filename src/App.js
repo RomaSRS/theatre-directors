@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import DirectorNavigation from "./Components/DirectorListPage/DirectorNavigation";
 import Worklog from "./Components/WorklogPage/Worklog";
+import Styleguide from "./Components/StyleguidePage/Styleguide";
 import DevelopersList from "./Components/DevelopersListPage/DevelopersList";
 import MainPage from "./Components/MainPage/Main";
 import VideoBlock from "./Components/VideoBlock/VideoBlock";
@@ -19,7 +20,7 @@ import {
 
 class App extends React.Component {
   constructor(props) {
-    super(props);
+		super(props);
     this.state = { lang: localStorage.getItem('Activelang') };
   };
 
@@ -30,13 +31,13 @@ class App extends React.Component {
   render() {
     let { lang } = this.state;
     let data;
-    if (lang === 'en') {
-      data = configEN;
-    } else if (lang === 'ru') {
+    if (lang === 'ru') {
       data = configRU;
-    } else {
+    } else if (lang === 'by') {
       data = configBY;
-    }
+    } else {
+			data = configEN;
+		}
 
     return (
       <div className="App">
@@ -47,48 +48,50 @@ class App extends React.Component {
                 <ul className="navigation" onClick={this.getActive}>
                   <div className="column-1">
                     <NavLink exact to="/">
-                      <li className="navagation-link">{data.homePageLink}</li>
+                      <li className="navigation-link">{data.homePageLink}</li>
                     </NavLink>
                     <NavLink exact to="/list">
-                      <li className="navagation-link">{data.directorsLink}</li>
+                      <li className="navigation-link">{data.directorsLink}</li>
                     </NavLink>
                     <NavLink exact to="/team">
-                      <li className="navagation-link">{data.developersLink}</li>
+                      <li className="navigation-link">{data.developersLink}</li>
                     </NavLink>
                   </div>
                   <div className="column-2">
                     <SelectLang toggleLang={this.toggleLang} />
                     <NavLink exact to="/style">
-                      <li className="navagation-link">{data.styleguideLink}</li>
+                      <li className="navigation-link">{data.styleguideLink}</li>
                     </NavLink>
                     <NavLink exact to="/worklog">
-                      <li className="navagation-link">{data.worklogLink}</li>
+                      <li className="navigation-link">{data.worklogLink}</li>
                     </NavLink>
                   </div>
                 </ul>
               </div>
             </div>
-            <div className="main">
-              <Switch>
-                <Route exact path="/">
-                  <MainPage data={data} titles={data.directorPageTitles} />
-                </Route>
-                <Route path="/list">
-                  <DirectorNavigation titles={data.directorPageTitles} author={data.directors} />
-                </Route>
-                <Route path="/team">
-                  <DevelopersList developers={data.developers} />
-                </Route>
-                <Route path="/style">
-                  <div>style</div>
-                </Route>
-                <Route path="/worklog">
-                  <Worklog developers={data.developers} />
-                </Route>
-              </Switch>
-            </div>
-        </Router>
-        <VideoBlock close={data.close} />
+					<div className="main">
+						<Switch>
+							<Route exact path="/">
+								<MainPage data={data} titles={data.directorPageTitles}/>
+							</Route>
+							<Route path="/list">
+								<DirectorNavigation titles={data.directorPageTitles} author={data.directors} />
+							</Route>
+							<Route path="/team">
+								<DevelopersList developers={data.developers} />
+							</Route>
+							<Route path="/style">
+								<Styleguide
+                  colorsData={data.colors}
+                  navTitle={data.styleguideNav}/>
+							</Route>
+							<Route path="/worklog">
+								<Worklog developers={data.developers} />
+							</Route>
+						</Switch>
+					</div>
+				</Router>
+			  <VideoBlock close={data.close}/>
       </div>
     );
   }
