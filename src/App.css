@@ -119,9 +119,6 @@ a:hover {
   margin-right: 25px;
 }
 
-.column-2 {
-}
-
 .switch-wrapper {
   position: relative;
 }
@@ -134,7 +131,7 @@ a:hover {
 
   .logo {
     font-size: 76px;
-    line-height: 64px;
+    line-height: 78px;
   }
 
   .navigation a {
@@ -157,7 +154,7 @@ a:hover {
 
   .logo {
     font-size: 68px;
-    line-height: 64px;
+    line-height: 70px;
   }
 
   .navigation a {
@@ -174,7 +171,7 @@ a:hover {
     margin-bottom: 20px;
     align-self: flex-start;
     font-size: 94px;
-    line-height: 90px;
+    line-height: 96px;
   }
 
   .navigation a {
@@ -217,7 +214,7 @@ a:hover {
 
   .logo {
     font-size: 80px;
-    line-height: 87px;
+    line-height: 82px;
   }
 
   .navigation a {
@@ -234,7 +231,7 @@ a:hover {
 
   .logo {
     font-size: 72px;
-    line-height: 78px;
+    line-height: 74px;
   }
 
   .column-1 {
@@ -247,7 +244,7 @@ a:hover {
 
   .logo {
     font-size: 58px;
-    line-height: 62px;
+    line-height: 60px;
   }
 
   .navigation a {
@@ -283,7 +280,7 @@ a:hover {
 
   .logo {
     font-size: 46px;
-    line-height: 50px;
+    line-height: 48px;
   }
 
   .column-1 {
@@ -310,6 +307,6 @@ a:hover {
 
   .logo {
     font-size: 36px;
-    line-height: 42px;
+    line-height: 38px;
   }
 }
