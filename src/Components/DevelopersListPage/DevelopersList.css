@@ -90,15 +90,15 @@
   }
 
    .developer-name {
-     width: 150px;
+    width: 150px;
     padding-top: 275px;
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 26px;
+    line-height: 36px;
   }
 
   .developer-contribution {
     width: 250px;
-    font-size: 24px;
-    line-height: 31px;
+    font-size: 16px;
+    line-height: normal;
   }
 }
