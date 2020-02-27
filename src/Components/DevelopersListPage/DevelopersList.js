@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import Developer from './Developer';
 import './DevelopersList.css';
+import Zoom from 'react-reveal/Zoom';
 
 export default class DevelopersList extends PureComponent {
   render() {
@@ -8,8 +9,7 @@ export default class DevelopersList extends PureComponent {
       developers
     } = this.props;
 
-    return (
-      <div className="developers-list">
+    return <Zoom><div className="developers-list">
         {developers.map(developerData => {
           return (
             <Developer
@@ -18,7 +18,6 @@ export default class DevelopersList extends PureComponent {
             />
           );
         })}
-      </div>
-    );
+      </div></Zoom>;
   }
 }
