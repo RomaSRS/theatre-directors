@@ -21,6 +21,30 @@ const styleguideNav = {
   buttonsLinksTitle: 'Buttons / Links',
   buttonsLinksName: 'Link',
   textStylesTitle: 'Text styles',
+  size: 'Size',
+  lineHeight: 'Line Height',
+  letterSpacing: 'Letter Spacing',
+};
+
+const tasksData = {
+  tasksTitle: 'Maximum points - 240',
+  tasks: [
+    'Main page + page with a list of authors + author’s page - 10',
+    'Page with team members + page with worklog - 10',
+    'Page with list of authors contains search widget - 10',
+    'Portal has two languages - 20',
+    'Portal has page with styleguide - 20',
+    'Mobile version is okey - 10',
+    'Ipad/tablet version is okey - 10',
+    'Author’s page contains timeline - 10',
+    'Author’s page contains video overlay - 10',
+    'Author’s page contains photo gallery - 20',
+    'Author’s page contains map - 10',
+    'Design - 20',
+    'Material-ui is used - 20',
+    'Portal has third language - 10',
+    'Animations - 20',
+  ],
 };
 
 const developers = [
@@ -30,7 +54,10 @@ const developers = [
     github: 'https://github.com/Rekaterina',
     telegram: 'https://t.me/rekaterina',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/rudenko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Created markup Page of an director.',
+      '➤Implemented timeline block.'
+    ],
   },
   {
     id: 'D1',
@@ -38,7 +65,11 @@ const developers = [
     github: 'https://github.com/Vir45',
     telegram: 'https://t.me/Vova_Serko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/serko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Created markup Header with Navigation (routing), Page with a list of directors.',
+      '➤Implemented a website translation into three languages (the whole team wrote the text).',
+      '➤Implemented directors Search.'
+    ],
   },
   {
     id: 'D2',
@@ -46,7 +77,11 @@ const developers = [
     github: 'https://github.com/Katsiaryna31',
     telegram: 'https://t.me/KatsiarynaYa',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yakubovskaya.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Created base structure of the project with CRA.',
+      '➤Implemented markup Main page.',
+      '➤Implemented map (geowidget).'
+  ],
   },
   {
     id: 'D3',
@@ -54,7 +89,11 @@ const developers = [
     github: 'https://github.com/antonyasko',
     telegram: 'https://t.me/anton_yasko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yasko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Created markup Page with team members.',
+      '➤Created data files.',
+      '➤Implemented video overlay.'
+    ],
   },
   {
     id: 'D4',
@@ -62,7 +101,10 @@ const developers = [
     github: 'https://github.com/kirillleogky',
     telegram: 'https://t.me/KirillLeogky',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/leogky.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Created the project design.',
+      '➤Implemented markup Pages with worklog and styleguide.'
+    ],
   },
   {
     id: 'D5',
@@ -70,7 +112,9 @@ const developers = [
     github: 'https://github.com/RomaSRS',
     telegram: 'https://t.me/RomanSRS',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Implemented photo gallery.'
+    ],
   },
 ];
 
@@ -445,6 +489,7 @@ const directorPageTitles = {
 }
 
 export default {
+  tasksData,
   styleguideNav,
   colors,
   developers,

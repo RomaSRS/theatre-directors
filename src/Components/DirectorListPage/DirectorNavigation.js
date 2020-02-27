@@ -4,6 +4,7 @@ import { Route, useParams,   useRouteMatch } from "react-router-dom";
 import DirectorList from "./DirectorList/DirectorList";
 import SearchBar from "./SearchBar/SearchBar";
 import DirectorPage from "../DirectorPage/DirectorPage";
+import Zoom from 'react-reveal/Zoom';
 
 
 class FilterDirector extends React.Component {
@@ -17,19 +18,19 @@ class FilterDirector extends React.Component {
 	};
 
   render() {
-    return (
+    return <Zoom>
       <div className="director-filter">
-        <SearchBar
-          handleFilterTextChange={this.handleFilterTextChange}
-          filterText={this.state.filterText}
-        />
-        <DirectorList
-          author={this.props.author}
-          filterText={this.state.filterText}
-          url={this.props.url}
-        />
-      </div>
-    );
+          <SearchBar
+            handleFilterTextChange={this.handleFilterTextChange}
+            filterText={this.state.filterText}
+          />
+          <DirectorList
+            author={this.props.author}
+            filterText={this.state.filterText}
+            url={this.props.url}
+          />
+        </div>
+    </Zoom>;
   }
 }
 

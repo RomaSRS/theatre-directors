@@ -21,6 +21,30 @@ const styleguideNav = {
   buttonsLinksTitle: 'Кнопкі / Спасылкі',
   buttonsLinksName: 'Cпасылка',
   textStylesTitle: 'Стыль тэксту',
+  size: 'Памер',
+  lineHeight: 'Інтэрлін‎яж',
+  letterSpacing: 'Міжлітаральная адлегласць',
+};
+
+const tasksData = {
+  tasksTitle: 'Максімальную колькасць ачкоў - 240',
+  tasks: [
+    'Галоўная старонка + старонка са спісам аўтараў + старонка аўтара - 10',
+    'Старонка з членамі каманды + старонка з рабочым часопісам - 10',
+    'Старонка са спісам аўтараў змяшчае віджэт пошуку - 10',
+    'Партал мае дзве мовы - 20',
+    'Партал мае старонку з кіраўніцтвам па стылі - 20',
+    'Мабільная версія ў парадку - 10',
+    'Версія для Ipad / планшэта ў парадку - 10',
+    'Старонка аўтара змяшчае часовую шкалу - 10',
+    'Старонка аўтара змяшчае овэрлэй відэа - 10',
+    'Старонка аўтара ўтрымлівае фотагалерэю - 20',
+    'Старонка аўтара змяшчае карту - 10',
+    'Дызайн - 20',
+    'Выкарыстоўваецца Material-ui - 20',
+    'Партал мае трэці мова - 10',
+    'Анімацыі - 20',
+  ],
 };
 
 const developers = [
@@ -30,7 +54,10 @@ const developers = [
     github: 'https://github.com/Rekaterina',
     telegram: 'https://t.me/rekaterina',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/rudenko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Створана старонка з інфармацыяй пра рэжысёра.',
+      '➤Рэалізаваная часовая шкала падзей.'
+    ],
   },
   {
     id: 'D1',
@@ -38,7 +65,11 @@ const developers = [
     github: 'https://github.com/Vir45',
     telegram: 'https://t.me/Vova_Serko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/serko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Створаны Header, Navigation (routing), старонка са спісам рэжысёраў.',
+      '➤Рэалізаваны пераклад сайта на тры мовы.',
+      '➤Рэалізаваны пошук рэжысёраў.'
+    ],
   },
   {
     id: 'D2',
@@ -46,7 +77,11 @@ const developers = [
     github: 'https://github.com/Katsiaryna31',
     telegram: 'https://t.me/KatsiarynaYa',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yakubovskaya.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Створана базавая структура праекта.',
+      '➤Рэалізаваная разметка галоўнай старонкі.',
+      '➤Рэалізаваная карта.'
+    ],
   },
   {
     id: 'D3',
@@ -54,7 +89,11 @@ const developers = [
     github: 'https://github.com/antonyasko',
     telegram: 'https://t.me/anton_yasko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yasko.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Створана старонка з членамі каманды.',
+      '➤Сазданы файлы з дадзенымі.',
+      '➤Рэалізаваны відэа блок.'
+    ],
   },
   {
     id: 'D4',
@@ -62,7 +101,10 @@ const developers = [
     github: 'https://github.com/kirillleogky',
     telegram: 'https://t.me/KirillLeogky',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/leogky.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Саздан дызайн праекта.',
+      '➤Рэалізаваны старонкі з рабочым журналам і гідам па стылю.'
+    ],
   },
   {
     id: 'D5',
@@ -70,7 +112,9 @@ const developers = [
     github: 'https://github.com/RomaSRS',
     telegram: 'https://t.me/RomanSRS',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
-    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
+    contribution: [
+      '➤Рэалізавана фота галерэя.'
+    ],
   },
 ];
 
@@ -445,6 +489,7 @@ const directorPageTitles = {
 }
 
 export default {
+  tasksData,
   styleguideNav,
   colors,
   directors,

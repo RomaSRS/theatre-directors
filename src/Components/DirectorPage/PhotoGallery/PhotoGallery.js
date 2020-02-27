@@ -6,7 +6,7 @@ import './PhotoGallery.css';
 
 
 function PhotoGallery(props) {
-  const { data } = props;
+  const { data, titles } = props;
   const { photos } = data;
   const images = [
       {
@@ -24,7 +24,7 @@ function PhotoGallery(props) {
     ];
   return (
       <div className='photo-gallery'>
-         <p>{data.gallery}</p>
+         <p>{titles.gallery}</p>
          <ImageGallery items={images} />
       </div>
   );
