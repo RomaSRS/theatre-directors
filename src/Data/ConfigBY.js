@@ -466,12 +466,12 @@ const directors = [
       },
       {
         num: 1,
-        src: 'http://kryzhanovski.tripod.com/images/photo/pic8.jpg',
-        text: 'З Анатолем Длускім.'
+        src: 'https://www.intex-press.by/images/cms-image-000035009.JPG',
+        text: 'У театры.'
       },
       {
         num: 2,
-        src: 'http://kryzhanovski.tripod.com/images/photo/pic3.jpg',
+        src: 'http://zviazda.by/sites/default/files/field/image/14-6_kopiya_4.jpg',
         text: 'З сям\'ёй.'
       },
     ],
