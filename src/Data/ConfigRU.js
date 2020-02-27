@@ -26,8 +26,15 @@ const styleguideNav = {
   letterSpacing: 'Межбуквенное расстояние',
 };
 
+const worklogNav = {
+  time: 'Время',
+  feature: 'Особенность',
+  hour: 'ч',
+};
+
 const tasksData = {
   tasksTitle: 'Максимальное количество очков - 240',
+  selfScore: 'Итого - 230',
   tasks: [
     'Главная страница + страница со списком авторов + страница автора - 10',
     'Страница с членами команды + страница с рабочим журналом - 10',
@@ -44,6 +51,11 @@ const tasksData = {
     'Используется Material-ui - 20',
     'Портал имеет третий язык - 10',
     'Анимации - 20',
+    'Выдающийся дизайн - 20',
+    'Уверенность в презентации проекта - 10',
+    'Проект выполнен с использованием gatsbyjs - 10',
+    'Contentful / Netlify CMS используется для управления контентом - 10',
+    'Использование инструмента React styleguide для страницы со стилями - 20',
   ],
 };
 
@@ -489,6 +501,7 @@ const directorPageTitles = {
 }
 
 export default {
+  worklogNav,
   tasksData,
   styleguideNav,
   colors,
