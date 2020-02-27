@@ -8,14 +8,27 @@ export default function TasksBlock(props) {
   return (
     <Box className="self_evaluation_block">
       <h3 className="self_evaluation_block-title">{props.task.tasksTitle}</h3>
-      {props.task.tasks.map((elem) =>
-        <div className="self_evaluation_block-task" key={elem}>
-          <Checkbox defaultChecked />
-          <span  className="self_evaluation_block-task-about">
-            {elem}
-          </span>
-        </div>
-      )}
+      {props.task.tasks.map((elem, index) => {
+        if (index < 16) {
+          return (
+            <div className="self_evaluation_block-task" key={elem}>
+              <Checkbox defaultChecked />
+              <span  className="self_evaluation_block-task-about">
+                {elem}
+              </span>
+            </div>
+          )
+        }
+        return (
+          <div className="self_evaluation_block-task" key={elem}>
+            <Checkbox disabled />
+            <span  className="self_evaluation_block-task-about">
+              {elem}
+            </span>
+          </div>
+        )
+      })}
+      <h3 className="self_evaluation_block-title">{props.task.selfScore}</h3>
     </Box>
   )
 }
