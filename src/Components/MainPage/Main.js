@@ -30,7 +30,7 @@ function DirectorOfDay(props) {
 
                 <div className="directorOfDay-container">
                     <h4>{header}</h4>
-                    <a href={`list/${weekDay}`} onClick={(e) => changeLink()}>
+                    <a href={`list/${weekDay}`} onClick={changeLink}>
                       <div className="directorOfDay-nameContainer">
                             <p className="directorDay-name">{directorName}</p>
                             <span>→</span>
