@@ -125,7 +125,8 @@ const developers = [
     telegram: 'https://t.me/RomanSRS',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
     contribution: [
-      '➤Рэалізавана фота галерэя.'
+      '➤Рэалізавана фота галерэя.',
+      '➤Створана анімацыя прыкладання.'
     ],
   },
 ];
