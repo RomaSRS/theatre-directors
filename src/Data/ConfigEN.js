@@ -29,7 +29,6 @@ const styleguideNav = {
 const worklogNav = {
   time: 'Time',
   feature: 'Feature',
-  hour: 'h',
 };
 
 const tasksData = {
@@ -58,6 +57,39 @@ const tasksData = {
     'React styleguide tool usage for the page with styles - 20',
   ],
 };
+
+const developersFeatures = [
+  {
+    name: 'Ekaterina',
+    time: ['5h','8h'],
+    tasks: ['Created markup Page of an director','Implemented timeline block']
+  },
+  {
+    name: 'Vladimir',
+    time: ['5h','10h','4h'],
+    tasks: ['Created markup Header with Navigation (routing), Page with a list of directors','Implemented a website translation into three languages (the whole team wrote the text','Implemented directors Search']
+  },
+  {
+    name: 'Ekaterina',
+    time: ['2h','7h','10h'],
+    tasks: ['Created base structure of the project','Implemented markup Main page','Implemented map']
+  },
+  {
+    name: 'Anton',
+    time: ['8h','2h','9h'],
+    tasks: ['Created markup Page with team members','Created data files','Implemented video overlay']
+  },
+  {
+    name: 'Kirill',
+    time: ['23h','18h'],
+    tasks: ['Created the project design','Implemented markup Pages with worklog and styleguide']
+  },
+  {
+    name: 'Roman',
+    time: ['13h'],
+    tasks: ['Implemented photo gallery']
+  },
+]
 
 const developers = [
   {
@@ -501,6 +533,7 @@ const directorPageTitles = {
 }
 
 export default {
+  developersFeatures,
   worklogNav,
   tasksData,
   styleguideNav,
