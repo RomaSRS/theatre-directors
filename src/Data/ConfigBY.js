@@ -125,7 +125,7 @@ const directors = [
       },
       {
         num: 3,
-        src: 'https://oouagoiwoye.edu.ng/pass/index.php?q=Mfv0Kfa6bO91KgPRoqwSJ2BVMq1BngBFbA9OnO93MqTXKgrCMqiRo29TLq9SKO8QbNlFb01XKA92MqzYpNmNbAXQnQ%3D%3D',
+        src: 'https://img.tyt.by/n/kultura/0c/8/06_mirovich.png',
         text: 'Еўсцігней Афінагенавіч Міровіч.'
       },
     ],
