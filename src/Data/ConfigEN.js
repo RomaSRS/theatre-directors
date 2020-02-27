@@ -26,8 +26,15 @@ const styleguideNav = {
   letterSpacing: 'Letter Spacing',
 };
 
+const worklogNav = {
+  time: 'Time',
+  feature: 'Feature',
+  hour: 'h',
+};
+
 const tasksData = {
   tasksTitle: 'Maximum points - 240',
+  selfScore: 'Total - 230',
   tasks: [
     'Main page + page with a list of authors + author’s page - 10',
     'Page with team members + page with worklog - 10',
@@ -44,6 +51,11 @@ const tasksData = {
     'Material-ui is used - 20',
     'Portal has third language - 10',
     'Animations - 20',
+    'Outstanding design - 20',
+    'Confidence of the project presentation - 10',
+    'Project is made using gatsbyjs - 10',
+    'Contentful / netlify cms is used for content management - 10',
+    'React styleguide tool usage for the page with styles - 20',
   ],
 };
 
@@ -510,6 +522,7 @@ const secondQuote = {
 const directorOfTheDay = 'Director of the day';
 
 export default {
+  worklogNav,
   tasksData,
   styleguideNav,
   colors,

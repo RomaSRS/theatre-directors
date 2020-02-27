@@ -127,7 +127,8 @@ class App extends React.Component {
 							<Route path="/worklog">
 								<Worklog
                   developers={data.developers}
-                  tasks={data.tasksData}/>
+                  tasks={data.tasksData}
+                  nav={data.worklogNav}/>
 							</Route>
 						</Switch>
 					</div>
