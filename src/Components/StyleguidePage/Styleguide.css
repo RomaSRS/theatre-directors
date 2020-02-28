@@ -1,4 +1,10 @@
 .styleguide {
-  margin-top: 175px;
-  height: 1800px;
+    margin-top: 175px;
+    height: 1800px;
+}
+
+@media (max-width: 384px) {
+    .styleguide {
+        height: 1900px;
+    }
 }

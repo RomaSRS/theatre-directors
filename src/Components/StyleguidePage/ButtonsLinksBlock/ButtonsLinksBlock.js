@@ -2,6 +2,7 @@ import React from 'react';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import './ButtonsLinksBlock.css'
+import Zoom from 'react-reveal/Zoom';
 
 function ButtonLink(props) {
   return (
@@ -24,14 +25,16 @@ export default function ButtonsLinksBlock(props) {
       <h3 className="buttons_links_block-title">
         {props.title.buttonsLinksTitle}
       </h3>
-      <Grid
-        container
-        className="buttons_links_block-btn btn_block"
-      >
-        <ButtonLink size={2} title={props.title} name="small"/>
-        <ButtonLink size={4} title={props.title} name="medium"/>
-        <ButtonLink size={4} title={props.title} name="large"/>
-      </Grid>
+      <Zoom>
+        <Grid
+          container
+          className="buttons_links_block-btn btn_block"
+        >
+          <ButtonLink size={2} title={props.title} name="small"/>
+          <ButtonLink size={4} title={props.title} name="medium"/>
+          <ButtonLink size={4} title={props.title} name="large"/>
+        </Grid>
+      </Zoom>
     </Box>
   )
 }

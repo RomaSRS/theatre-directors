@@ -5,6 +5,7 @@ import ColorsBlock from "./ColorsBlock/ColorsBlock";
 import ButtonsLinksBlock from "./ButtonsLinksBlock/ButtonsLinksBlock";
 import TextStylesBlock from "./TextStylesBlock/TextStylesBlock";
 
+
 export default class Styleguide extends React.Component {
   render() {
     const colorsData = this.props.colorsData;
