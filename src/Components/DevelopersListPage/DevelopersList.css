@@ -16,7 +16,8 @@
 .developer-photo {
   width: 300px;
   height: 425px;
-  object-fit: cover;
+  background-position: center !important;
+  background-size: cover !important;
 }
 
 .social-links {

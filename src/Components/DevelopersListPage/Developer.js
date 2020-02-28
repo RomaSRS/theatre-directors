@@ -11,7 +11,13 @@ export default class Developer extends PureComponent {
     return (
       <div className="developer">
         <p className="developer-name">{developerData.name}</p>
-        <img className="developer-photo" src={developerData.image} alt={developerData.name} />
+        <div
+          className="developer-photo"
+          style={
+            {background:`linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%), url(${developerData.image})`}
+          }
+          key={developerData.id}
+        />
         <div className="social-links">
           <a className="github" href={developerData.github}>
             <img className="github-icon" src={githubIcon} alt="github" width="42" height="42" />

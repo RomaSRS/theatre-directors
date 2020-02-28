@@ -157,7 +157,8 @@ const developers = [
     telegram: 'https://t.me/RomanSRS',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
     contribution: [
-      '➤Реализована фото галерея.'
+      '➤Реализована фото галерея.',
+      '➤Создана анимация приложения.'
     ],
   },
 ];
@@ -497,12 +498,12 @@ const directors = [
       },
       {
         num: 1,
-        src: 'http://kryzhanovski.tripod.com/images/photo/pic8.jpg',
-        text: 'С Анатолием Длуским.'
+        src: 'https://www.intex-press.by/images/cms-image-000035009.JPG',
+        text: 'В театре.'
       },
       {
         num: 2,
-        src: 'http://kryzhanovski.tripod.com/images/photo/pic3.jpg',
+        src: 'http://zviazda.by/sites/default/files/field/image/14-6_kopiya_4.jpg',
         text: 'С семьей.'
       },
     ],
