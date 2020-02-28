@@ -40,25 +40,28 @@
     line-height: 31px;
 }
 
-@media (max-width: 768px) {
-    .dates-container-title,
-    .works-container-title {
-        font-size: 28px;
-    }
-
+@media (max-width: 854px) {
     .dates-list-item,
     .works-list-item {
-        height: 120px;
-   }
+      font-size: 15px;
+      line-height: 26px;
+    }
+
+    .dates-container-title,
+    .works-container-title  {
+        font-size: 30px;
+        line-height: 44px;
+    }
 }
 
 @media (max-width: 425px) {
     .dates-container-title,
     .works-container-title {
         font-size: 24px;
+        margin-bottom: 10px;
     }
     .dates-list-item,
     .works-list-item {
-        height: 180px;
+        height: 120px;
    }
-}
+} 

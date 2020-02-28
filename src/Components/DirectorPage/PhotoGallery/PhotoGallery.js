@@ -21,6 +21,10 @@ function PhotoGallery(props) {
           original: photos[2].src,
           thumbnail: photos[2].src,
       },
+      {
+        original: photos[3].src,
+        thumbnail: photos[3].src,
+      },
     ];
   return (
       <div className='photo-gallery'>
