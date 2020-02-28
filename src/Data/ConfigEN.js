@@ -212,6 +212,11 @@ const directors = [
         src: 'https://img.tyt.by/n/obshchestvo/06/0/09_mirovich_doska_620.jpg',
         text: 'Bas-relief of Mirovich on the facade of the Belarusian Academy of Arts.'
       },
+      {
+      num: 3,
+      src: 'https://img.tyt.by/n/kultura/0c/8/06_mirovich.png',
+      text: 'Evstigney Mirovich.'
+      },
     ],
   },
   {
@@ -264,6 +269,11 @@ const directors = [
         src: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/%D0%A3%D0%BB%D0%B0%D0%B4%D0%B7%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA._%D0%A4%D0%BE%D1%82%D0%B0.jpg',
         text: 'Vladislav Golubok. Photo'
       },
+      {
+        num: 3,
+        src: 'https://upload.wikimedia.org/wikipedia/commons/1/10/%D0%A3._%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D0%B7%D1%8E_%D0%A1%D0%BC%D0%BE%D0%BB%D1%96%D1%87%D1%83.jpg',
+        text: 'Vladislav Golubok.'
+      },
     ],
   },
   {
@@ -311,6 +321,11 @@ const directors = [
         num: 2,
         src: 'https://upload.wikimedia.org/wikipedia/commons/2/20/%D0%9F%D1%80%D0%B0%D0%B7%D0%B0%D1%80%D0%BE%D0%BA%D1%96._%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%86%D0%B3%D0%BD%D0%B0%D1%82%D1%83_%D0%91%D1%83%D0%B9%D0%BD%D1%96%D1%86%D0%BA%D0%B0%D0%BC%D1%83.jpg',
         text: 'Monument on the grave of I. Buinichsky in the Prozoroki'
+      },
+      {
+        num: 3,
+        src: 'https://places.by/wp-content/uploads/2017/08/147143910580708-i0.jpeg',
+        text: 'Bust of Ignat buynitsky in the city of Glubokoe'
       },
     ],
   },
@@ -362,6 +377,11 @@ const directors = [
         src: 'https://s13.stc.all.kpcdn.net/share/i/12/11199960/inx960x640.jpg',
         text: 'Photo'
       },
+      {
+        num: 3,
+        src: 'https://www.nv-online.info/images/cms-image-000152301.jpg',
+        text: 'Photo'
+      },
     ],
   },
   {
@@ -410,6 +430,11 @@ const directors = [
         num: 2,
         src: 'https://www.sb.by/upload/medialibrary/377/3775af02273a590150a1e89012960225.jpg',
         text: '70 years old.'
+      },
+      {
+        num: 3,
+        src: 'https://hb.bizmrg.com/ex-press/images/content/original/alex-1-cd4966e62fedf6ed9f7203ea9133fdd044fe2785.jpg',
+        text: 'Photo'
       },
     ],
   },
@@ -460,6 +485,11 @@ const directors = [
         src: 'https://cdn.iz.ru/sites/default/files/styles/900x506/public/news-2020-02/TASS_18992976%20copy.jpg?itok=LmXoBDLI',
         text: 'Photo'
       },
+      {
+        num: 3,
+        src: 'https://i1.wp.com/www.mlyn.by/wp-content/uploads/2020/02/206005-12-copy.jpg?w=900&ssl=1',
+        text: 'Boris Lutsenko'
+      },
     ],
   },
   {
@@ -505,6 +535,11 @@ const directors = [
         num: 2,
         src: 'http://zviazda.by/sites/default/files/field/image/14-6_kopiya_4.jpg',
         text: 'With family.'
+      },
+      {
+        num: 3,
+        src: 'http://mediapsart.ru/sites/default/files/imagecache/actor_gallery_full/actor_gallery/3-41.jpg',
+        text: 'Evgeny Kryzhanovsky.'
       },
     ],
   },
