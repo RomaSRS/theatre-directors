@@ -2,6 +2,7 @@ import React from 'react';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import './ColorsBlock.css';
+import Zoom from 'react-reveal/Zoom';
 
 function Color(props) {
   return (
@@ -25,18 +26,20 @@ export default function ColorsBlock(props) {
       <h3 className="colors_block-title">
         {props.title.colorsTitle}
       </h3>
-      <Grid
-        container
-        className="colors_block-info colors_info_block"
-      >
-        {props.color.map((currColor) =>
-          <Color
-            color={currColor.id}
-            colorName={currColor.name}
-            hex={currColor.hex}
-            key={currColor.id}/>
-        )}
-      </Grid>
+      <Zoom>
+        <Grid
+          container
+          className="colors_block-info colors_info_block"
+        >
+          {props.color.map((currColor) =>
+            <Color
+              color={currColor.id}
+              colorName={currColor.name}
+              hex={currColor.hex}
+              key={currColor.id}/>
+          )}
+        </Grid>
+      </Zoom>
     </Box>
   )
 }
