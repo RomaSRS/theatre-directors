@@ -32,7 +32,7 @@ const worklogNav = {
 };
 
 const tasksData = {
-  tasksTitle: 'Maximum points - 240',
+  tasksTitle: 'Maximum points - 280',
   selfScore: 'Total - 230',
   tasks: [
     'Main page + page with a list of authors + author’s page - 10',
