@@ -16,6 +16,10 @@ export default class Developer extends PureComponent {
           }
           key={developerData.id}
         />
+        <div className="social-links">
+          <a className="github" href={developerData.github}>Github</a>
+          <a className="telegram" href={developerData.telegram}>Telegram</a>
+        </div>
         <ul className="developer-contribution">
           {developerData.contribution.map((contribution, index) => {
             return (
@@ -23,10 +27,6 @@ export default class Developer extends PureComponent {
             );
           })}
         </ul>
-        <div className="social-links">
-          <a className="github" href={developerData.github}>Github</a>
-          <a className="telegram" href={developerData.telegram}>Telegram</a>
-        </div>
       </div>
     );
   }
