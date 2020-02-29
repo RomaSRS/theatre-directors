@@ -34,8 +34,8 @@ const worklogNav = {
 
 const tasksData = {
   tasksTitle: 'Maximum points - 280',
-  selfScore: 'Total - 230',
-  problems:['Working with git in a team project.', 'Choosing the right animations.', 'Problems with the implementation of the gallery.', 'Difficulties with uploading a project to hosting.'],
+  selfScore: 'Total - 240',
+  problems:['Working with git in a team project.', 'Choosing the right animations.', 'Problems with the implementation of the gallery.', 'Difficulties with uploading a project to hosting.', 'Difficulties for the team during the implementation of the project'],
   tasks: [
     'Main page + page with a list of authors + author’s page - 10',
     'Page with team members + page with worklog - 10',

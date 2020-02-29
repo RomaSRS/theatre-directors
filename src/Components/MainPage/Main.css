@@ -148,7 +148,7 @@
 
   .introduction img {
     width: 45%;
-    height: auto;
+    height: 45%;
   }
 
   .firstQuote,
@@ -160,7 +160,7 @@
     font-size: 30px;
     line-height: 40px;
   }
-  
+
   .quote-wrapper p {
     font-size: 17px;
     line-height: 20px;
@@ -181,7 +181,7 @@
 
   .directorOfDay img {
     width: 25%;
-    height: auto;
+    height: 25%;
   }
 }
 
@@ -208,12 +208,12 @@
   .directorOfDay-nameContainer span {
     font-size: 35px;
   }
-  
+
   .directorDay-dates {
     font-size: 18px;
     line-height: 22px;
   }
-  
+
   .directorDay-description {
     font-size: 18px;
     line-height: 22px;
@@ -228,6 +228,11 @@
   .introduction img {
     width: 570px;
     height: 551px;
+    margin-top: 5%;
+  }
+
+  .bounceInLeft img {
+    margin-bottom: 5%;
   }
 }
 
@@ -291,6 +296,10 @@
     padding-bottom: 10px;
   }
 
+  .directorOfDay-nameContainer span {
+    display: none;
+  }
+
   .directorDay-dates {
     padding-bottom: 15px;
   }
@@ -300,7 +309,7 @@
   }
 
   .directorOfDay img {
-    width: 236px;
+    width: 220px;
     height: 320px;
   }
 }
