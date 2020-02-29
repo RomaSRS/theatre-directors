@@ -139,9 +139,95 @@
 }
 
 
+@media screen and (max-width: 1380px) {
+  .introduction-text {
+    font-size: 20px;
+    line-height: 25px;
+    width: 45%;
+  }
+
+  .introduction img {
+    width: 45%;
+    height: auto;
+  }
+
+  .firstQuote,
+  .secondQuote {
+    width: 45%;
+}
+
+  .quote-wrapper q {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  
+  .quote-wrapper p {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .history-text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .directorOfDay {
+    padding: 15px 30px;
+  }
+
+  .directorOfDay-container {
+    width: 70%;
+  }
+
+  .directorOfDay img {
+    width: 25%;
+    height: auto;
+  }
+}
+
+
 @media screen and (max-width: 1100px) {
   .main-page {
     padding: 50px 0 300px;
+  }
+
+  .introduction-text {
+    width: 50%;
+  }
+
+  .introduction img {
+    width: 380px;
+    height: 367px;
+  }
+
+  .directorDay-name {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .directorOfDay-nameContainer span {
+    font-size: 35px;
+  }
+  
+  .directorDay-dates {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  .directorDay-description {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 905px) {
+  .introduction-text {
+    width: 100%;
+  }
+
+  .introduction img {
+    width: 570px;
+    height: 551px;
   }
 }
 
@@ -157,6 +243,15 @@
     align-items: center;
   }
 
+  .introduction-text {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .firstQuote,
+  .secondQuote {
+    width: 100%;
+  }
   .quotes {
     padding-bottom: 50px;
   }
@@ -180,13 +275,6 @@
     line-height: 20px;
   }
 
-  .history {
-    max-width: 550px;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 50px;
-  }
-
   .introduction img,
   .history img {
     width: 530px;
@@ -205,6 +293,15 @@
 
   .directorDay-dates {
     padding-bottom: 15px;
+  }
+
+  .directorOfDay-container {
+    width: 100%;
+  }
+
+  .directorOfDay img {
+    width: 236px;
+    height: 320px;
   }
 }
 

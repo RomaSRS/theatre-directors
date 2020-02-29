@@ -27,7 +27,6 @@ function DirectorOfDay(props) {
     const image = props.data.directors[weekDay].image;
     return <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
       <div className="directorOfDay">
-
                 <div className="directorOfDay-container">
                     <h4>{header}</h4>
                     <a href={`list/${weekDay}`} onClick={changeLink}>
