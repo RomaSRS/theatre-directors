@@ -57,7 +57,7 @@
 @media (max-width: 425px) {
     .dates-container-title,
     .works-container-title {
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: 10px;
     }
     .dates-list-item,
