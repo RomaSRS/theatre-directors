@@ -1,9 +1,10 @@
 import React from 'react';
-import Youtube from '../../../Assets/Images/YouTube.png'
+import img from '../../../Assets/Images/youtube.jpg';
 import './Video.css';
 
 function Video(props) {
   const { data } = props;
+  const url = data.image;
 
   function showPopUp() {
     document.getElementById('director-video').src = `${data.video}`;
@@ -11,9 +12,16 @@ function Video(props) {
     document.getElementById('popup-window').style.display = 'flex';
   }
     return (
-      <button type='button' className='video' onClick={showPopUp}>
-        <img className='youtube-image' src={Youtube} alt='Youtube'></img>
-      </button>
+      <div type='button' className='video' onClick={showPopUp}>
+        <p className="youtube-title">Youtube</p>
+        <div
+          className='youtube-image'
+          style={
+            {background:`url(${img})`}
+          }
+        >
+        </div>
+      </div>
     );
 }
 
