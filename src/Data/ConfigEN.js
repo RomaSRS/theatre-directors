@@ -101,8 +101,8 @@ const developers = [
     telegram: 'https://t.me/rekaterina',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/rudenko.jpg',
     contribution: [
-      '➤Created page of a director.',
-      '➤Implemented timeline block.'
+      'Created page of a director.',
+      'Implemented timeline block.'
     ],
   },
   {
@@ -112,9 +112,9 @@ const developers = [
     telegram: 'https://t.me/Vova_Serko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/serko.jpg',
     contribution: [
-      '➤Created header with navigation, page with a list of directors.',
-      '➤Implemented a website translation into three languages.',
-      '➤Implemented directors search.'
+      'Created header with navigation, page with a list of directors.',
+      'Implemented a website translation into three languages.',
+      'Implemented directors search.'
     ],
   },
   {
@@ -124,9 +124,9 @@ const developers = [
     telegram: 'https://t.me/KatsiarynaYa',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yakubovskaya.jpg',
     contribution: [
-      '➤Created base structure of the project.',
-      '➤Created main page.',
-      '➤Implemented map.'
+      'Created base structure of the project.',
+      'Created main page.',
+      'Implemented map.'
   ],
   },
   {
@@ -136,9 +136,9 @@ const developers = [
     telegram: 'https://t.me/anton_yasko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yasko.jpg',
     contribution: [
-      '➤Created page with team members.',
-      '➤Created data files.',
-      '➤Implemented video overlay.'
+      'Created page with team members.',
+      'Created data files.',
+      'Implemented video overlay.'
     ],
   },
   {
@@ -148,8 +148,8 @@ const developers = [
     telegram: 'https://t.me/KirillLeogky',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/leogky.jpg',
     contribution: [
-      '➤Created the project design.',
-      '➤Created pages with worklog and styleguide.'
+      'Created the project design.',
+      'Created pages with worklog and styleguide.'
     ],
   },
   {
@@ -159,8 +159,8 @@ const developers = [
     telegram: 'https://t.me/RomanSRS',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
     contribution: [
-      '➤Implemented photo gallery.',
-      '➤Implemented a website animation.'
+      'Implemented photo gallery.',
+      'Implemented a website animation.'
     ],
   },
 ];
