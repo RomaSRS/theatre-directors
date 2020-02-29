@@ -29,11 +29,13 @@ const styleguideNav = {
 const worklogNav = {
   time: 'Час',
   feature: 'Асаблівасць',
+  problems: 'Праблемы',
 };
 
 const tasksData = {
   tasksTitle: 'Максімальную колькасць ачкоў - 280',
-  selfScore: 'Разам - 230',
+  selfScore: 'Разам - 240',
+  problems:['Праца з git ў камандным праекце.', 'Выбар падыходных анімацый.', 'Праблемы з рэалізацыяй галерэі.', 'Складанасці з загрузкай праекта на хостынг.', 'Цяжкасці для каманды падчас рэалізацыі праекта'],
   tasks: [
     'Галоўная старонка + старонка са спісам аўтараў + старонка аўтара - 10',
     'Старонка з членамі каманды + старонка з рабочым журналам - 10',
@@ -452,7 +454,9 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG/1643px-Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG',
+        text: 'Партрэт Барыса Луцэнка пэндзля беларускага мастака Аляксея Кузьміча, 2001 год.'
+
       },
       {
         num: 1,

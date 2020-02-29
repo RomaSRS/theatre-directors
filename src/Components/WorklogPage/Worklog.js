@@ -4,6 +4,8 @@ import './Worklog.css';
 import TasksBlock from './TasksBlock/TasksBlock';
 import Zoom from 'react-reveal/Zoom';
 import ScrollAnimation from 'react-animate-on-scroll';
+import ProblemsBlock from './ProblemsBlock/ProblemsBlock';
+
 
 export default class Worklog extends React.Component {
   render() {
@@ -26,6 +28,10 @@ export default class Worklog extends React.Component {
            </Zoom>)
          }
          <TasksBlock task={tasks}/>
+         <ProblemsBlock
+           task={tasks}
+           nav={navigation}
+         />
        </ScrollAnimation>
      </div>
     );
