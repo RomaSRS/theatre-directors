@@ -1,15 +1,16 @@
 .map-wrapper {
-    padding: 20px 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 200px;
 }
 
 .map-title {
-    margin-bottom: 20px;
+    margin-bottom: 76px;
     font-family: "Montserrat", "Arial", "sans-serif";
     font-weight: 900;
-    font-size: 40px;
-    line-height: 50px;
-    letter-spacing: 0.005em;
-    line-height: 50px;
+    font-size: 72px;
+    line-height: 90px;
     color: #F54D1C;
 }
 
@@ -37,6 +38,12 @@
     font-family: "Montserrat", "Arial", "sans-serif";
 }
 
+@media (max-width: 854px) {
+    .map-title {
+      font-size: 60px;
+    }
+  }
+
 @media screen and (max-width: 800px) {
     #map {
         width: 700px;
@@ -57,3 +64,14 @@
         height: 150px;
     }
 }
+
+@media (max-width: 470px) {
+    .map-wrapper {
+        padding: 20px 0 70px;
+    }
+
+    .map-title {
+      margin-bottom: 20px;
+      font-size: 30px;
+    }
+  }
