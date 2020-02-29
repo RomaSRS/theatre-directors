@@ -12,7 +12,7 @@ li {
 	background-repeat: no-repeat;
 	background-size: cover;
 	outline: none;
-  font-family: "Montserrat", "Arial", "sans-serif";
+    font-family: "Montserrat", "Arial", "sans-serif";
 	font-style: normal;
 	font-weight: 900;
 	font-size: 33px;
@@ -20,6 +20,7 @@ li {
 	letter-spacing: 0.005em;
 	color: #F5F2EC;
 	text-align: left;
+	word-spacing: 250px;
 }
 
 .director-list {
