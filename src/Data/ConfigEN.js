@@ -68,7 +68,7 @@ const developersFeatures = [
   },
   {
     name: 'Vladimir',
-    time: ['5h','10h','4h'],
+    time: ['10h','5h','4h'],
     tasks: ['Created header with navigation, page with a list of directors','Implemented a website translation into three languages','Implemented directors search']
   },
   {

@@ -16,7 +16,7 @@
     position: absolute;
     left: -3px;
     top: 391px;
-    font-family: Montserrat;
+    font-family: "Montserrat", "Arial", "sans-serif";
     font-style: normal;
     font-weight: 900;
     font-size: 42px;
@@ -30,6 +30,10 @@
 .developer_block-time_feature {
     width: 60% !important;
     margin-left: 5%;
+}
+
+.time_block-title {
+  font-family: "Montserrat", "Arial", "sans-serif";
 }
 
 @media (max-width: 1024px) {
