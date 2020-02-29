@@ -8,7 +8,7 @@ function Video(props) {
   function showPopUp() {
     document.getElementById('director-video').src = `${data.video}`;
     document.querySelector('body').style.overflow = 'hidden';
-    document.getElementById('popup-window').style.display = 'block';
+    document.getElementById('popup-window').style.display = 'flex';
   }
     return (
       <button type='button' className='video' onClick={showPopUp}>

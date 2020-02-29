@@ -29,11 +29,10 @@ const styleguideNav = {
 const worklogNav = {
   time: 'Time',
   feature: 'Feature',
-  hour: 'h',
 };
 
 const tasksData = {
-  tasksTitle: 'Maximum points - 240',
+  tasksTitle: 'Maximum points - 280',
   selfScore: 'Total - 230',
   tasks: [
     'Main page + page with a list of authors + author’s page - 10',
@@ -59,6 +58,39 @@ const tasksData = {
   ],
 };
 
+const developersFeatures = [
+  {
+    name: 'Ekaterina',
+    time: ['10h','3h'],
+    tasks: ['Created page of a director','Implemented timeline block']
+  },
+  {
+    name: 'Vladimir',
+    time: ['10h','5h','4h'],
+    tasks: ['Created header with navigation, page with a list of directors','Implemented a website translation into three languages','Implemented directors search']
+  },
+  {
+    name: 'Ekaterina',
+    time: ['2h','7h','10h'],
+    tasks: ['Created base structure of the project','Created main page','Implemented map']
+  },
+  {
+    name: 'Anton',
+    time: ['8h','2h','9h'],
+    tasks: ['Created page with team members','Created data files','Implemented video overlay']
+  },
+  {
+    name: 'Kirill',
+    time: ['23h','18h'],
+    tasks: ['Created the project design','Created pages with worklog and styleguide']
+  },
+  {
+    name: 'Roman',
+    time: ['13h', '5h'],
+    tasks: ['Implemented photo gallery', 'Implemented a website animation']
+  },
+]
+
 const developers = [
   {
     id: 'D0',
@@ -67,7 +99,7 @@ const developers = [
     telegram: 'https://t.me/rekaterina',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/rudenko.jpg',
     contribution: [
-      '➤Created markup Page of an director.',
+      '➤Created page of a director.',
       '➤Implemented timeline block.'
     ],
   },
@@ -78,9 +110,9 @@ const developers = [
     telegram: 'https://t.me/Vova_Serko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/serko.jpg',
     contribution: [
-      '➤Created markup Header with Navigation (routing), Page with a list of directors.',
-      '➤Implemented a website translation into three languages (the whole team wrote the text).',
-      '➤Implemented directors Search.'
+      '➤Created header with navigation, page with a list of directors.',
+      '➤Implemented a website translation into three languages.',
+      '➤Implemented directors search.'
     ],
   },
   {
@@ -90,9 +122,9 @@ const developers = [
     telegram: 'https://t.me/KatsiarynaYa',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yakubovskaya.jpg',
     contribution: [
-      '➤Created base structure of the project with CRA.',
-      '➤Implemented markup Main page.',
-      '➤Implemented map (geowidget).'
+      '➤Created base structure of the project.',
+      '➤Created main page.',
+      '➤Implemented map.'
   ],
   },
   {
@@ -102,7 +134,7 @@ const developers = [
     telegram: 'https://t.me/anton_yasko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yasko.jpg',
     contribution: [
-      '➤Created markup Page with team members.',
+      '➤Created page with team members.',
       '➤Created data files.',
       '➤Implemented video overlay.'
     ],
@@ -115,7 +147,7 @@ const developers = [
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/leogky.jpg',
     contribution: [
       '➤Created the project design.',
-      '➤Implemented markup Pages with worklog and styleguide.'
+      '➤Created pages with worklog and styleguide.'
     ],
   },
   {
@@ -125,7 +157,8 @@ const developers = [
     telegram: 'https://t.me/RomanSRS',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
     contribution: [
-      '➤Implemented photo gallery.'
+      '➤Implemented photo gallery.',
+      '➤Implemented a website animation.'
     ],
   },
 ];
@@ -166,18 +199,19 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://upload.wikimedia.org/wikipedia/ru/b/b1/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%B0%D0%BA%D1%82%D1%91%D1%80%D0%B0_%D0%95%D0%B2%D1%81%D1%82%D0%B8%D0%B3%D0%BD%D0%B5%D1%8F_%D0%9C%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87%D0%B0.JPG',
-        text: 'Grave of Mirovich at the Military Cemetery of Minsk.'
+        src: 'https://upload.wikimedia.org/wikipedia/ru/b/b1/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%B0%D0%BA%D1%82%D1%91%D1%80%D0%B0_%D0%95%D0%B2%D1%81%D1%82%D0%B8%D0%B3%D0%BD%D0%B5%D1%8F_%D0%9C%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87%D0%B0.JPG'
       },
       {
         num: 1,
-        src: 'https://img.tyt.by/n/obshchestvo/0b/4/08_mirovich-1952_620.jpg',
-        text: 'Portrait of the Mirovich by Ivan Akhremchik.'
+        src: 'https://img.tyt.by/n/obshchestvo/0b/4/08_mirovich-1952_620.jpg'
       },
       {
         num: 2,
-        src: 'https://img.tyt.by/n/obshchestvo/06/0/09_mirovich_doska_620.jpg',
-        text: 'Bas-relief of Mirovich on the facade of the Belarusian Academy of Arts.'
+        src: 'https://img.tyt.by/n/obshchestvo/06/0/09_mirovich_doska_620.jpg'
+      },
+      {
+      num: 3,
+      src: 'https://img.tyt.by/n/kultura/0c/8/06_mirovich.png'
       },
     ],
   },
@@ -218,18 +252,19 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/1/19/%D0%A3%D0%BB%D0%B0%D0%B4%D1%8B%D1%81%D0%BB%D0%B0%D1%9E_%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA.jpg',
-        text: 'Poster in 1929'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/1/19/%D0%A3%D0%BB%D0%B0%D0%B4%D1%8B%D1%81%D0%BB%D0%B0%D1%9E_%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA.jpg'
       },
       {
         num: 1,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Haluboktheatre4.jpg',
-        text: 'Scene from the play "My Friend" by M. Pogodin, 1932.'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Haluboktheatre4.jpg'
       },
       {
         num: 2,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/%D0%A3%D0%BB%D0%B0%D0%B4%D0%B7%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA._%D0%A4%D0%BE%D1%82%D0%B0.jpg',
-        text: 'Vladislav Golubok. Photo'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/%D0%A3%D0%BB%D0%B0%D0%B4%D0%B7%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA._%D0%A4%D0%BE%D1%82%D0%B0.jpg'
+      },
+      {
+        num: 3,
+        src: 'https://upload.wikimedia.org/wikipedia/commons/1/10/%D0%A3._%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D0%B7%D1%8E_%D0%A1%D0%BC%D0%BE%D0%BB%D1%96%D1%87%D1%83.jpg'
       },
     ],
   },
@@ -266,18 +301,19 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Buinicki.jpg',
-        text: 'I. Buinitsky with his daughters Wanda (left) and Elena'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Buinicki.jpg'
       },
       {
         num: 1,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/Bujnicki2.jpg',
-        text: 'I. Buinitsky with his daughter Wanda during a speech at the First Belarusian Party in Vilna. 1910'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/Bujnicki2.jpg'
       },
       {
         num: 2,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/2/20/%D0%9F%D1%80%D0%B0%D0%B7%D0%B0%D1%80%D0%BE%D0%BA%D1%96._%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%86%D0%B3%D0%BD%D0%B0%D1%82%D1%83_%D0%91%D1%83%D0%B9%D0%BD%D1%96%D1%86%D0%BA%D0%B0%D0%BC%D1%83.jpg',
-        text: 'Monument on the grave of I. Buinichsky in the Prozoroki'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/2/20/%D0%9F%D1%80%D0%B0%D0%B7%D0%B0%D1%80%D0%BE%D0%BA%D1%96._%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%86%D0%B3%D0%BD%D0%B0%D1%82%D1%83_%D0%91%D1%83%D0%B9%D0%BD%D1%96%D1%86%D0%BA%D0%B0%D0%BC%D1%83.jpg'
+      },
+      {
+        num: 3,
+        src: 'https://places.by/wp-content/uploads/2017/08/147143910580708-i0.jpeg'
       },
     ],
   },
@@ -316,18 +352,19 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://minsknews.by/wp-content/uploads/2018/07/DSC_0237-copy-696x464.jpg',
-        text: 'Photo'
+        src: 'https://minsknews.by/wp-content/uploads/2018/07/DSC_0237-copy-696x464.jpg'
       },
       {
         num: 1,
-        src: 'https://cdn12.img.sputnik.by/images/102328/96/1023289681.jpg',
-        text: 'Photo'
+        src: 'https://cdn12.img.sputnik.by/images/102328/96/1023289681.jpg'
       },
       {
         num: 2,
-        src: 'https://s13.stc.all.kpcdn.net/share/i/12/11199960/inx960x640.jpg',
-        text: 'Photo'
+        src: 'https://s13.stc.all.kpcdn.net/share/i/12/11199960/inx960x640.jpg'
+      },
+      {
+        num: 3,
+        src: 'https://www.nv-online.info/images/cms-image-000152301.jpg'
       },
     ],
   },
@@ -339,7 +376,7 @@ const directors = [
     description: 'Belarusian opera singer (soprano), theater director, director and public figure.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/0/0c/%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg',
     placeOfBirth: 'Minsk',
-    shortBiography : 'Беларуская оперная спявачка (сапрана), тэатральны рэжысёр, рэжысёр і грамадскі дзеяч. Незвычайнай прыгажосці голас, унутраны напор і энергетыка. Ёй першай з беларускіх артыстаў у 1940 годзе было прысуджана званне народнай артысткі Савецкага Саюза. Праз год прысуджана Сталінская прэмія. Аляксандраўская валодала ўсім, каб лічыцца зоркай першай велічыні ў дзяржаве. І сапраўды, непадзельна правілы беларускім оперным тэатрам некалькі дзесяцігоддзяў, таму што была не проста часткай беларускай музычнай культуры, а адным з яе заснавальнікаў. На Аляксандраўскую арыентаваліся ўсе вядучыя беларускія кампазітары, ствараючы свае оперы ў сярэдзіне 1930-х і пасляваенныя гады. У гэты час Аляксандраўская стала сімвалам беларускага мастацтва і Беларусі наогул.',
+    shortBiography : 'Belarusian opera singer (soprano), theater director, director and public figure. Extraordinarily beautiful voice, inner pressure and energy. She was the first Belarusian artist in 1940 to be awarded the title of People\'s Artist of the Soviet Union. A year later, the Stalin Prize was awarded. Alexandrovskaya had everything to be considered a star of the first magnitude in the state. Indeed, the Belarusian opera house reigned supreme for several decades, because it was not just a part of the Belarusian musical culture, but one of its founders. All the leading Belarusian composers were guided by Aleksandrovskaya, creating their operas in the mid-1930s and the post-war years. At this time, Aleksandrovskaya became a symbol of Belarusian art and Belarus in general.',
     timeline: [
       {date: '1919 — 1924', text: 'Member of the troupe at the political department of the Western Front.'},
       {date: '1927', text: 'Performs Belarusian folk songs at the International Music Exhibition in Frankfurt.'},
@@ -365,18 +402,19 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://upload.wikimedia.org/wikipedia/ru/6/62/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%BF%D0%B5%D0%B2%D0%B8%D1%86%D1%8B_%D0%9B%D0%B0%D1%80%D0%B8%D1%81%D1%8B_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B9.JPG',
-        text: 'Grave of Aleksandrovskaya at the Eastern cemetery of Minsk.'
+        src: 'https://upload.wikimedia.org/wikipedia/ru/6/62/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%BF%D0%B5%D0%B2%D0%B8%D1%86%D1%8B_%D0%9B%D0%B0%D1%80%D0%B8%D1%81%D1%8B_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B9.JPG'
       },
       {
         num: 1,
-        src: 'https://minsknews.by/wp-content/uploads/2018/03/4-9.jpg',
-        text: 'The singer in the image of Carmen.'
+        src: 'https://minsknews.by/wp-content/uploads/2018/03/4-9.jpg'
       },
       {
         num: 2,
-        src: 'https://www.sb.by/upload/medialibrary/377/3775af02273a590150a1e89012960225.jpg',
-        text: '70 years old.'
+        src: 'https://www.sb.by/upload/medialibrary/377/3775af02273a590150a1e89012960225.jpg'
+      },
+      {
+        num: 3,
+        src: 'https://hb.bizmrg.com/ex-press/images/content/original/alex-1-cd4966e62fedf6ed9f7203ea9133fdd044fe2785.jpg'
       },
     ],
   },
@@ -414,18 +452,19 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG',
-        text: 'Portrait of Boris Lutsenko by Belarusian artist Alexei Kuzmich, 2001.'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG'
       },
       {
         num: 1,
-        src: 'http://images.aif.by/007/667/03b8ec457923e6c67efae3f6275f67cd.JPG',
-        text: 'Director in the theater.'
+        src: 'http://images.aif.by/007/667/03b8ec457923e6c67efae3f6275f67cd.JPG'
       },
       {
         num: 2,
-        src: 'https://cdn.iz.ru/sites/default/files/styles/900x506/public/news-2020-02/TASS_18992976%20copy.jpg?itok=LmXoBDLI',
-        text: 'Photo'
+        src: 'https://cdn.iz.ru/sites/default/files/styles/900x506/public/news-2020-02/TASS_18992976%20copy.jpg?itok=LmXoBDLI'
+      },
+      {
+        num: 3,
+        src: 'https://i1.wp.com/www.mlyn.by/wp-content/uploads/2020/02/206005-12-copy.jpg?w=900&ssl=1'
       },
     ],
   },
@@ -460,18 +499,19 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Jaugen_Kryzhanouski_and_his_daughter_-_on_an_International_book_exhibition_in_Minsk_city_-_14_February_2015_AD_-_1.JPG',
-        text: 'Yevgeny Kryzhanovsky and his daughter at the XXII International Book Exhibition in Minsk (Belarus), February 14, 2015.'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Jaugen_Kryzhanouski_and_his_daughter_-_on_an_International_book_exhibition_in_Minsk_city_-_14_February_2015_AD_-_1.JPG'
       },
       {
         num: 1,
-        src: 'http://kryzhanovski.tripod.com/images/photo/pic8.jpg',
-        text: 'With Anatoly Dluskim.'
+        src: 'https://www.intex-press.by/images/cms-image-000035009.JPG'
       },
       {
         num: 2,
-        src: 'http://kryzhanovski.tripod.com/images/photo/pic3.jpg',
-        text: 'With family.'
+        src: 'http://zviazda.by/sites/default/files/field/image/14-6_kopiya_4.jpg'
+      },
+      {
+        num: 3,
+        src: 'http://mediapsart.ru/sites/default/files/imagecache/actor_gallery_full/actor_gallery/3-41.jpg'
       },
     ],
   },
@@ -501,6 +541,7 @@ const directorPageTitles = {
 }
 
 export default {
+  developersFeatures,
   worklogNav,
   tasksData,
   styleguideNav,
@@ -512,14 +553,9 @@ export default {
   homePageLink: 'Home',
   worklogLink: 'Worklog',
   styleguideLink: 'Styleguide',
-  searchLabel: 'Name or place of birth',
-  directorsOfTheDayButton: 'More details',
-  timelineTitle: 'Timeline',
   close: 'Close',
   otherInfo: {
-    lang: 'en',
-    title: 'Theater directors of Belarus',
-    description: 'Theater directors of Belarus: biography and their work.',
+    title: 'Theater directors of Belarus'
   },
   mainText,
   addText,

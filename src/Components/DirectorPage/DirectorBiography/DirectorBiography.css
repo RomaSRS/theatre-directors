@@ -1,4 +1,5 @@
 .director-biography {
+    width: 100%;
     margin-top: 150px;
 }
 
@@ -28,4 +29,17 @@
 .vertical-timeline:before {
     background-color: #F54D1C;
     width: 2px;
+}
+
+@media (max-width: 854px) {
+    .vertical-timeline-text {
+      font-size: 15px !important;
+      line-height: 26px !important;
+    }
+
+    .timeline-title,
+    .vertical-timeline-element-title  {
+        font-size: 30px;
+        line-height: 44px;
+    }
 }

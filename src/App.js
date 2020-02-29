@@ -9,7 +9,7 @@ import VideoBlock from "./Components/VideoBlock/VideoBlock";
 import configEN from "./Data/ConfigEN";
 import configBY from "./Data/ConfigBY";
 import configRU from "./Data/ConfigRU";
-import SelectLang from "./Components/Navigation/Select/Select"
+import SelectLang from "./Components/SelectLanguage/Select"
 import Fade from 'react-reveal/Fade';
 
 
@@ -94,7 +94,8 @@ class App extends React.Component {
 								<Worklog
                   developers={data.developers}
                   tasks={data.tasksData}
-                  nav={data.worklogNav}/>
+                  nav={data.worklogNav}
+                  doneWork={data.developersFeatures}/>
 							</Route>
 						</Switch>
 					</div>
