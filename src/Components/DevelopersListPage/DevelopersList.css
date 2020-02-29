@@ -60,14 +60,15 @@
   color: #000000;
 }
 
-.github, .telegram {
-  font-family: "IBM Plex Sans", "Arial", "sans-serif";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 31px;
-  text-decoration-line: underline;
-  color: #000000;
+.social-links .github {
+  width: 60px;
+  height: 60px;
+}
+
+.telegram a {
+  content: url(/src/Assets/Icons/telegram.jpg);
+  width: 24px;
+  height: 24px;
 }
 
 @media (max-width: 480px){
