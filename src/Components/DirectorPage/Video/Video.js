@@ -4,7 +4,6 @@ import './Video.css';
 
 function Video(props) {
   const { data } = props;
-  const url = data.image;
 
   function showPopUp() {
     document.getElementById('director-video').src = `${data.video}`;
