@@ -12,7 +12,7 @@ export default function TasksBlock(props) {
       <h3 className="self_evaluation_block-title">{props.task.tasksTitle}</h3>
       {props.task.tasks.map((elem, index) => {
         keyElem = elem;
-        if (index < 16) {
+        if (index < 17) {
           return (
             <Zoom key={`${elem}1`}>
               <div className="self_evaluation_block-task" key={elem}>

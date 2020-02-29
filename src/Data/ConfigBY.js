@@ -34,8 +34,8 @@ const worklogNav = {
 
 const tasksData = {
   tasksTitle: 'Максімальную колькасць ачкоў - 280',
-  selfScore: 'Разам - 230',
-  problems:['Праца з git ў камандным праекце.', 'Выбар падыходных анімацый.', 'Праблемы з рэалізацыяй галерэі.', 'Складанасці з загрузкай праекта на хостынг.'],
+  selfScore: 'Разам - 240',
+  problems:['Праца з git ў камандным праекце.', 'Выбар падыходных анімацый.', 'Праблемы з рэалізацыяй галерэі.', 'Складанасці з загрузкай праекта на хостынг.', 'Цяжкасці для каманды падчас рэалізацыі праекта'],
   tasks: [
     'Галоўная старонка + старонка са спісам аўтараў + старонка аўтара - 10',
     'Старонка з членамі каманды + старонка з рабочым журналам - 10',
@@ -68,7 +68,7 @@ const developersFeatures = [
   },
   {
     name: 'Уладзімір',
-    time: ['5г','10г','4г'],
+    time: ['10г','5г','4г'],
     tasks: ['Створаны хэдар, навігацыя, старонка са спісам рэжысёраў','Рэалізаваны пераклад сайта на тры мовы','Рэалізаваны пошук рэжысёраў']
   },
   {
@@ -454,7 +454,9 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG/1643px-Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG',
+        text: 'Партрэт Барыса Луцэнка пэндзля беларускага мастака Аляксея Кузьміча, 2001 год.'
+
       },
       {
         num: 1,

@@ -3,7 +3,7 @@
 }
 
 .text_styles_block-title {
-    font-family: Montserrat;
+    font-family: "Montserrat", "Arial", "sans-serif";
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
@@ -18,7 +18,7 @@
 .font_data_block-h1,
 .font_data_block-h2,
 .font_data_block-h3 {
-    font-family: Montserrat;
+    font-family: "Montserrat", "Arial", "sans-serif";
     font-style: normal;
     font-weight: 900;
     line-height: 90px;
@@ -27,7 +27,7 @@
 
 .text_info,
 .font_data_block-body {
-    font-family: IBM Plex Sans;
+    font-family: "IBM Plex Sans", "Arial", "sans-serif";
     font-style: normal;
     font-weight: 300;
     font-size: 24px;

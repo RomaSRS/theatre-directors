@@ -34,8 +34,8 @@ const worklogNav = {
 
 const tasksData = {
   tasksTitle: 'Максимальное количество очков - 280',
-  selfScore: 'Итого - 230',
-  problems:['Работа с git в командном проекте.', 'Выбор подходящих анимаций.', 'Проблемы с реализацией галереи.', 'Сложности с загрузкой проекта на хостинг.'],
+  selfScore: 'Итого - 240',
+  problems:['Работа с git в командном проекте.', 'Выбор подходящих анимаций.', 'Проблемы с реализацией галереи.', 'Сложности с загрузкой проекта на хостинг.', 'Трудности для команды во время реализации проекта'],
   tasks: [
     'Главная страница + страница со списком авторов + страница автора - 10',
     'Страница с членами команды + страница с рабочим журналом - 10',
@@ -68,7 +68,7 @@ const developersFeatures = [
   },
   {
     name: 'Владимир',
-    time: ['5ч','10ч','4ч'],
+    time: ['10ч','5ч','4ч'],
     tasks: ['Созданы хедер, навигация, страница со списком режиссёров','Реализован перевод вебсайта на три языка','Реализован поиск режиссёров']
   },
   {
@@ -454,7 +454,8 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG/1643px-Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG',
+        text: 'Портрет Бориса Луценко кисти белорусского художника Алексея Кузьмича, 2001 год.'
       },
       {
         num: 1,
