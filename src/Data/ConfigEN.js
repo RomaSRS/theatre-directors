@@ -29,11 +29,13 @@ const styleguideNav = {
 const worklogNav = {
   time: 'Time',
   feature: 'Feature',
+  problems: 'Problems',
 };
 
 const tasksData = {
   tasksTitle: 'Maximum points - 280',
   selfScore: 'Total - 230',
+  problems:['Working with git in a team project.', 'Choosing the right animations.', 'Problems with the implementation of the gallery.', 'Difficulties with uploading a project to hosting.'],
   tasks: [
     'Main page + page with a list of authors + author’s page - 10',
     'Page with team members + page with worklog - 10',

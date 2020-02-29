@@ -1,17 +1,33 @@
 .worklog {
-    height: 5500px;
+    height: 6000px;
 }
 
-
-@media (max-width: 854px) {
+@media (max-width: 1024px) {
     .worklog {
-        height: 4500px;
+        height: 6500px;
     }
 }
 
+@media (max-width: 854px) {
+    .worklog {
+        height: 5000px;
+    }
+}
+
+@media (max-width: 768px) {
+    .worklog {
+        height: 5300px;
+    }
+}
 
 @media (max-width: 640px) {
     .worklog {
-        height: 5500px;
+        height: 5400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .worklog {
+        height: 5700px;
     }
 }
