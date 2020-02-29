@@ -33,8 +33,8 @@ const worklogNav = {
 };
 
 const tasksData = {
-  tasksTitle: 'Максімальную колькасць ачкоў - 280',
-  selfScore: 'Разам - 240',
+  tasksTitle: 'Максімальная колькасць ачкоў - 280',
+  selfScore: 'Усяго - 240',
   problems:['Праца з git ў камандным праекце.', 'Выбар падыходных анімацый.', 'Праблемы з рэалізацыяй галерэі.', 'Складанасці з загрузкай праекта на хостынг.', 'Цяжкасці для каманды падчас рэалізацыі праекта'],
   tasks: [
     'Галоўная старонка + старонка са спісам аўтараў + старонка аўтара - 10',
@@ -354,7 +354,7 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://minsknews.by/wp-content/uploads/2018/07/DSC_0237-copy-696x464.jpg'
+        src: 'https://s14.stc.all.kpcdn.net/share/i/4/1435121/inx960x1439.jpg'
       },
       {
         num: 1,
@@ -455,7 +455,6 @@ const directors = [
       {
         num: 0,
         src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG/1643px-Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG',
-        text: 'Партрэт Барыса Луцэнка пэндзля беларускага мастака Аляксея Кузьміча, 2001 год.'
 
       },
       {

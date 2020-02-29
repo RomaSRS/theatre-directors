@@ -354,7 +354,7 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://minsknews.by/wp-content/uploads/2018/07/DSC_0237-copy-696x464.jpg'
+        src: 'https://s14.stc.all.kpcdn.net/share/i/4/1435121/inx960x1439.jpg'
       },
       {
         num: 1,
@@ -455,7 +455,6 @@ const directors = [
       {
         num: 0,
         src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG/1643px-Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG',
-        text: 'Портрет Бориса Луценко кисти белорусского художника Алексея Кузьмича, 2001 год.'
       },
       {
         num: 1,

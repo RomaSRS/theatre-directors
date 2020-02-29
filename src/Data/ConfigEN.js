@@ -354,7 +354,7 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://minsknews.by/wp-content/uploads/2018/07/DSC_0237-copy-696x464.jpg'
+        src: 'https://s14.stc.all.kpcdn.net/share/i/4/1435121/inx960x1439.jpg'
       },
       {
         num: 1,
