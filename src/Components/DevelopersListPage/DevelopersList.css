@@ -16,8 +16,6 @@
 .developer-photo {
   width: 300px;
   height: 425px;
-  background-position: center !important;
-  background-size: cover !important;
 }
 
 .social-links {
@@ -29,21 +27,6 @@
   flex: 1 1 100%;
   justify-content: space-around;
   margin: 5px 0 0 0;
-}
-
-.telegram-icon .github-icon {
-  width: 42px;
-  height: 42px;
-}
-
-.telegram-icon:hover {
-  width: 55px;
-  height: 55px;
-}
-
-.github-icon:hover {
-  width: 55px;
-  height: 55px;
 }
 
  .developer-name {
@@ -72,6 +55,16 @@
   font-weight: 300;
   font-size: 24px;
   line-height: 31px;
+  color: #000000;
+}
+
+.github, .telegram {
+  font-family: "IBM Plex Sans", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 31px;
+  text-decoration-line: underline;
   color: #000000;
 }
 
