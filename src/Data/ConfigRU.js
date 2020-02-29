@@ -101,8 +101,8 @@ const developers = [
     telegram: 'https://t.me/rekaterina',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/rudenko.jpg',
     contribution: [
-      '➤Создана страница о режиссёре.',
-      '➤Реализована временная шкала событий.'
+      'Создана страница о режиссёре.',
+      'Реализована временная шкала событий.'
     ],
   },
   {
@@ -112,9 +112,9 @@ const developers = [
     telegram: 'https://t.me/Vova_Serko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/serko.jpg',
     contribution: [
-      '➤Созданы хедер, навигация, страница со списком режиссёров.',
-      '➤Реализован перевод вебсайта на три языка.',
-      '➤Реализован поиск режиссёров.'
+      'Созданы хедер, навигация, страница со списком режиссёров.',
+      'Реализован перевод вебсайта на три языка.',
+      'Реализован поиск режиссёров.'
     ],
   },
   {
@@ -124,9 +124,9 @@ const developers = [
     telegram: 'https://t.me/KatsiarynaYa',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yakubovskaya.jpg',
     contribution: [
-      '➤Создана базовая структура проекта.',
-      '➤Создана главная страница.',
-      '➤Реализована карта.'
+      'Создана базовая структура проекта.',
+      'Создана главная страница.',
+      'Реализована карта.'
     ],
   },
   {
@@ -136,9 +136,9 @@ const developers = [
     telegram: 'https://t.me/anton_yasko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yasko.jpg',
     contribution: [
-      '➤Создана страница с членами команды.',
-      '➤Созданы файлы с данными.',
-      '➤Реализован видеоблок.'
+      'Создана страница с членами команды.',
+      'Созданы файлы с данными.',
+      'Реализован видеоблок.'
     ],
   },
   {
@@ -148,8 +148,8 @@ const developers = [
     telegram: 'https://t.me/KirillLeogky',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/leogky.jpg',
     contribution: [
-      '➤Создан дизайн проекта.',
-      '➤Созданы страницы с рабочим журналом и руководством по стилю.'
+      'Создан дизайн проекта.',
+      'Созданы страницы с рабочим журналом и руководством по стилю.'
     ],
   },
   {
@@ -159,8 +159,8 @@ const developers = [
     telegram: 'https://t.me/RomanSRS',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
     contribution: [
-      '➤Реализована фото галерея.',
-      '➤Реализована анимация вебсайта.'
+      'Реализована фото галерея.',
+      'Реализована анимация вебсайта.'
     ],
   },
 ];

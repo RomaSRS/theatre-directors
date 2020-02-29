@@ -315,7 +315,7 @@ a:hover {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
   .logo {
     font-size: 36px;
     line-height: 38px;

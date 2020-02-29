@@ -28,6 +28,7 @@ li {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: flex-start;
+	padding-bottom: 50px;
 }
 
 .description {
