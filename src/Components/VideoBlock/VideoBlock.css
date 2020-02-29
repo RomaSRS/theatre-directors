@@ -4,13 +4,15 @@
   background-color: #00000080;
   overflow: hidden;
   position: fixed;
-  margin: auto;
+  margin: 0;
   top: 0px;
   left: 0;
   bottom: 0;
   right: 0;
   display: none;
   cursor: not-allowed;
+  align-items: center;
+  justify-content: center;
 }
 
 #video-block {

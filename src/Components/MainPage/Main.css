@@ -1,5 +1,6 @@
 .main-page {
     padding: 100px 0 300px;
+    margin: 0 auto;
 }
 
 .introduction {
@@ -14,10 +15,11 @@
     font-size: 24px;
     line-height: 31px;
     vertical-align: top;
-    width: 600px;
+    max-width: 600px;
 }
 
 .quotes {
+    font-family: Montserrat, Arial, sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -62,7 +64,7 @@
     font-size: 24px;
     line-height: 31px;
     vertical-align: top;
-    width: 570px;
+    max-width: 570px;
 }
 
 .directorOfDay {
@@ -70,10 +72,11 @@
     display: flex;
     padding: 50px 100px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .directorOfDay-container {
-    width: 642px;
+    max-width: 642px;
 }
 
 .directorOfDay-container h4 {
@@ -132,4 +135,139 @@
     font-size: 24px;
     line-height: 31px;
     color: #000000;
+}
+
+@media screen and (max-width: 750px) {
+    .main-page {
+        padding: 10px 0 20px;
+    }
+
+    .introduction {
+        padding-bottom: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quotes {
+        padding-bottom: 50px;
+    }
+
+    .firstQuote {
+        align-items: center;
+    }
+
+    .secondQuote {
+        padding-top: 20px;
+        align-items: center;
+    }
+
+    .quote-wrapper q {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .quote-wrapper p{
+        font-size: 15px;
+        line-height: 20px; 
+    }
+
+    .history {
+        max-width: 550px;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+     
+    .introduction img,
+    .history img {
+        width: 530px;
+        height: auto;
+    }
+
+    .directorOfDay {
+        padding: 25px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .directorOfDay-container {
+        padding-bottom: 10px;
+    }
+
+    .directorDay-dates {
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .introduction img,
+    .history img {
+        width: 400px;
+        height: auto;
+    }
+
+    .introduction-text,
+    .history-text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .directorDay-name {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+    .directorOfDay-nameContainer span {
+        font-size: 40px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .introduction img,
+    .history img {
+        width: 275px;
+        height: auto;
+    }
+
+    .introduction-text,
+    .history-text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .quote-wrapper q {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .quote-wrapper p{
+        font-size: 13px;
+        line-height: 17px; 
+    }
+
+    .directorDay-dates {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .directorDay-name {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .directorOfDay-nameContainer span {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .directorOfDay img {
+        width: 200px;
+        height: auto;
+    }
+
+    .directorDay-description {
+        font-size: 18px;
+        line-height: 23px;
+    }
 }

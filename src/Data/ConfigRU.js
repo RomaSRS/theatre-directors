@@ -21,7 +21,75 @@ const styleguideNav = {
   buttonsLinksTitle: 'Кнопки / Ссылки',
   buttonsLinksName: 'Ссылка',
   textStylesTitle: 'Стиль текста',
+  size: 'Размер',
+  lineHeight: 'Интерлиньяж',
+  letterSpacing: 'Межбуквенное расстояние',
 };
+
+const worklogNav = {
+  time: 'Время',
+  feature: 'Особенность',
+};
+
+const tasksData = {
+  tasksTitle: 'Максимальное количество очков - 280',
+  selfScore: 'Итого - 230',
+  tasks: [
+    'Главная страница + страница со списком авторов + страница автора - 10',
+    'Страница с членами команды + страница с рабочим журналом - 10',
+    'Страница со списком авторов содержит виджет поиска - 10',
+    'Портал имеет два языка - 20',
+    'Портал имеет страницу с руководством по стилю - 20',
+    'Мобильная версия в порядке - 10',
+    'Версия для Ipad / планшета в порядке - 10',
+    'Страница автора содержит временную шкалу - 10',
+    'Страница автора содержит оверлей видео - 10',
+    'Страница автора содержит фотогалерею - 20',
+    'Страница автора содержит карту - 10',
+    'Дизайн - 20',
+    'Используется Material-ui - 20',
+    'Портал имеет третий язык - 10',
+    'Анимации - 20',
+    'Выдающийся дизайн - 20',
+    'Уверенность в презентации проекта - 10',
+    'Проект выполнен с использованием gatsbyjs - 10',
+    'Contentful / Netlify CMS используется для управления контентом - 10',
+    'Использование инструмента React styleguide для страницы со стилями - 20',
+  ],
+};
+
+const developersFeatures = [
+  {
+    name: 'Екатерина',
+    time: ['10ч','3ч'],
+    tasks: ['Создана страница о режиссёре','Реализована временная шкала событий']
+  },
+  {
+    name: 'Владимир',
+    time: ['5ч','10ч','4ч'],
+    tasks: ['Созданы хедер, навигация, страница со списком режиссёров','Реализован перевод вебсайта на три языка','Реализован поиск режиссёров']
+  },
+  {
+    name: 'Екатерина',
+    time: ['2ч','7ч','10ч'],
+    tasks: ['Создана базовая структура проекта','Создана главная страница','Реализована карта']
+  },
+  {
+    name: 'Антон',
+    time: ['8ч','2ч','9ч'],
+    tasks: ['Создана страница с членами команды','Созданы файлы с данными','Реализован видеоблок']
+  },
+  {
+    name: 'Кирилл',
+    time: ['23ч','18ч'],
+    tasks: ['Создан дизайн проекта','Созданы страницы с рабочим журналом и руководством по стилю']
+  },
+  {
+    name: 'Роман',
+    time: ['13ч', '5ч'],
+    tasks: ['Реализована фотогалерея', 'Реализована анимация вебсайта']
+  },
+]
 
 const developers = [
   {
@@ -30,7 +98,10 @@ const developers = [
     github: 'https://github.com/Rekaterina',
     telegram: 'https://t.me/rekaterina',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/rudenko.jpg',
-    contribution: '➤Создана страница с информацией о режиссёре.\n ➤Реализована временная шкала событий.',
+    contribution: [
+      '➤Создана страница о режиссёре.',
+      '➤Реализована временная шкала событий.'
+    ],
   },
   {
     id: 'D1',
@@ -38,7 +109,11 @@ const developers = [
     github: 'https://github.com/Vir45',
     telegram: 'https://t.me/Vova_Serko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/serko.jpg',
-    contribution: '➤Созданы Header, Navigation (routing), страница со списком режиссёров.\n ➤Реализован перевод сайта на три языка.\n ➤Реализован поиск режиссёров.',
+    contribution: [
+      '➤Созданы хедер, навигация, страница со списком режиссёров.',
+      '➤Реализован перевод вебсайта на три языка.',
+      '➤Реализован поиск режиссёров.'
+    ],
   },
   {
     id: 'D2',
@@ -46,7 +121,11 @@ const developers = [
     github: 'https://github.com/Katsiaryna31',
     telegram: 'https://t.me/KatsiarynaYa',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yakubovskaya.jpg',
-    contribution: '➤Создана базовая структура проекта.\n ➤Реализована разметка главной страницы.\n ➤Реализована карта.',
+    contribution: [
+      '➤Создана базовая структура проекта.',
+      '➤Создана главная страница.',
+      '➤Реализована карта.'
+    ],
   },
   {
     id: 'D3',
@@ -54,7 +133,11 @@ const developers = [
     github: 'https://github.com/antonyasko',
     telegram: 'https://t.me/anton_yasko',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/yasko.jpg',
-    contribution: '➤Создана страница с членами команды.\n ➤Созданы файлы с данными.\n ➤Реализован видео блок.',
+    contribution: [
+      '➤Создана страница с членами команды.',
+      '➤Созданы файлы с данными.',
+      '➤Реализован видеоблок.'
+    ],
   },
   {
     id: 'D4',
@@ -62,7 +145,10 @@ const developers = [
     github: 'https://github.com/kirillleogky',
     telegram: 'https://t.me/KirillLeogky',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/leogky.jpg',
-    contribution: '➤Создан дизайн проекта.\n ➤Реализованы страницы с рабочим журналом и гидом по стилю.',
+    contribution: [
+      '➤Создан дизайн проекта.',
+      '➤Созданы страницы с рабочим журналом и руководством по стилю.'
+    ],
   },
   {
     id: 'D5',
@@ -70,7 +156,10 @@ const developers = [
     github: 'https://github.com/RomaSRS',
     telegram: 'https://t.me/RomanSRS',
     image: 'https://raw.githubusercontent.com/antonyasko/RSprojects/master/goncharov.jpg',
-    contribution: '➤Реализована фото галерея.',
+    contribution: [
+      '➤Реализована фото галерея.',
+      '➤Реализована анимация вебсайта.'
+    ],
   },
 ];
 
@@ -110,23 +199,19 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://upload.wikimedia.org/wikipedia/ru/b/b1/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%B0%D0%BA%D1%82%D1%91%D1%80%D0%B0_%D0%95%D0%B2%D1%81%D1%82%D0%B8%D0%B3%D0%BD%D0%B5%D1%8F_%D0%9C%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87%D0%B0.JPG',
-        text: 'Могила Мировича на Военном кладбище Минска.'
+        src: 'https://upload.wikimedia.org/wikipedia/ru/b/b1/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%B0%D0%BA%D1%82%D1%91%D1%80%D0%B0_%D0%95%D0%B2%D1%81%D1%82%D0%B8%D0%B3%D0%BD%D0%B5%D1%8F_%D0%9C%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87%D0%B0.JPG'
       },
       {
         num: 1,
-        src: 'https://img.tyt.by/n/obshchestvo/0b/4/08_mirovich-1952_620.jpg',
-        text: 'Портрет кисти народного художника БССР Ивана Ахремчика.'
+        src: 'https://img.tyt.by/n/obshchestvo/0b/4/08_mirovich-1952_620.jpg'
       },
       {
         num: 2,
-        src: 'https://img.tyt.by/n/obshchestvo/06/0/09_mirovich_doska_620.jpg',
-        text: 'Барельеф Мировича на фасаде Белорусского академии искусств.'
+        src: 'https://img.tyt.by/n/obshchestvo/06/0/09_mirovich_doska_620.jpg'
       },
       {
         num: 3,
-        src: 'https://img.tyt.by/n/kultura/0c/8/06_mirovich.png',
-        text: 'Евстигней Афиногенович Мирович.'
+        src: 'https://img.tyt.by/n/kultura/0c/8/06_mirovich.png'
       },
     ],
   },
@@ -167,23 +252,19 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/1/19/%D0%A3%D0%BB%D0%B0%D0%B4%D1%8B%D1%81%D0%BB%D0%B0%D1%9E_%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA.jpg',
-        text: 'Афиша 1929 года'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/1/19/%D0%A3%D0%BB%D0%B0%D0%B4%D1%8B%D1%81%D0%BB%D0%B0%D1%9E_%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA.jpg'
       },
       {
         num: 1,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Haluboktheatre4.jpg',
-        text: 'Сцена из спектакля «Мой друг» М. Погодина, 1932 год.'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Haluboktheatre4.jpg'
       },
       {
         num: 2,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/%D0%A3%D0%BB%D0%B0%D0%B4%D0%B7%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA._%D0%A4%D0%BE%D1%82%D0%B0.jpg',
-        text: 'Владислав Голубок. Фотопортрет'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/%D0%A3%D0%BB%D0%B0%D0%B4%D0%B7%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA._%D0%A4%D0%BE%D1%82%D0%B0.jpg'
       },
       {
         num: 3,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/1/10/%D0%A3._%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D0%B7%D1%8E_%D0%A1%D0%BC%D0%BE%D0%BB%D1%96%D1%87%D1%83.jpg',
-        text: 'Владислав Голубок.'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/1/10/%D0%A3._%D0%93%D0%B0%D0%BB%D1%83%D0%B1%D0%BE%D0%BA_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D0%B7%D1%8E_%D0%A1%D0%BC%D0%BE%D0%BB%D1%96%D1%87%D1%83.jpg'
       },
     ],
   },
@@ -220,23 +301,19 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Buinicki.jpg',
-        text: 'И. Буйницкий с дочерьми Вандой (слева) и Еленой'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Buinicki.jpg'
       },
       {
         num: 1,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/Bujnicki2.jpg',
-        text: 'И. Буйницкий с дочерью Вандой во время выступления на Первой белорусскоой вечеринки в Вильно. 1910 г.'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/Bujnicki2.jpg'
       },
       {
         num: 2,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/2/20/%D0%9F%D1%80%D0%B0%D0%B7%D0%B0%D1%80%D0%BE%D0%BA%D1%96._%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%86%D0%B3%D0%BD%D0%B0%D1%82%D1%83_%D0%91%D1%83%D0%B9%D0%BD%D1%96%D1%86%D0%BA%D0%B0%D0%BC%D1%83.jpg',
-        text: 'Памятник на могиле И. Ц. Буйничского в д. Прозороки'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/2/20/%D0%9F%D1%80%D0%B0%D0%B7%D0%B0%D1%80%D0%BE%D0%BA%D1%96._%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%86%D0%B3%D0%BD%D0%B0%D1%82%D1%83_%D0%91%D1%83%D0%B9%D0%BD%D1%96%D1%86%D0%BA%D0%B0%D0%BC%D1%83.jpg'
       },
       {
         num: 3,
-        src: 'https://places.by/wp-content/uploads/2017/08/147143910580708-i0.jpeg',
-        text: 'Бюст Игната Буйницкого в городе Глубокое'
+        src: 'https://places.by/wp-content/uploads/2017/08/147143910580708-i0.jpeg'
       },
     ],
   },
@@ -275,23 +352,19 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://minsknews.by/wp-content/uploads/2018/07/DSC_0237-copy-696x464.jpg',
-        text: 'Фотография'
+        src: 'https://minsknews.by/wp-content/uploads/2018/07/DSC_0237-copy-696x464.jpg'
       },
       {
         num: 1,
-        src: 'https://cdn12.img.sputnik.by/images/102328/96/1023289681.jpg',
-        text: 'Фотография'
+        src: 'https://cdn12.img.sputnik.by/images/102328/96/1023289681.jpg'
       },
       {
         num: 2,
-        src: 'https://s13.stc.all.kpcdn.net/share/i/12/11199960/inx960x640.jpg',
-        text: 'Фотография'
+        src: 'https://s13.stc.all.kpcdn.net/share/i/12/11199960/inx960x640.jpg'
       },
       {
         num: 3,
-        src: 'https://www.nv-online.info/images/cms-image-000152301.jpg',
-        text: 'Фотография'
+        src: 'https://www.nv-online.info/images/cms-image-000152301.jpg'
       },
     ],
   },
@@ -329,23 +402,19 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://upload.wikimedia.org/wikipedia/ru/6/62/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%BF%D0%B5%D0%B2%D0%B8%D1%86%D1%8B_%D0%9B%D0%B0%D1%80%D0%B8%D1%81%D1%8B_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B9.JPG',
-        text: 'Могила Александровской на Восточном кладбище Минска.'
+        src: 'https://upload.wikimedia.org/wikipedia/ru/6/62/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%BF%D0%B5%D0%B2%D0%B8%D1%86%D1%8B_%D0%9B%D0%B0%D1%80%D0%B8%D1%81%D1%8B_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B9.JPG'
       },
       {
         num: 1,
-        src: 'https://minsknews.by/wp-content/uploads/2018/03/4-9.jpg',
-        text: 'Певица в образе Кармен.'
+        src: 'https://minsknews.by/wp-content/uploads/2018/03/4-9.jpg'
       },
       {
         num: 2,
-        src: 'https://www.sb.by/upload/medialibrary/377/3775af02273a590150a1e89012960225.jpg',
-        text: '70 лет.'
+        src: 'https://www.sb.by/upload/medialibrary/377/3775af02273a590150a1e89012960225.jpg'
       },
       {
         num: 3,
-        src: 'https://hb.bizmrg.com/ex-press/images/content/original/alex-1-cd4966e62fedf6ed9f7203ea9133fdd044fe2785.jpg',
-        text: 'Фоторграфия'
+        src: 'https://hb.bizmrg.com/ex-press/images/content/original/alex-1-cd4966e62fedf6ed9f7203ea9133fdd044fe2785.jpg'
       },
     ],
   },
@@ -388,18 +457,15 @@ const directors = [
       },
       {
         num: 1,
-        src: 'http://images.aif.by/007/667/03b8ec457923e6c67efae3f6275f67cd.JPG',
-        text: 'Режиссер в театре.'
+        src: 'http://images.aif.by/007/667/03b8ec457923e6c67efae3f6275f67cd.JPG'
       },
       {
         num: 2,
-        src: 'https://cdn.iz.ru/sites/default/files/styles/900x506/public/news-2020-02/TASS_18992976%20copy.jpg?itok=LmXoBDLI',
-        text: 'Фотография'
+        src: 'https://cdn.iz.ru/sites/default/files/styles/900x506/public/news-2020-02/TASS_18992976%20copy.jpg?itok=LmXoBDLI'
       },
       {
         num: 3,
-        src: 'https://i1.wp.com/www.mlyn.by/wp-content/uploads/2020/02/206005-12-copy.jpg?w=900&ssl=1',
-        text: 'Борис Иванович Луценко'
+        src: 'https://i1.wp.com/www.mlyn.by/wp-content/uploads/2020/02/206005-12-copy.jpg?w=900&ssl=1'
       },
     ],
   },
@@ -434,23 +500,19 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Jaugen_Kryzhanouski_and_his_daughter_-_on_an_International_book_exhibition_in_Minsk_city_-_14_February_2015_AD_-_1.JPG',
-        text: 'Евгений Крыжановский и его дочь - на XXII Международной книжной выставке в Минске (Беларусь), 14 февраля 2015 г.'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Jaugen_Kryzhanouski_and_his_daughter_-_on_an_International_book_exhibition_in_Minsk_city_-_14_February_2015_AD_-_1.JPG'
       },
       {
         num: 1,
-        src: 'http://kryzhanovski.tripod.com/images/photo/pic8.jpg',
-        text: 'С Анатолием Длуским.'
+        src: 'https://www.intex-press.by/images/cms-image-000035009.JPG'
       },
       {
         num: 2,
-        src: 'http://kryzhanovski.tripod.com/images/photo/pic3.jpg',
-        text: 'С семьей.'
+        src: 'http://zviazda.by/sites/default/files/field/image/14-6_kopiya_4.jpg'
       },
       {
         num: 3,
-        src: 'http://mediapsart.ru/sites/default/files/imagecache/actor_gallery_full/actor_gallery/3-41.jpg',
-        text: 'Евгений Анатольевич Крыжановский.'
+        src: 'http://mediapsart.ru/sites/default/files/imagecache/actor_gallery_full/actor_gallery/3-41.jpg'
       },
     ],
   },
@@ -480,6 +542,9 @@ const directorPageTitles = {
 }
 
 export default {
+  developersFeatures,
+  worklogNav,
+  tasksData,
   styleguideNav,
   colors,
   developers,
@@ -489,14 +554,9 @@ export default {
   homePageLink: 'Главная',
   worklogLink: 'Рабочий журнал',
   styleguideLink: 'Гид по стилю',
-  searchLabel: 'Имя или место рождения',
-  directorsOfTheDayButton: 'Подробнее',
-  timelineTitle: 'Временные события',
   close: 'Закрыть',
   otherInfo: {
-    lang: 'ru',
-    title: 'Театральные режиссёры Беларуси',
-    description: 'Театральные режиссёры Беларуси: биография и их работы.',
+    title: 'Театральные режиссёры Беларуси'
   },
   mainText,
   addText,

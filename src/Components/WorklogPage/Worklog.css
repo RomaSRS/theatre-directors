@@ -1,58 +1,17 @@
 .worklog {
-  margin: 0px 100px 0px 107px;
-}
-
-.developer_block {
-  display: flex;
-  margin: 150px 0px 150px 0px;
-  justify-content: space-between;
-}
-
-.developer_block-image_name {
-  width: 396px;
-  height: 495px;
-  background-position: center;
-  position: relative;
-}
-
-.developer_block-name {
-position: absolute;
-left: -2px;
-top: 390px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 900;
-font-size: 42px;
-line-height: 54px;
-letter-spacing: 0.005em;
-color: #F5F2EC;
-width: 20%;
+    height: 5500px;
 }
 
 
-.developer_block-time_feature {
-    width: 50% !important;
-    margin-left: 5%;
+@media (max-width: 854px) {
+    .worklog {
+        height: 4500px;
+    }
 }
 
 
-.time_block-title,
-.feature_block-title {
-font-family: Montserrat;
-font-style: normal;
-font-weight: 900;
-font-size: 40px;
-line-height: 50px;
-color: #F54D1C;
-}
-
-
-.time_block-time,
-.feature_block-feature {
-  font-family: IBM Plex Sans;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 31px;
-  margin-top: 40px;
+@media (max-width: 640px) {
+    .worklog {
+        height: 5500px;
+    }
 }

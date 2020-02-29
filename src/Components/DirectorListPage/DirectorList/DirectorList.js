@@ -2,7 +2,6 @@ import React from "react";
 import "./DirectorList.css";
 import { Link } from "react-router-dom";
 
-
 class Director extends React.Component {
   render() {
 		const url = this.props.author.image;
