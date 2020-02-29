@@ -452,7 +452,8 @@ const directors = [
     photos: [
       {
         num: 0,
-        src: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG'
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG/1643px-Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG',
+        text: 'Portrait of Boris Lutsenko by Belarusian artist Alexei Kuzmich, 2001.'
       },
       {
         num: 1,
