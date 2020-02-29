@@ -1,5 +1,5 @@
 .time_block-title {
-    font-family: Montserrat;
+    font-family: "Montserrat", "Arial", "sans-serif";
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
@@ -9,7 +9,7 @@
 
 
 .time_block-time {
-    font-family: IBM Plex Sans;
+    font-family: "IBM Plex Sans", "Arial", "sans-serif";
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
