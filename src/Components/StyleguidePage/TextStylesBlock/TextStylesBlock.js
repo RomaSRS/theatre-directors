@@ -39,7 +39,7 @@ function FontView(props) {
               <FontView fontClass="h3" fontName="H3" />
               <Grid item className="font_data_block-h3_info text_info" xs={9}>
                 <Zoom>
-                  {`Montserrat Black // {props.titles.size}: 40 // ${props.titles.lineHeight}: 50 // ${props.titles.letterSpacing}: 0.5%`}
+                  {`Montserrat Black // ${props.titles.size}: 40 // ${props.titles.lineHeight}: 50 // ${props.titles.letterSpacing}: 0.5%`}
                 </Zoom>
               </Grid>
 
