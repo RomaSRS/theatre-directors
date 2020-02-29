@@ -1,6 +1,4 @@
 import React, { PureComponent } from 'react';
-import githubIcon from '../../Assets/Icons/Github.svg'
-import telegramIcon from '../../Assets/Icons/Telegram.svg'
 
 export default class Developer extends PureComponent {
   render() {
@@ -18,14 +16,6 @@ export default class Developer extends PureComponent {
           }
           key={developerData.id}
         />
-        <div className="social-links">
-          <a className="github" href={developerData.github}>
-            <img className="github-icon" src={githubIcon} alt="github" width="42" height="42" />
-          </a>
-          <a className="telegram" href={developerData.telegram}>
-            <img className="telegram-icon" src={telegramIcon} alt="telegram" width="42" height="42" />
-          </a>
-        </div>
         <ul className="developer-contribution">
           {developerData.contribution.map((contribution, index) => {
             return (
@@ -33,6 +23,10 @@ export default class Developer extends PureComponent {
             );
           })}
         </ul>
+        <div className="social-links">
+          <a className="github" href={developerData.github}>Github</a>
+          <a className="telegram" href={developerData.telegram}>Telegram</a>
+        </div>
       </div>
     );
   }
