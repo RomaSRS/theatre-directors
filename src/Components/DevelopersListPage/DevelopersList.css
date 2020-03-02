@@ -60,17 +60,6 @@
   color: #000000;
 }
 
-.social-links .github {
-  width: 60px;
-  height: 60px;
-}
-
-.telegram a {
-  content: url(/src/Assets/Icons/telegram.jpg);
-  width: 24px;
-  height: 24px;
-}
-
 @media (max-width: 480px){
   .developer {
     width: 260px;
